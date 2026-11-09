@@ -83,3 +83,9 @@ cargo test
 - gameludens.com: ペルソナとスキルの日英対応
 
 TSVデータは上記プロジェクトの内容を元にしています。データは各出典の条件に従います。
+
+## ライセンス
+
+ソースコードは MIT License または Apache License 2.0 のいずれかで利用できます。全文は `LICENSE-MIT` と `LICENSE-APACHE` にあります。
+
+Persona 4 Golden に由来する名称やアイコンなどの素材は Atlus / SEGA に帰属し、これらのライセンスの対象外です。詳細は `NOTICE` を参照してください。

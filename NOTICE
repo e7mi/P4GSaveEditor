@@ -1,0 +1,25 @@
+P4G Save Editor
+Copyright 2026 e7mi
+
+The source code of this project is available under either the MIT License
+or the Apache License, Version 2.0, at your option. See LICENSE-MIT and
+LICENSE-APACHE.
+
+Game content
+------------
+Persona 4 Golden and all related names, characters, artwork and other
+assets are trademarks or copyrighted works of Atlus Co., Ltd. and SEGA
+Corporation. This project is an unofficial fan tool and is not affiliated
+with or endorsed by either company.
+
+The files under assets/data contain names and identifiers extracted from
+the game for interoperability and identification purposes. The icon in
+assets/p4g.ico originates from the game. These materials are not covered
+by the MIT or Apache-2.0 licenses that apply to the source code, and all
+rights remain with their respective owners.
+
+Third-party software
+--------------------
+This project depends on third-party Rust crates distributed under their
+own licenses, including MIT, Apache-2.0, BSD, ISC, Zlib, Unicode-3.0 and
+MPL-2.0. The exact dependency set and versions are recorded in Cargo.lock.
