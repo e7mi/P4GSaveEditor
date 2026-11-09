@@ -32,10 +32,6 @@ impl Item {
     pub fn category_jp(&self) -> &'static str {
         category_jp(self.category_key())
     }
-
-    pub fn display(&self) -> String {
-        format!("{:04}  {}", self.id, self.name)
-    }
 }
 
 #[derive(Debug, Clone)]
@@ -60,7 +56,6 @@ pub struct Skill {
 pub struct SocialInfo {
     pub id: u16,
     pub name: String,
-    pub jp_name: String,
 }
 
 #[derive(Debug, Clone)]
@@ -131,10 +126,12 @@ impl GameData {
     }
 
     pub fn item_name(&self, id: u16) -> String {
-        if let Some(name) = self.jp_items.get(&id) {
-            if !is_placeholder_name(name) {
-                return name.clone();
-            }
+        if let Some(name) = self
+            .jp_items
+            .get(&id)
+            .filter(|name| !is_placeholder_name(name))
+        {
+            return name.clone();
         }
         let english = self.item_name_en(id);
         if is_placeholder_name(&english) {
@@ -142,10 +139,6 @@ impl GameData {
         } else {
             english
         }
-    }
-
-    pub fn item(&self, id: u16) -> Option<&Item> {
-        self.items_by_id.get(&id).map(|index| &self.items[*index])
     }
 
     pub fn persona_name_en(&self, id: u16) -> String {
@@ -227,7 +220,7 @@ impl GameData {
             return "未使用".to_owned();
         }
         if let Some(name) = social_jp(id) {
-            return format!("{name}");
+            return name.to_owned();
         }
         self.social_by_id
             .get(&id)
@@ -325,7 +318,6 @@ fn parse_social() -> Vec<SocialInfo> {
             Some(SocialInfo {
                 id,
                 name: fields[2].to_owned(),
-                jp_name: social_jp(id).unwrap_or("").to_owned(),
             })
         })
         .collect()
@@ -403,11 +395,17 @@ pub fn phase_jp(value: u16) -> &'static str {
 }
 
 pub fn difficulty_jp(value: u32) -> &'static str {
-    DIFFICULTY_JP.get(value as usize).copied().unwrap_or("カスタム")
+    DIFFICULTY_JP
+        .get(value as usize)
+        .copied()
+        .unwrap_or("カスタム")
 }
 
 pub fn difficulty_save(value: u32) -> &'static str {
-    DIFFICULTY_SAVE.get(value as usize).copied().unwrap_or("CUSTOM")
+    DIFFICULTY_SAVE
+        .get(value as usize)
+        .copied()
+        .unwrap_or("CUSTOM")
 }
 
 pub fn category_jp(key: &str) -> &'static str {
