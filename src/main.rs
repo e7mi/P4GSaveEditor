@@ -5,10 +5,10 @@ mod game;
 mod save;
 mod text_input;
 
-use gpui::{
-    px, size, App, Application, Bounds, KeyBinding, TitlebarOptions, WindowBounds, WindowOptions,
-};
 use gpui::prelude::*;
+use gpui::{
+    App, Application, Bounds, KeyBinding, TitlebarOptions, WindowBounds, WindowOptions, px, size,
+};
 
 use crate::app::AppState;
 use crate::text_input::{
@@ -47,7 +47,7 @@ fn main() {
                 }),
                 ..Default::default()
             },
-            |_, cx| cx.new(|cx| AppState::new(cx)),
+            |_, cx| cx.new(AppState::new),
         )
         .unwrap();
         cx.activate(true);

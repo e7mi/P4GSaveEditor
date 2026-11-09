@@ -191,8 +191,8 @@ impl AppState {
         if !app.slots.is_empty() {
             app.load_slot(0, cx);
         } else {
-            app.status = "セーブデータが見つかりません。右上の「フォルダ」から選択してください。"
-                .to_owned();
+            app.status =
+                "セーブデータが見つかりません。右上の「フォルダ」から選択してください。".to_owned();
         }
         cx.notify();
         app
@@ -278,7 +278,12 @@ impl AppState {
         self.search_input.read(cx).content().trim().to_lowercase()
     }
 
-    fn field(&mut self, field: Field, value: impl ToString, cx: &mut Context<Self>) -> Entity<TextInput> {
+    fn field(
+        &mut self,
+        field: Field,
+        value: impl ToString,
+        cx: &mut Context<Self>,
+    ) -> Entity<TextInput> {
         if let Some(entry) = self.fields.get(&field) {
             return entry.input.clone();
         }
@@ -309,7 +314,11 @@ impl AppState {
         cx: &mut Context<Self>,
     ) -> Div {
         let input = self.field(field, value, cx);
-        let error = self.fields.get(&field).map(|entry| entry.error).unwrap_or(false);
+        let error = self
+            .fields
+            .get(&field)
+            .map(|entry| entry.error)
+            .unwrap_or(false);
         div()
             .w(rems(width_rems))
             .h(rems(1.85))
@@ -429,16 +438,8 @@ impl AppState {
                 }
                 save.set_social_stats(stats);
             }
-            Field::DayDate => {
-                let date = parse_date(text)?;
-                let serial = (date - save::EPOCH).num_days().clamp(0, save::MAX_DAY as i64) as u16;
-                save.set_day_serial(serial);
-            }
-            Field::NextDate => {
-                let date = parse_date(text)?;
-                let serial = (date - save::EPOCH).num_days().clamp(0, save::MAX_DAY as i64) as u16;
-                save.set_next_day(serial);
-            }
+            Field::DayDate => save.set_day_serial(date_to_serial(text)?),
+            Field::NextDate => save.set_next_day(date_to_serial(text)?),
             Field::DaySerial => save.set_day_serial(parse(0, save::MAX_DAY as i64)? as u16),
             Field::NextDay => save.set_next_day(parse(0, save::MAX_DAY as i64)? as u16),
             Field::UnitHp(index) => {
@@ -578,7 +579,9 @@ impl AppState {
         };
         match picker.target {
             PickerTarget::Persona(target) => {
-                let mut persona = self.persona(target).unwrap_or(save::Persona { raw: [0; 48] });
+                let mut persona = self
+                    .persona(target)
+                    .unwrap_or(save::Persona { raw: [0; 48] });
                 if let Some(info) = self.game.persona(id) {
                     let name = self.game.persona_name(id);
                     persona.fill_base(info);
@@ -904,12 +907,7 @@ impl AppState {
             }
             result.push((
                 item.id,
-                format!(
-                    "{:04}  {}  [{}]",
-                    item.id,
-                    jp,
-                    item.category_jp()
-                ),
+                format!("{:04}  {}  [{}]", item.id, jp, item.category_jp()),
             ));
         }
         result
@@ -933,10 +931,7 @@ impl AppState {
                         || jp.to_lowercase().contains(&query)
                         || format!("{:03}", info.id).contains(&query)
                     {
-                        result.push((
-                            info.id,
-                            format!("{:03}  {}  Lv{}", info.id, jp, info.level),
-                        ));
+                        result.push((info.id, format!("{:03}  {}  Lv{}", info.id, jp, info.level)));
                     }
                 }
             }
@@ -1044,7 +1039,8 @@ impl AppState {
                 save.compendium_count(&self.game),
                 self.game.personas.len(),
             )
-        }) else {
+        })
+        else {
             return empty_page("セーブデータがありません");
         };
 
@@ -1147,7 +1143,10 @@ impl AppState {
                 self.input_box(Field::Playtime, playtime, 9.0, cx),
             ))
             .child(hint("H:MM:SS"))
-            .child(form_row("難易度", phase_text(game::difficulty_jp(difficulty))));
+            .child(form_row(
+                "難易度",
+                phase_text(game::difficulty_jp(difficulty)),
+            ));
         play_row = play_row.child(button(
             "difficulty-cycle",
             "変更",
@@ -1250,12 +1249,7 @@ impl AppState {
         current = current
             .child(form_row(
                 "日付",
-                self.input_box(
-                    Field::DayDate,
-                    date.format("%Y/%m/%d").to_string(),
-                    9.0,
-                    cx,
-                ),
+                self.input_box(Field::DayDate, date.format("%Y/%m/%d").to_string(), 9.0, cx),
             ))
             .child(form_row("時間帯", phase_text(game::phase_jp(phase))))
             .child(button(
@@ -1283,10 +1277,7 @@ impl AppState {
                     cx,
                 ),
             ))
-            .child(form_row(
-                "時間帯",
-                phase_text(game::phase_jp(next_phase)),
-            ))
+            .child(form_row("時間帯", phase_text(game::phase_jp(next_phase))))
             .child(button(
                 "next-phase-cycle",
                 "次へ",
@@ -1350,47 +1341,58 @@ impl AppState {
 
     fn party_page(&mut self, _window: &mut Window, cx: &mut Context<Self>) -> Stateful<Div> {
         let selected = self.party_selected;
-        let Some((unit_ids, hp_values, sp_values, selected_id, selected_hp, selected_sp, equipment)) =
-            self.save.as_ref().map(|save| {
-                let unit_ids = save.units.iter().map(|unit| unit.id()).collect::<Vec<_>>();
-                let hp_values = (0..save.units.len())
-                    .map(|index| save.unit_hp(index))
-                    .collect::<Vec<_>>();
-                let sp_values = (0..save.units.len())
-                    .map(|index| save.unit_sp(index))
-                    .collect::<Vec<_>>();
-                let selected = selected.min(save.units.len().saturating_sub(1));
-                let selected_id = save.units.get(selected).map(|unit| unit.id()).unwrap_or(0);
-                let selected_hp = hp_values.get(selected).copied().unwrap_or(0);
-                let selected_sp = sp_values.get(selected).copied().unwrap_or(0);
-                let equipment = (0..4)
-                    .map(|slot| {
-                        let item_id = if selected == 0 {
-                            save.mc_equipment(slot)
-                        } else {
-                            save.units
-                                .get(selected)
-                                .map(|unit| unit.equipment(slot))
-                                .unwrap_or(0)
-                        };
-                        (item_id, self.game.item_name(item_id))
-                    })
-                    .collect::<Vec<_>>();
-                (
-                    unit_ids,
-                    hp_values,
-                    sp_values,
-                    selected_id,
-                    selected_hp,
-                    selected_sp,
-                    equipment,
-                )
-            })
+        let Some((
+            unit_ids,
+            hp_values,
+            sp_values,
+            selected_id,
+            selected_hp,
+            selected_sp,
+            equipment,
+        )) = self.save.as_ref().map(|save| {
+            let unit_ids = save.units.iter().map(|unit| unit.id()).collect::<Vec<_>>();
+            let hp_values = (0..save.units.len())
+                .map(|index| save.unit_hp(index))
+                .collect::<Vec<_>>();
+            let sp_values = (0..save.units.len())
+                .map(|index| save.unit_sp(index))
+                .collect::<Vec<_>>();
+            let selected = selected.min(save.units.len().saturating_sub(1));
+            let selected_id = save.units.get(selected).map(|unit| unit.id()).unwrap_or(0);
+            let selected_hp = hp_values.get(selected).copied().unwrap_or(0);
+            let selected_sp = sp_values.get(selected).copied().unwrap_or(0);
+            let equipment = (0..4)
+                .map(|slot| {
+                    let item_id = if selected == 0 {
+                        save.mc_equipment(slot)
+                    } else {
+                        save.units
+                            .get(selected)
+                            .map(|unit| unit.equipment(slot))
+                            .unwrap_or(0)
+                    };
+                    (item_id, self.game.item_name(item_id))
+                })
+                .collect::<Vec<_>>();
+            (
+                unit_ids,
+                hp_values,
+                sp_values,
+                selected_id,
+                selected_hp,
+                selected_sp,
+                equipment,
+            )
+        })
         else {
             return empty_page("セーブデータがありません");
         };
 
-        let mut left = div().flex().flex_col().gap_1().child(section_title("メンバー"));
+        let mut left = div()
+            .flex()
+            .flex_col()
+            .gap_1()
+            .child(section_title("メンバー"));
         for (index, unit_id) in unit_ids.iter().enumerate() {
             let is_selected = index == selected;
             let mut member = div()
@@ -1399,7 +1401,11 @@ impl AppState {
                 .py_1()
                 .rounded_sm()
                 .cursor_pointer()
-                .bg(if is_selected { rgb(PANEL_2) } else { rgb(PANEL) })
+                .bg(if is_selected {
+                    rgb(PANEL_2)
+                } else {
+                    rgb(PANEL)
+                })
                 .text_color(if is_selected { rgb(ACCENT) } else { rgb(TEXT) })
                 .on_click(cx.listener(move |this, _, _, cx| {
                     this.party_selected = index;
@@ -1443,11 +1449,13 @@ impl AppState {
                 "状態異常を解除",
                 false,
                 cx.listener(move |this, _, _, cx| {
-                    if let Some(save) = this.save.as_mut() {
-                        if let Some(unit) = save.units.get_mut(selected) {
-                            unit.clear_status();
-                            this.modified = true;
-                        }
+                    if let Some(unit) = this
+                        .save
+                        .as_mut()
+                        .and_then(|save| save.units.get_mut(selected))
+                    {
+                        unit.clear_status();
+                        this.modified = true;
                     }
                     cx.notify();
                 }),
@@ -1503,17 +1511,18 @@ impl AppState {
                 .unwrap_or(0);
             let mut row = div().flex().items_center().gap_2();
             row = row
-                .child(div().w(rems(5.0)).text_sm().text_color(rgb(MUTED)).child(*slot_name))
                 .child(
                     div()
-                        .w(rems(14.0))
+                        .w(rems(5.0))
                         .text_sm()
-                        .child(if item_id == 0 {
-                            "なし".to_owned()
-                        } else {
-                            item_name
-                        }),
+                        .text_color(rgb(MUTED))
+                        .child(*slot_name),
                 )
+                .child(div().w(rems(14.0)).text_sm().child(if item_id == 0 {
+                    "なし".to_owned()
+                } else {
+                    item_name
+                }))
                 .child(button(
                     ("equip-pick", slot),
                     "変更",
@@ -1578,7 +1587,11 @@ impl AppState {
             return empty_page("セーブデータがありません");
         };
 
-        let mut left = div().flex().flex_col().gap_1().child(section_title("所持枠 12"));
+        let mut left = div()
+            .flex()
+            .flex_col()
+            .gap_1()
+            .child(section_title("所持枠 12"));
         for (index, text) in slots.iter().enumerate() {
             let is_selected = index == selected;
             left = left.child(
@@ -1588,7 +1601,11 @@ impl AppState {
                     .py_1()
                     .rounded_sm()
                     .cursor_pointer()
-                    .bg(if is_selected { rgb(PANEL_2) } else { rgb(PANEL) })
+                    .bg(if is_selected {
+                        rgb(PANEL_2)
+                    } else {
+                        rgb(PANEL)
+                    })
                     .text_color(if is_selected { rgb(ACCENT) } else { rgb(TEXT) })
                     .on_click(cx.listener(move |this, _, _, cx| {
                         this.mc_persona_selected = index;
@@ -1609,12 +1626,14 @@ impl AppState {
                 false,
                 cx.listener(|this, _, _, cx| {
                     let index = this.mc_persona_selected;
-                    if let Some(save) = this.save.as_mut() {
-                        if let Some(persona) = save.mc_personas.get_mut(index) {
-                            persona.clear();
-                            this.modified = true;
-                            this.remove_persona_fields(PersonaTarget::Mc(index));
-                        }
+                    if let Some(persona) = this
+                        .save
+                        .as_mut()
+                        .and_then(|save| save.mc_personas.get_mut(index))
+                    {
+                        persona.clear();
+                        this.modified = true;
+                        this.remove_persona_fields(PersonaTarget::Mc(index));
                     }
                     cx.notify();
                 }),
@@ -1631,9 +1650,7 @@ impl AppState {
                     this.remove_fields(|field| {
                         matches!(
                             field,
-                            Field::PersonaLevel(_)
-                                | Field::PersonaXp(_)
-                                | Field::PersonaStat(_, _)
+                            Field::PersonaLevel(_) | Field::PersonaXp(_) | Field::PersonaStat(_, _)
                         )
                     });
                     this.status = "所持ペルソナを Lv99 にしました".to_owned();
@@ -1652,9 +1669,11 @@ impl AppState {
     }
 
     fn compendium_page(&mut self, _window: &mut Window, cx: &mut Context<Self>) -> Stateful<Div> {
-        let Some((count, total)) = self.save.as_ref().map(|save| {
-            (save.compendium_count(&self.game), self.game.personas.len())
-        }) else {
+        let Some((count, total)) = self
+            .save
+            .as_ref()
+            .map(|save| (save.compendium_count(&self.game), self.game.personas.len()))
+        else {
             return empty_page("セーブデータがありません");
         };
         let ratio = if total == 0 {
@@ -1670,7 +1689,12 @@ impl AppState {
                 .flex()
                 .items_center()
                 .gap_2()
-                .child(div().text_base().text_color(rgb(ACCENT)).child(format!("{count} / {total}")))
+                .child(
+                    div()
+                        .text_base()
+                        .text_color(rgb(ACCENT))
+                        .child(format!("{count} / {total}")),
+                )
                 .child(
                     div()
                         .flex_1()
@@ -1782,7 +1806,8 @@ impl AppState {
                     cx.processor(move |this, range, _window, cx| {
                         let mut rows = Vec::new();
                         for index in range {
-                            let Some((id, label)): Option<&(u16, String)> = entries.get(index) else {
+                            let Some((id, label)): Option<&(u16, String)> = entries.get(index)
+                            else {
                                 continue;
                             };
                             let id = *id;
@@ -1813,10 +1838,7 @@ impl AppState {
             )
             .h_full();
 
-        let right = self.persona_editor(
-            PersonaTarget::Compendium(self.compendium_selected),
-            cx,
-        );
+        let right = self.persona_editor(PersonaTarget::Compendium(self.compendium_selected), cx);
         let left = div()
             .flex()
             .flex_col()
@@ -1825,20 +1847,15 @@ impl AppState {
             .flex_none()
             .child(top)
             .child(list);
-        let content = div()
-            .flex()
-            .gap_3()
-            .h_full()
-            .child(left)
-            .child(
-                div()
-                    .flex_1()
-                    .min_w(px(0.))
-                    .min_h(px(0.))
-                    .id("comp-scroll")
-                    .overflow_scroll()
-                    .child(panel(right)),
-            );
+        let content = div().flex().gap_3().h_full().child(left).child(
+            div()
+                .flex_1()
+                .min_w(px(0.))
+                .min_h(px(0.))
+                .id("comp-scroll")
+                .overflow_scroll()
+                .child(panel(right)),
+        );
         page_fixed("compendium-page").child(content)
     }
 
@@ -1847,14 +1864,7 @@ impl AppState {
             save.social_links
                 .iter()
                 .enumerate()
-                .map(|(index, link)| {
-                    (
-                        index,
-                        link.id(),
-                        link.rank(),
-                        link.affinity(),
-                    )
-                })
+                .map(|(index, link)| (index, link.id(), link.rank(), link.affinity()))
                 .collect::<Vec<_>>()
         }) else {
             return empty_page("セーブデータがありません");
@@ -1873,7 +1883,11 @@ impl AppState {
                         .px_2()
                         .border_b_1()
                         .border_color(rgb(BORDER))
-                        .child(hint(format!("{:02}  {}", index + 1, self.game.social_display(id)))),
+                        .child(hint(format!(
+                            "{:02}  {}",
+                            index + 1,
+                            self.game.social_display(id)
+                        ))),
                 );
                 continue;
             }
@@ -1903,14 +1917,16 @@ impl AppState {
                     "MAX",
                     false,
                     cx.listener(move |this, _, _, cx| {
-                        if let Some(save) = this.save.as_mut() {
-                            if let Some(link) = save.social_links.get_mut(index) {
-                                link.set_rank(10);
-                                link.set_affinity(0);
-                                this.modified = true;
-                                this.set_field(Field::SocialRank(index), 10, cx);
-                                this.set_field(Field::SocialAffinity(index), 0, cx);
-                            }
+                        if let Some(link) = this
+                            .save
+                            .as_mut()
+                            .and_then(|save| save.social_links.get_mut(index))
+                        {
+                            link.set_rank(10);
+                            link.set_affinity(0);
+                            this.modified = true;
+                            this.set_field(Field::SocialRank(index), 10, cx);
+                            this.set_field(Field::SocialAffinity(index), 0, cx);
                         }
                         cx.notify();
                     }),
@@ -2082,11 +2098,7 @@ impl AppState {
     fn tools_page(&mut self, cx: &mut Context<Self>) -> Stateful<Div> {
         let (path, checksum) = match self.save.as_ref() {
             Some(save) => (
-                format!(
-                    "{}\n{}",
-                    save.bin_path.display(),
-                    save.slot_path.display()
-                ),
+                format!("{}\n{}", save.bin_path.display(), save.slot_path.display()),
                 self.checksum_text(),
             ),
             None => return empty_page("セーブデータがありません"),
@@ -2162,10 +2174,7 @@ impl AppState {
             "今すぐバックアップ",
             false,
             cx.listener(|this, _, _, cx| {
-                let result = this
-                    .save
-                    .as_ref()
-                    .map(|save| save.create_backup("manual"));
+                let result = this.save.as_ref().map(|save| save.create_backup("manual"));
                 match result {
                     Some(Ok(Some(_))) => {
                         this.status = "バックアップを作成しました".to_owned();
@@ -2197,12 +2206,9 @@ impl AppState {
             ));
         content = content.child(section(
             "別スロットに複製",
-            div()
-                .flex()
-                .flex_col()
-                .gap_2()
-                .child(copy_row)
-                .child(hint("既存の複製先は上書きされます。上書き前にバックアップします。")),
+            div().flex().flex_col().gap_2().child(copy_row).child(hint(
+                "既存の複製先は上書きされます。上書き前にバックアップします。",
+            )),
         ));
 
         content = content.child(section(
@@ -2248,8 +2254,7 @@ impl AppState {
                 false,
                 cx.listener(|this, _, _, cx| {
                     if let Some(picker) = this.picker.as_mut() {
-                        picker.category =
-                            (picker.category + 1) % game::category_options().len();
+                        picker.category = (picker.category + 1) % game::category_options().len();
                     }
                     cx.notify();
                 }),
@@ -2258,18 +2263,16 @@ impl AppState {
         if matches!(picker.target, PickerTarget::Skill(_, _)) {
             header = header.child(hint("使用可能スキル"));
         }
-        header = header
-            .child(hint(format!("{count} 件")))
-            .child(button(
-                "picker-cancel",
-                "閉じる",
-                false,
-                cx.listener(|this, _, _, cx| {
-                    this.picker = None;
-                    this.clear_search(cx);
-                    cx.notify();
-                }),
-            ));
+        header = header.child(hint(format!("{count} 件"))).child(button(
+            "picker-cancel",
+            "閉じる",
+            false,
+            cx.listener(|this, _, _, cx| {
+                this.picker = None;
+                this.clear_search(cx);
+                cx.notify();
+            }),
+        ));
 
         let list = uniform_list(
             "picker-list",
@@ -2333,12 +2336,11 @@ impl AppState {
                     .flex()
                     .items_center()
                     .gap_2()
-                    .child(
-                        div()
-                            .text_base()
-                            .text_color(rgb(ACCENT))
-                            .child(format!("{:03}  {}", id, self.game.persona_name(id))),
-                    )
+                    .child(div().text_base().text_color(rgb(ACCENT)).child(format!(
+                        "{:03}  {}",
+                        id,
+                        self.game.persona_name(id)
+                    )))
                     .child(button(
                         "comp-toggle",
                         if persona.exists() {
@@ -2387,14 +2389,14 @@ impl AppState {
             return content;
         }
         if !persona.exists() && fixed {
-            content = content.child(hint("未登録です。上のボタンで登録するとステータスを編集できます。"));
+            content = content.child(hint(
+                "未登録です。上のボタンで登録するとステータスを編集できます。",
+            ));
             return content;
         }
 
         let info = self.game.persona(id);
-        let arcana = info
-            .map(|info| game::arcana_jp(info.arcana))
-            .unwrap_or("");
+        let arcana = info.map(|info| game::arcana_jp(info.arcana)).unwrap_or("");
         content = content
             .child(hint(format!("アルカナ: {arcana}")))
             .child(
@@ -2404,12 +2406,7 @@ impl AppState {
                     .gap_3()
                     .child(form_row(
                         "レベル",
-                        self.input_box(
-                            Field::PersonaLevel(target),
-                            persona.level(),
-                            5.0,
-                            cx,
-                        ),
+                        self.input_box(Field::PersonaLevel(target), persona.level(), 5.0, cx),
                     ))
                     .child(form_row(
                         "XP",
@@ -2418,26 +2415,22 @@ impl AppState {
             )
             .child(section_title("ステータス"))
             .child(
-                div()
-                    .flex()
-                    .flex_wrap()
-                    .gap_3()
-                    .children(
-                        ["力", "魔", "耐", "速", "運"]
-                            .iter()
-                            .enumerate()
-                            .map(|(index, label)| {
-                                form_row(
-                                    *label,
-                                    self.input_box(
-                                        Field::PersonaStat(target, index),
-                                        persona.stats()[index],
-                                        4.5,
-                                        cx,
-                                    ),
-                                )
-                            }),
-                    ),
+                div().flex().flex_wrap().gap_3().children(
+                    ["力", "魔", "耐", "速", "運"]
+                        .iter()
+                        .enumerate()
+                        .map(|(index, label)| {
+                            form_row(
+                                *label,
+                                self.input_box(
+                                    Field::PersonaStat(target, index),
+                                    persona.stats()[index],
+                                    4.5,
+                                    cx,
+                                ),
+                            )
+                        }),
+                ),
             )
             .child(section_title("スキル"));
         let skills = persona.skills();
@@ -2447,7 +2440,13 @@ impl AppState {
                     .flex()
                     .items_center()
                     .gap_2()
-                    .child(div().w(rems(2.0)).text_xs().text_color(rgb(MUTED)).child(format!("{:02}", index + 1)))
+                    .child(
+                        div()
+                            .w(rems(2.0))
+                            .text_xs()
+                            .text_color(rgb(MUTED))
+                            .child(format!("{:02}", index + 1)),
+                    )
                     .child(
                         div()
                             .w(rems(16.0))
@@ -2486,7 +2485,7 @@ impl AppState {
 
     fn top_bar(&mut self, cx: &mut Context<Self>) -> Div {
         let slot = self.slot_label();
-        let bar = div()
+        div()
             .flex()
             .items_center()
             .gap_2()
@@ -2550,7 +2549,11 @@ impl AppState {
             .child(div().flex_1())
             .child(button(
                 "advanced",
-                if self.advanced { "詳細: ON" } else { "詳細: OFF" },
+                if self.advanced {
+                    "詳細: ON"
+                } else {
+                    "詳細: OFF"
+                },
                 self.advanced,
                 cx.listener(|this, _, _, cx| {
                     this.advanced = !this.advanced;
@@ -2562,8 +2565,7 @@ impl AppState {
                 "保存",
                 true,
                 cx.listener(|this, _, _, cx| this.save_current(cx)),
-            ));
-        bar
+            ))
     }
 
     fn sidebar(&mut self, cx: &mut Context<Self>) -> Div {
@@ -2773,13 +2775,7 @@ impl Render for AppState {
                     .flex_1()
                     .min_h(px(0.))
                     .child(self.sidebar(cx))
-                    .child(
-                        div()
-                            .flex_1()
-                            .min_h(px(0.))
-                            .min_w(px(0.))
-                            .child(page),
-                    ),
+                    .child(div().flex_1().min_h(px(0.)).min_w(px(0.)).child(page)),
             )
             .child(self.bottom_bar(cx));
         if let Some(modal) = modal {
@@ -2799,8 +2795,7 @@ fn collect_slots() -> Vec<PathBuf> {
             path.metadata()
                 .and_then(|meta| meta.modified())
                 .ok()
-                .map(|time| time.duration_since(std::time::UNIX_EPOCH).ok())
-                .flatten(),
+                .and_then(|time| time.duration_since(std::time::UNIX_EPOCH).ok()),
         )
     });
     result
@@ -2912,13 +2907,7 @@ fn button(
         .text_color(if accent { rgb(ACCENT_DARK) } else { rgb(TEXT) })
         .text_sm()
         .cursor_pointer()
-        .hover(move |style| {
-            style.bg(if accent {
-                rgb(0xe5c76e)
-            } else {
-                rgb(0x252632)
-            })
-        })
+        .hover(move |style| style.bg(if accent { rgb(0xe5c76e) } else { rgb(0x252632) }))
         .on_click(on_click)
         .child(label)
 }
@@ -2962,6 +2951,19 @@ fn parse_date(text: &str) -> Result<NaiveDate, String> {
     NaiveDate::parse_from_str(text.trim(), "%Y/%m/%d")
         .or_else(|_| NaiveDate::parse_from_str(text.trim(), "%Y-%m-%d"))
         .map_err(|_| "日付は YYYY/MM/DD で入力してください".to_owned())
+}
+
+fn date_to_serial(text: &str) -> Result<u16, String> {
+    let date = parse_date(text)?;
+    let serial = (date - save::EPOCH).num_days();
+    if !(0..=save::MAX_DAY as i64).contains(&serial) {
+        let first = save::EPOCH.format("%Y/%m/%d");
+        let last = (save::EPOCH + chrono::Duration::days(save::MAX_DAY as i64)).format("%Y/%m/%d");
+        return Err(format!(
+            "日付は {first} から {last} の範囲で入力してください"
+        ));
+    }
+    Ok(serial as u16)
 }
 
 fn parse_playtime(text: &str) -> Result<(u32, u32, u32), String> {
