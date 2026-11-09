@@ -2,5 +2,6 @@
 
 mod game;
 mod save;
+mod text_input;
 
 fn main() {}
