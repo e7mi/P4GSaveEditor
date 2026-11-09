@@ -72,6 +72,8 @@ cargo build --release
 cargo test
 ```
 
+GitHub Actions の `build` ワークフローが push と pull request で `fmt` / `clippy` / `test` / release ビルドを実行し、`P4GSaveEditor-win64` artifact を保存します。
+
 ## データ出典
 
 - fendevel/P4G-Save-Tool: セーブ構造とデータベース
