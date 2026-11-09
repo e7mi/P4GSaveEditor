@@ -6,7 +6,7 @@ use std::path::{Path, PathBuf};
 
 use chrono::{Datelike, Local, NaiveDate, Timelike};
 use encoding_rs::SHIFT_JIS;
-use serde_json::{json, Value};
+use serde_json::{Value, json};
 
 use crate::game::{self, GameData, PersonaInfo};
 
@@ -133,7 +133,9 @@ fn decode_cp932(raw: &[u8]) -> String {
 fn encode_cp932(text: &str) -> Result<Vec<u8>> {
     let (raw, _, had_errors) = SHIFT_JIS.encode(text);
     if had_errors {
-        return Err(SaveError::Encode(format!("この文字は保存できません: {text}")));
+        return Err(SaveError::Encode(format!(
+            "この文字は保存できません: {text}"
+        )));
     }
     Ok(raw.into_owned())
 }
@@ -175,8 +177,17 @@ pub struct SlotInfo {
     pub date_text: String,
     pub phase_text: String,
     pub location: String,
-    pub difficulty: String,
     pub playtime: String,
+}
+
+pub struct SlotBlock<'a> {
+    pub name: &'a str,
+    pub level: u16,
+    pub date_text: &'a str,
+    pub phase_text: &'a str,
+    pub location: &'a str,
+    pub difficulty: &'a str,
+    pub playtime: &'a str,
 }
 
 #[derive(Debug, Clone)]
@@ -217,14 +228,11 @@ impl SlotMeta {
         let date_text = parts.next().unwrap_or("").to_owned();
         let phase_text = parts.next().unwrap_or("").to_owned();
         let location = parts.next().unwrap_or("").to_owned();
-        let mut difficulty = String::new();
         let mut playtime = String::new();
         for line in self.block_lines() {
             let text = String::from_utf8(line.clone())
                 .unwrap_or_else(|_| SHIFT_JIS.decode(&line).0.into_owned());
-            if let Some(value) = text.strip_prefix("難易度:") {
-                difficulty = value.trim().to_owned();
-            } else if let Some(value) = text.strip_prefix("プレイ時間") {
+            if let Some(value) = text.strip_prefix("プレイ時間") {
                 playtime = value.to_owned();
             }
         }
@@ -234,7 +242,6 @@ impl SlotMeta {
             date_text,
             phase_text,
             location,
-            difficulty,
             playtime,
         }
     }
@@ -270,19 +277,22 @@ impl SlotMeta {
         if block.is_empty() {
             return Vec::new();
         }
-        block.split(|&b| b == b'\n').map(|line| line.to_vec()).collect()
+        block
+            .split(|&b| b == b'\n')
+            .map(|line| line.to_vec())
+            .collect()
     }
 
-    pub fn update_block(
-        &mut self,
-        name: &str,
-        level: u16,
-        date_text: &str,
-        phase_text: &str,
-        location: &str,
-        difficulty: &str,
-        playtime: &str,
-    ) {
+    pub fn update_block(&mut self, block: SlotBlock<'_>) {
+        let SlotBlock {
+            name,
+            level,
+            date_text,
+            phase_text,
+            location,
+            difficulty,
+            playtime,
+        } = block;
         let mut lines = self.block_lines();
         if lines.is_empty() {
             lines = vec![
@@ -376,11 +386,6 @@ impl Persona {
         self.flags() & 1 != 0
     }
 
-    pub fn set_exists(&mut self, value: bool) {
-        let flags = self.flags();
-        self.set_flags(if value { flags | 1 } else { flags & !1 });
-    }
-
     pub fn id(&self) -> u16 {
         read_u16(&self.raw, 0x02)
     }
@@ -446,18 +451,6 @@ impl Persona {
         self.set_skills(&skills);
         self.set_stats(&info.stats);
     }
-
-    pub fn display(&self, game: &GameData) -> String {
-        if !self.exists() {
-            return "空き".to_owned();
-        }
-        format!(
-            "{:03}  {}  Lv{}",
-            self.id(),
-            game.persona_name(self.id()),
-            self.level()
-        )
-    }
 }
 
 #[derive(Debug, Clone, Copy)]
@@ -512,10 +505,6 @@ impl Unit {
     pub fn clear_status(&mut self) {
         self.raw[0x0C..0x2D].fill(0);
     }
-
-    pub fn display(&self, game: &GameData) -> String {
-        format!("{}   HP {} / SP {}", game.char_name(self.id()), self.hp(), self.sp())
-    }
 }
 
 #[derive(Debug, Clone, Copy)]
@@ -534,10 +523,6 @@ impl SocialLink {
         read_u16(&self.raw, 0)
     }
 
-    pub fn set_id(&mut self, value: u16) {
-        write_u16(&mut self.raw, 0, value);
-    }
-
     pub fn rank(&self) -> u16 {
         read_u16(&self.raw, 0x02)
     }
@@ -552,10 +537,6 @@ impl SocialLink {
 
     pub fn set_affinity(&mut self, value: u16) {
         write_u16(&mut self.raw, 0x04, value.min(999));
-    }
-
-    pub fn clear(&mut self) {
-        self.raw.fill(0);
     }
 }
 
@@ -797,7 +778,11 @@ impl P4GSave {
 
     pub fn set_social_stats(&mut self, values: [u16; 5]) {
         for (index, value) in values.iter().enumerate() {
-            write_u16(&mut self.data, OFF_SOCIAL_STATS + index * 2, (*value).min(999));
+            write_u16(
+                &mut self.data,
+                OFF_SOCIAL_STATS + index * 2,
+                (*value).min(999),
+            );
         }
     }
 
@@ -875,16 +860,6 @@ impl P4GSave {
         EPOCH + chrono::Duration::days(self.day_serial() as i64)
     }
 
-    pub fn set_game_date(&mut self, value: NaiveDate, phase: Option<u16>) {
-        let serial = (value - EPOCH).num_days().clamp(0, MAX_DAY as i64) as u16;
-        self.set_day_serial(serial);
-        if let Some(phase) = phase {
-            self.set_phase(phase);
-        }
-        self.set_next_day(self.day_serial());
-        self.set_next_phase(self.phase());
-    }
-
     pub fn unit_hp(&self, index: usize) -> u16 {
         if index == 0 {
             self.mc_hp()
@@ -945,9 +920,9 @@ impl P4GSave {
                 "Expend" | "Material" | "Card" | "Book" | "Veg" | "Gems" | "Fish" | "Bugs"
             ) {
                 self.set_item_count(item.id, count);
-            } else if matches!(base, "Weapon" | "Armor" | "Acc" | "Clothes") {
-                self.set_item_count(item.id, 1);
-            } else if include_key && matches!(base, "Key" | "Quest" | "SLink" | "Shelf") {
+            } else if matches!(base, "Weapon" | "Armor" | "Acc" | "Clothes")
+                || (include_key && matches!(base, "Key" | "Quest" | "SLink" | "Shelf"))
+            {
                 self.set_item_count(item.id, 1);
             }
         }
@@ -955,7 +930,12 @@ impl P4GSave {
 
     pub fn fill_compendium(&mut self, game: &GameData) {
         for info in &game.personas {
-            let entry = &mut self.compendium[info.id as usize - 1];
+            if info.id == 0 {
+                continue;
+            }
+            let Some(entry) = self.compendium.get_mut(info.id as usize - 1) else {
+                continue;
+            };
             if !entry.exists() {
                 entry.fill_base(info);
             }
@@ -964,10 +944,16 @@ impl P4GSave {
 
     pub fn reset_compendium(&mut self, game: &GameData) {
         for info in &game.personas {
-            self.compendium[info.id as usize - 1].fill_base(info);
+            if info.id == 0 {
+                continue;
+            }
+            let Some(entry) = self.compendium.get_mut(info.id as usize - 1) else {
+                continue;
+            };
+            entry.fill_base(info);
         }
         for (index, entry) in self.compendium.iter_mut().enumerate() {
-            if game.personas_by_id.get(&(index as u16 + 1)).is_none() {
+            if !game.personas_by_id.contains_key(&(index as u16 + 1)) {
                 entry.clear();
             }
         }
@@ -1089,8 +1075,8 @@ impl P4GSave {
         if self.names_changed {
             self.sync_pc_names();
         }
-        self.data[OFF_HEADER_CHECKSUM] = (self.data[..54].iter().map(|&b| b as u32).sum::<u32>()
-            & 0xFF) as u8;
+        self.data[OFF_HEADER_CHECKSUM] =
+            (self.data[..54].iter().map(|&b| b as u32).sum::<u32>() & 0xFF) as u8;
 
         if update_slot {
             let name = self.full_name();
@@ -1102,16 +1088,17 @@ impl P4GSave {
             let (hours, minutes, seconds) = self.playtime_hms();
             let playtime = format!("{hours}:{minutes:02}:{seconds:02}");
             self.slot_meta.set_name(&name, level);
-            self.slot_meta.set_detail(&date_text, &phase_text, &location);
-            self.slot_meta.update_block(
-                &name,
+            self.slot_meta
+                .set_detail(&date_text, &phase_text, &location);
+            self.slot_meta.update_block(SlotBlock {
+                name: &name,
                 level,
-                &date_text,
-                &phase_text,
-                &location,
-                &difficulty,
-                &playtime,
-            );
+                date_text: &date_text,
+                phase_text: &phase_text,
+                location: &location,
+                difficulty: &difficulty,
+                playtime: &playtime,
+            });
             self.slot_meta.set_timestamp(Local::now());
         }
 
@@ -1218,7 +1205,10 @@ impl P4GSave {
         }
         fs::create_dir_all(&folder)?;
         if self.bin_path.exists() {
-            fs::copy(&self.bin_path, folder.join(self.bin_path.file_name().unwrap_or_default()))?;
+            fs::copy(
+                &self.bin_path,
+                folder.join(self.bin_path.file_name().unwrap_or_default()),
+            )?;
         }
         if self.slot_path.exists() {
             fs::copy(
@@ -1352,7 +1342,11 @@ impl P4GSave {
             .map(|(id, count)| json!({"id": id, "name": game.item_name(id as u16), "count": count}))
             .collect();
         json!({
-            "file": self.bin_path.display().to_string(),
+            "file": self
+                .bin_path
+                .file_name()
+                .and_then(|value| value.to_str())
+                .unwrap_or(""),
             "slot": self.slot_number(),
             "lname": self.lname(),
             "fname": self.fname(),
@@ -1545,7 +1539,9 @@ mod tests {
         save.set_lname("テスト").unwrap();
         save.set_fname("太郎").unwrap();
         save.set_mc_level(55);
-        save.set_game_date(NaiveDate::from_ymd_opt(2011, 5, 5).unwrap(), Some(1));
+        let date = NaiveDate::from_ymd_opt(2011, 5, 5).unwrap();
+        save.set_day_serial((date - EPOCH).num_days() as u16);
+        save.set_phase(1);
         save.set_playtime(12, 34, 56);
         save.set_rise_lines(200);
         save.save(false).unwrap();
@@ -1553,7 +1549,48 @@ mod tests {
         assert_eq!(loaded.money(), 1_234_567);
         assert_eq!(loaded.full_name(), "テスト 太郎");
         assert_eq!(loaded.mc_level(), 55);
-        assert_eq!(loaded.game_date(), NaiveDate::from_ymd_opt(2011, 5, 5).unwrap());
+        assert_eq!(
+            loaded.game_date(),
+            NaiveDate::from_ymd_opt(2011, 5, 5).unwrap()
+        );
+        assert_eq!(loaded.phase(), 1);
+        assert_eq!(loaded.playtime_hms(), (12, 34, 56));
+        assert_eq!(loaded.rise_lines(), 200);
+        let checks = loaded.check_loaded();
+        assert!(checks.header && checks.save_md5 && checks.slot_md5);
+        let _ = fs::remove_dir_all(folder);
+    }
+
+    #[test]
+    fn synthetic_roundtrip_without_game_files() {
+        let folder = std::env::temp_dir().join(format!(
+            "p4g-rust-synthetic-{}-{}",
+            std::process::id(),
+            Local::now().format("%Y%m%d%H%M%S%f")
+        ));
+        fs::create_dir_all(&folder).unwrap();
+        let bin = folder.join("data0001.bin");
+        let slot = folder.join("data0001.binslot");
+        let data = vec![0u8; SAVE_SIZE];
+        let mut slot_data = vec![0u8; SLOT_SIZE];
+        slot_data[..8].copy_from_slice(SLOT_MAGIC);
+        let mut save = P4GSave::from_bytes(data, slot_data, bin.clone(), slot.clone()).unwrap();
+        save.set_money(1_234_567);
+        save.set_lname("テスト").unwrap();
+        save.set_fname("太郎").unwrap();
+        save.set_mc_level(55);
+        let date = NaiveDate::from_ymd_opt(2011, 5, 5).unwrap();
+        save.set_day_serial((date - EPOCH).num_days() as u16);
+        save.set_phase(1);
+        save.set_playtime(12, 34, 56);
+        save.set_rise_lines(200);
+        save.save(false).unwrap();
+
+        let loaded = P4GSave::load(&bin).unwrap();
+        assert_eq!(loaded.money(), 1_234_567);
+        assert_eq!(loaded.full_name(), "テスト 太郎");
+        assert_eq!(loaded.mc_level(), 55);
+        assert_eq!(loaded.game_date(), date);
         assert_eq!(loaded.phase(), 1);
         assert_eq!(loaded.playtime_hms(), (12, 34, 56));
         assert_eq!(loaded.rise_lines(), 200);
