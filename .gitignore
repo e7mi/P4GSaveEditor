@@ -1,2 +1,4 @@
 /target
 /dist
+/web/pkg
+test-out.*
