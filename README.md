@@ -2,8 +2,6 @@
 
 Persona 4 Golden (Steam) のセーブデータを編集する Web アプリです。編集ロジックは Rust (WebAssembly)、UI はブラウザで動作します。セーブファイルはすべてブラウザ内で処理され、外部へ送信されません。
 
-旧 Windows GUI 版は `rust-gui` ブランチにあります。
-
 ## 使い方
 
 デプロイされたページを開くか、ローカルで `web/` フォルダを静的ホストしてブラウザで開きます (例: `python -m http.server`)。
