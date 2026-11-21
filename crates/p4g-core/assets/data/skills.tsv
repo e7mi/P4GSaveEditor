@@ -105,18 +105,18 @@ id	idh	name	tag
 103	0067	Life Leech	
 104	0068	Spirit Leech	
 105	0069	Judgement	
-106	006A	Balzac	
-107	006B	Last Resort	
-108	006C	Last Resort	
+106	006A	Balzac B	
+107	006B	Last Resort B	
+108	006C	Last Resort C	
 109	006D	Kamui Miracle	
-110	006E	Kamui Miracle	
-111	006F	Kamui Miracle	
-112	0070	Kamui Miracle	
-113	0071	Kamui Miracle	
-114	0072	Kamui Miracle	
-115	0073	Kamui Miracle	
-116	0074	Kamui Miracle	
-117	0075	Kamui Miracle	
+110	006E	Kamui Miracle B	
+111	006F	Kamui Miracle C	
+112	0070	Kamui Miracle D	
+113	0071	Kamui Miracle E	
+114	0072	Kamui Miracle F	
+115	0073	Kamui Miracle G	
+116	0074	Kamui Miracle H	
+117	0075	Kamui Miracle I	
 118	0076	Blank	
 119	0077	Elemental Break	
 120	0078	Bash	
@@ -175,7 +175,7 @@ id	idh	name	tag
 173	00AD	Agneyastra	
 174	00AE	Cruel Attack	
 175	00AF	Vile Assault	
-176	00B0	Rampage	
+176	00B0	Rampage B	
 177	00B1	Attack Up Support	
 178	00B2	Guard Up Support	
 179	00B3	Agility Up Support	
@@ -250,14 +250,14 @@ id	idh	name	tag
 248	00F8	Dragon Hustle	
 249	00F9	Burning Petals	
 250	00FA	The Man's Way	
-251	00FB	Kamui Miracle	
+251	00FB	Kamui Miracle J	
 252	00FC	Shield of Justice	
 253	00FD	Complete Analysis	
 254	00FE	Blank	
 255	00FF	? ? ? ? ?	
-256	0100	100	
-257	0101	101	
-258	0102	102	
+256	0100	0x100	
+257	0101	0x101	
+258	0102	0x102	
 259	0103	Waste Money	
 260	0104	Yosuke Strike	
 261	0105	Galactic Punt	
@@ -278,11 +278,11 @@ id	idh	name	tag
 276	0114	Certain Escape	
 277	0115	Myriad Truths	
 278	0116	Cavalry Attack	
-279	0117	Cavalry Attack	
-280	0118	Cavalry Attack	
-281	0119	Cavalry Attack	
-282	011A	Cavalry Attack	
-283	011B	Cavalry Attack	
+279	0117	Cavalry Attack B	
+280	0118	Cavalry Attack C	
+281	0119	Cavalry Attack D	
+282	011A	Cavalry Attack E	
+283	011B	Cavalry Attack F	
 284	011C	All-Out Boost	
 285	011D	Rise's Revival	
 286	011E	Stamina Song	
@@ -301,53 +301,53 @@ id	idh	name	tag
 299	012B	Snuff Soul	
 300	012C	Chewing Soul	
 301	012D	Precious Egg	
-302	012E	12E	
-303	012F	12F	
-304	0130	130	
-305	0131	131	
-306	0132	132	
-307	0133	133	
-308	0134	134	
-309	0135	135	
-310	0136	136	
-311	0137	137	
-312	0138	138	
-313	0139	139	
-314	013A	13A	
-315	013B	13B	
-316	013C	13C	
-317	013D	13D	
-318	013E	13E	
-319	013F	13F	
-320	0140	140	
-321	0141	141	
-322	0142	142	
-323	0143	143	
-324	0144	144	
-325	0145	145	
-326	0146	146	
-327	0147	147	
-328	0148	148	
-329	0149	149	
-330	014A	14A	
-331	014B	14B	
-332	014C	14C	
-333	014D	14D	
-334	014E	14E	
-335	014F	14F	
-336	0150	150	
-337	0151	151	
-338	0152	152	
-339	0153	153	
-340	0154	154	
-341	0155	155	
-342	0156	156	
-343	0157	157	
-344	0158	158	
-345	0159	159	
-346	015A	15A	
-347	015B	15B	
-348	015C	15C	
+302	012E	0x12E	
+303	012F	0x12F	
+304	0130	0x130	
+305	0131	0x131	
+306	0132	0x132	
+307	0133	0x133	
+308	0134	0x134	
+309	0135	0x135	
+310	0136	0x136	
+311	0137	0x137	
+312	0138	0x138	
+313	0139	0x139	
+314	013A	0x13A	
+315	013B	0x13B	
+316	013C	0x13C	
+317	013D	0x13D	
+318	013E	0x13E	
+319	013F	0x13F	
+320	0140	0x140	
+321	0141	0x141	
+322	0142	0x142	
+323	0143	0x143	
+324	0144	0x144	
+325	0145	0x145	
+326	0146	0x146	
+327	0147	0x147	
+328	0148	0x148	
+329	0149	0x149	
+330	014A	0x14A	
+331	014B	0x14B	
+332	014C	0x14C	
+333	014D	0x14D	
+334	014E	0x14E	
+335	014F	0x14F	
+336	0150	0x150	
+337	0151	0x151	
+338	0152	0x152	
+339	0153	0x153	
+340	0154	0x154	
+341	0155	0x155	
+342	0156	0x156	
+343	0157	0x157	
+344	0158	0x158	
+345	0159	0x159	
+346	015A	0x15A	
+347	015B	0x15B	
+348	015C	0x15C	
 349	015D	Junes Bomber	
 350	015E	Twin Dragons	
 351	015F	Beauty & The Beast	
@@ -355,8 +355,8 @@ id	idh	name	tag
 353	0161	Bottomless Envy	
 354	0162	Burn to Ashes	
 355	0163	Shivering Rondo	
-356	0164	Summon	
-357	0165	Summon	
+356	0164	Summon B	
+357	0165	Summon C	
 358	0166	Forbidden Murmur	
 359	0167	Roar of Wrath	
 360	0168	Fanatical Spark	
@@ -370,11 +370,11 @@ id	idh	name	tag
 368	0170	Prayer	
 369	0171	Character Setup	
 370	0172	Command	
-371	0173	Command	
-372	0174	Command	
-373	0175	Command	
-374	0176	Command	
-375	0177	Command	
+371	0173	Command B	
+372	0174	Command C	
+373	0175	Command D	
+374	0176	Command E	
+375	0177	Command F	
 376	0178	Element Zero	
 377	0179	Mute Ray	
 378	017A	Quad Converge	
@@ -383,62 +383,62 @@ id	idh	name	tag
 381	017D	Nebula Oculus	
 382	017E	Quake	
 383	017F	Bewildering Fog	
-384	0180	Bewildering Fog	
+384	0180	Bewildering Fog B	
 385	0181	Thousand Curses	
 386	0182	World's End	
 387	0183	Terror Voice	
-388	0184	Control	
+388	0184	Control B	
 389	0185	Fury of Yasogami	
-390	0186	Bewildering Fog	
+390	0186	Bewildering Fog C	
 391	0187	Summons to Yomi	
 392	0188	Kuro Ikazuchi	
 393	0189	Oho Ikazuchi	
-394	018A	Megidolaon	
-395	018B	Thousand Curses	
-396	018C	18C	
-397	018D	18D	
-398	018E	18E	
-399	018F	18F	
-400	0190	190	
-401	0191	191	
-402	0192	192	
-403	0193	193	
-404	0194	194	
-405	0195	195	
-406	0196	196	
-407	0197	197	
-408	0198	198	
-409	0199	199	
-410	019A	19A	
-411	019B	19B	
-412	019C	19C	
-413	019D	19D	
-414	019E	19E	
-415	019F	19F	
-416	01A0	1A0	
-417	01A1	1A1	
-418	01A2	1A2	
-419	01A3	1A3	
-420	01A4	1A4	
-421	01A5	1A5	
-422	01A6	1A6	
-423	01A7	1A7	
-424	01A8	1A8	
-425	01A9	1A9	
-426	01AA	1AA	
-427	01AB	1AB	
-428	01AC	1AC	
-429	01AD	1AD	
-430	01AE	1AE	
-431	01AF	1AF	
-432	01B0	1B0	
-433	01B1	1B1	
-434	01B2	1B2	
-435	01B3	1B3	
-436	01B4	1B4	
-437	01B5	1B5	
-438	01B6	1B6	
-439	01B7	1B7	
+394	018A	Megidolaon B	
+395	018B	Thousand Curses B	
+396	018C	0x18C	
+397	018D	0x18D	
+398	018E	0x18E	
+399	018F	0x18F	
+400	0190	0x190	
+401	0191	0x191	
+402	0192	0x192	
+403	0193	0x193	
+404	0194	0x194	
+405	0195	0x195	
+406	0196	0x196	
+407	0197	0x197	
+408	0198	0x198	
+409	0199	0x199	
+410	019A	0x19A	
+411	019B	0x19B	
+412	019C	0x19C	
+413	019D	0x19D	
+414	019E	0x19E	
+415	019F	0x19F	
+416	01A0	0x1A0	
+417	01A1	0x1A1	
+418	01A2	0x1A2	
+419	01A3	0x1A3	
+420	01A4	0x1A4	
+421	01A5	0x1A5	
+422	01A6	0x1A6	
+423	01A7	0x1A7	
+424	01A8	0x1A8	
+425	01A9	0x1A9	
+426	01AA	0x1AA	
+427	01AB	0x1AB	
+428	01AC	0x1AC	
+429	01AD	0x1AD	
+430	01AE	0x1AE	
+431	01AF	0x1AF	
+432	01B0	0x1B0	
+433	01B1	0x1B1	
+434	01B2	0x1B2	
+435	01B3	0x1B3	
+436	01B4	0x1B4	
+437	01B5	0x1B5	
+438	01B6	0x1B6	
+439	01B7	0x1B7	
 440	01B8	Snow Flower Honey	
 441	01B9	Revival Rope	
 442	01BA	Sentou Seed	
@@ -452,25 +452,25 @@ id	idh	name	tag
 450	01C2	Frigid Dotaku	
 451	01C3	Gale Dotaku	
 452	01C4	Bolt Dotaku	
-453	01C5	1C5	
-454	01C6	1C6	
-455	01C7	1C7	
-456	01C8	1C8	
-457	01C9	1C9	
-458	01CA	1CA	
-459	01CB	1CB	
-460	01CC	1CC	
-461	01CD	1CD	
-462	01CE	1CE	
-463	01CF	1CF	
-464	01D0	1D0	
-465	01D1	1D1	
-466	01D2	1D2	
-467	01D3	1D3	
-468	01D4	1D4	
-469	01D5	1D5	
-470	01D6	1D6	
-471	01D7	1D7	
+453	01C5	0x1C5	
+454	01C6	0x1C6	
+455	01C7	0x1C7	
+456	01C8	0x1C8	
+457	01C9	0x1C9	
+458	01CA	0x1CA	
+459	01CB	0x1CB	
+460	01CC	0x1CC	
+461	01CD	0x1CD	
+462	01CE	0x1CE	
+463	01CF	0x1CF	
+464	01D0	0x1D0	
+465	01D1	0x1D1	
+466	01D2	0x1D2	
+467	01D3	0x1D3	
+468	01D4	0x1D4	
+469	01D5	0x1D5	
+470	01D6	0x1D6	
+471	01D7	0x1D7	
 472	01D8	Resist Physical	
 473	01D9	Null Physical	
 474	01DA	Repel Physical	
@@ -497,7 +497,7 @@ id	idh	name	tag
 495	01EF	Resist Dark	
 496	01F0	Null Dark	
 497	01F1	Repel Dark	
-498	01F2	Null Panic	
+498	01F2	Null Confuse	
 499	01F3	Null Exhaust	
 500	01F4	Null Mute	
 501	01F5	Null Fear	
@@ -526,7 +526,7 @@ id	idh	name	tag
 524	020C	Elec Amp	
 525	020D	Wind Boost	
 526	020E	Wind Amp	
-527	020F	Certain Escape	
+527	020F	Certain Escape B	
 528	0210	HP Up 1	
 529	0211	HP Up 2	
 530	0212	HP Up 3	
@@ -565,7 +565,7 @@ id	idh	name	tag
 563	0233	Auto-Maraku	
 564	0234	Auto-Mataru	
 565	0235	Auto-Masuku	
-566	0236	Panic Boost	
+566	0236	Confuse Boost	
 567	0237	Poison Boost	
 568	0238	Exhaust Boost	
 569	0239	Silence Boost	
@@ -581,7 +581,7 @@ id	idh	name	tag
 579	0243	Cool Breeze	
 580	0244	Victory Cry	
 581	0245	Resist Poison	
-582	0246	Resist Panic	
+582	0246	Resist Confuse	
 583	0247	Resist Fear	
 584	0248	Resist Exhaust	
 585	0249	Resist Enervate	
@@ -595,25 +595,25 @@ id	idh	name	tag
 593	0251	Infinite Endure	
 594	0252	Izanami Endure	
 595	0253	Alienation Wall	
-596	0254	Blank	
-597	0255	Blank	
-598	0256	Blank	
-599	0257	Blank	
+596	0254	0x254	
+597	0255	0x255	
+598	0256	0x256	
+599	0257	0x257	
 600	0258	Blank	
 601	0259	Blank	
 602	025A	Blank	
 603	025B	Blank	
 604	025C	Blank	
 605	025D	Blank	
-606	025E	Mudo	
+606	025E	Mudo B	
 607	025F	Blank	
 608	0260	Blank	
 609	0261	Blank	
-610	0262	Blank	
-611	0263	Blank	
-612	0264	Blank	
-613	0265	Blank	
-614	0266	Blank	
+610	0262	AoA Level 1	
+611	0263	AoA Level 2	
+612	0264	AoA Level 3	
+613	0265	AoA Level 4	
+614	0266	AoA Level 5	
 615	0267	Blank	
 616	0268	Blank	
 617	0269	Blank	

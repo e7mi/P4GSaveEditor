@@ -1,2561 +1,2561 @@
 id	idh	name	tag
-0	0000	Blank	BLN
-1	0001	Golf Club	Weapon
-2	0002	Titanium Club	Weapon
-3	0003	5-Iron	Weapon
-4	0004	Imitation Katana	Weapon
-5	0005	Musashi Shinai	Weapon
-6	0006	Long Sword	Weapon
-7	0007	Zweihander	Weapon
-8	0008	Iai Katana	Weapon
-9	0009	Bastard Sword	Weapon
-10	000A	Gothic Sword	Weapon
-11	000B	Type-98 Gunto	Weapon
-12	000C	Downpour Sword	Weapon|Bugged
-13	000D	Edge	Weapon
-14	000E	Kage-Dachi	Weapon
-15	000F	Great Sword	Weapon
-16	0010	Midare Hamon	Weapon
-17	0011	Anglaise	Weapon
-18	0012	Kakitsubata	Weapon
-19	0013	Gardenia Sword	Weapon
-20	0014	Kenka	Weapon
-21	0015	Krieg	Weapon
-22	0016	Kijintou	Weapon
-23	0017	Number One	Weapon
-24	0018	Gaia Sword	Weapon
-25	0019	Tsubaki-Otoshi	Weapon
-26	001A	Myth-like Sword	Weapon
-27	001B	Shichisei-Ken	Weapon
-28	001C	El Caliente	Weapon
-29	001D	Yahiro Sword	Weapon
-30	001E	Triumph	Weapon
-31	001F	Tajikarao Sword	Weapon
-32	0020	Futsuno Mitama	Weapon
-33	0021	Soul Crusher	Weapon
-34	0022	Wooden Bat	Weapon
-35	0023	Metal Bat	Weapon
-36	0024	Blade of Totsuka	Weapon
-37	0025	0x025	FLR
-38	0026	0x026	FLR
-39	0027	Monkey Wrench	Weapon
-40	0028	Titanium Wrench	Weapon
-41	0029	Skill Spanner	Weapon
-42	002A	Hunting Nata	Weapon
-43	002B	Kunai	Weapon
-44	002C	Poison Kunai	Weapon
-45	002D	Reign Skinner	Weapon
-46	002E	Santou	Weapon
-47	002F	Kozuka	Weapon
-48	0030	Throwing Kunai	Weapon
-49	0031	Kris Naga	Weapon
-50	0032	Kaiken	Weapon
-51	0033	Bashin	Weapon
-52	0034	Yashioori Dagger	Weapon
-53	0035	Yashima	Weapon
-54	0036	En-Giri	Weapon
-55	0037	Bloody Kunai	Weapon
-56	0038	Fearful Kunai	Weapon
-57	0039	Castilla Knife	Weapon
-58	003A	Ohorinomikoto	Weapon
-59	003B	Flying Kato	Weapon
-60	003C	Basho	Weapon
-61	003D	Thief Dagger	Weapon
-62	003E	Fuuma Kotaro	Weapon
-63	003F	Militia Dagger	Weapon
-64	0040	Blitz Knife	Weapon
-65	0041	Hattori	Weapon
-66	0042	Ogre Tooth	Weapon
-67	0043	Rappa	Weapon
-68	0044	Kashin Koji	Weapon
-69	0045	Kitchen Knife	Weapon
-70	0046	Malakh	Weapon
-71	0047	0x047	FLR
-72	0048	0x048	FLR
-73	0049	0x049	FLR
-74	004A	0x04A	FLR
-75	004B	0x04B	FLR
-76	004C	0x04C	FLR
-77	004D	Kyo Sensu	Weapon
-78	004E	Silk Fan	Weapon
-79	004F	Suzaku Feather	Weapon
-80	0050	Arazuyu Fan	Weapon
-81	0051	Tesseb	Weapon
-82	0052	Masquerade	Weapon
-83	0053	Akisame Fan	Weapon
-84	0054	Hanachirusato	Weapon
-85	0055	Madam's Charm	Weapon
-86	0056	Inversion Fan	Weapon
-87	0057	Amagyou Fan	Weapon
-88	0058	Mogari-Bue	Weapon
-89	0059	Fickle Madam	Weapon
-90	005A	Ganar	Weapon
-91	005B	Harlot's Mercy	Weapon
-92	005C	Courtesia	Weapon
-93	005D	Uhi Fan	Weapon
-94	005E	Adoracion	Weapon
-95	005F	Suzumushi	Weapon
-96	0060	Duchess	Weapon
-97	0061	Noblesse Oblige	Weapon
-98	0062	Hototogisu	Weapon
-99	0063	Secret Fan	Weapon
-100	0064	Kacho Fugetsu	Weapon
-101	0065	Pieta	Weapon
-102	0066	Yume no Ukihashi	Weapon
-103	0067	Noh Fan	Weapon
-104	0068	Boundless Sea	Weapon
-105	0069	0x069	FLR
-106	006A	0x06A	FLR
-107	006B	0x06B	FLR
-108	006C	0x06C	FLR
-109	006D	0x06D	FLR
-110	006E	0x06E	FLR
-111	006F	0x06F	FLR
-112	0070	Leather Shoes	Weapon
-113	0071	Red-Leaf Gusoku	Weapon
-114	0072	Shield Boots	Weapon
-115	0073	Nanman Gusoku	Weapon
-116	0074	Punk Shoes	Weapon
-117	0075	Hard Boots	Weapon
-118	0076	Skill Greaves	Weapon
-119	0077	Adios Shoes	Weapon
-120	0078	Nice Shoes	Weapon
-121	0079	Cowboy Boots	Weapon
-122	007A	Heavy Heels	Weapon
-123	007B	Bishamonten	Weapon
-124	007C	Amami Legs	Weapon
-125	007D	Furinkazan	Weapon
-126	007E	Bucking Broncos	Weapon
-127	007F	Sleipnir	Weapon
-128	0080	Four Beasts	Weapon
-129	0081	Vampire Shoes	Weapon
-130	0082	Mjolnir Boots	Weapon
-131	0083	Vidar's Boots	Weapon
-132	0084	Kintabi Gusoku	Weapon
-133	0085	Stella Greaves	Weapon
-134	0086	Hero Legs	Weapon
-135	0087	Demon Boots	Weapon
-136	0088	Kehaya	Weapon
-137	0089	Gigant Fall	Weapon
-138	008A	Peerless Heels	Weapon
-139	008B	Judgment Boots	Weapon
-140	008C	Steel Slippers	Weapon
-141	008D	Platform Sneaks	Weapon
-142	008E	Moses Sandals	Weapon
-143	008F	0x08F	FLR
-144	0090	0x090	FLR
-145	0091	0x091	FLR
-146	0092	0x092	FLR
-147	0093	0x093	FLR
-148	0094	0x094	FLR
-149	0095	0x095	FLR
-150	0096	Folding Chair	Weapon
-151	0097	Steel Plate	Weapon
-152	0098	Hard Board	Weapon
-153	0099	Photon Plate	Weapon
-154	009A	Power Plate	Weapon
-155	009B	Alloyed Plate	Weapon
-156	009C	Thunder Plate	Weapon
-157	009D	Gorgon Plate	Weapon
-158	009E	Scutum	Weapon
-159	009F	Barbarian Shield	Weapon
-160	00A0	Golden Plate	Weapon
-161	00A1	Demon Shield	Weapon
-162	00A2	Mega Buckler	Weapon
-163	00A3	Oni-Gawara	Weapon
-164	00A4	Bath Lid	Weapon
-165	00A5	Death Scudetto	Weapon
-166	00A6	Phalanx	Weapon
-167	00A7	Sol Breaker	Weapon
-168	00A8	Asturias	Weapon
-169	00A9	Black Targe	Weapon
-170	00AA	Aegis Shield	Weapon
-171	00AB	Dullahan	Weapon
-172	00AC	Christ Mirror	Weapon
-173	00AD	Yasogami Desk	Weapon
-174	00AE	Iron Plate	Weapon
-175	00AF	Perun Plate	Weapon
-176	00B0	0x0B0	FLR
-177	00B1	0x0B1	FLR
-178	00B2	0x0B2	FLR
-179	00B3	0x0B3	FLR
-180	00B4	0x0B4	FLR
-181	00B5	0x0B5	FLR
-182	00B6	0x0B6	FLR
-183	00B7	Nambu 2	Weapon
-184	00B8	Peacemaker	Weapon
-185	00B9	Raging Bull	Weapon
-186	00BA	Crimson Dirge	Weapon
-187	00BB	.44 Anaconda	Weapon
-188	00BC	Magatsu Kiba	Weapon
-189	00BD	Chrome Heart	Weapon
-190	00BE	Jovian Thunder	Weapon
-191	00BF	Unlimited	Weapon
-192	00C0	Camel Red	Weapon
-193	00C1	Algernon	Weapon
-194	00C2	From Zero	Weapon
-195	00C3	Judge of Hell	Weapon
-196	00C4	Athena Kiss R	Weapon
-197	00C5	Black Hole	Weapon
-198	00C6	0x0C6	FLR
-199	00C7	0x0C7	FLR
-200	00C8	0x0C8	FLR
-201	00C9	0x0C9	FLR
-202	00CA	0x0CA	FLR
-203	00CB	0x0CB	FLR
-204	00CC	0x0CC	FLR
-205	00CD	0x0CD	FLR
-206	00CE	0x0CE	FLR
-207	00CF	0x0CF	FLR
-208	00D0	0x0D0	FLR
-209	00D1	0x0D1	FLR
-210	00D2	0x0D2	FLR
-211	00D3	0x0D3	FLR
-212	00D4	0x0D4	FLR
-213	00D5	0x0D5	FLR
-214	00D6	0x0D6	FLR
-215	00D7	0x0D7	FLR
-216	00D8	0x0D8	FLR
-217	00D9	Spikey Punch	Weapon
-218	00DA	Mewling Claw	Weapon
-219	00DB	Bear Claw	Weapon
-220	00DC	Drunken Fist	Weapon
-221	00DD	Typhoon Claw	Weapon
-222	00DE	Mail Duster	Weapon
-223	00DF	Air Break	Weapon
-224	00E0	Poison Claw	Weapon
-225	00E1	Assault Spike	Weapon
-226	00E2	Gehenna Claw	Weapon
-227	00E3	Cute Assassin	Weapon
-228	00E4	Chain Glove	Weapon
-229	00E5	Fuuma Bundou	Weapon
-230	00E6	Strega Claw	Weapon
-231	00E7	Pure Assassin	Weapon
-232	00E8	Needle Spike	Weapon
-233	00E9	Seiryu Claw	Weapon
-234	00EA	Jakotsu Claw	Weapon
-235	00EB	Shitisei Jakotsu	Weapon
-236	00EC	Platinum Claw	Weapon
-237	00ED	The Ripper	Weapon
-238	00EE	Seireiga	Weapon
-239	00EF	0x0EF	FLR
-240	00F0	0x0F0	FLR
-241	00F1	0x0F1	FLR
-242	00F2	0x0F2	FLR
-243	00F3	0x0F3	FLR
-244	00F4	0x0F4	FLR
-245	00F5	0x0F5	FLR
-246	00F6	0x0F6	FLR
-247	00F7	0x0F7	FLR
-248	00F8	0x0F8	FLR
-249	00F9	0x0F9	FLR
-250	00FA	0x0FA	FLR
-251	00FB	0x0FB	FLR
-252	00FC	0x0FC	FLR
-253	00FD	0x0FD	FLR
-254	00FE	Bare Hands	Weapon
-255	00FF	0x0FF	FLR
-256	0100	Blank	BLN
-257	0101	T-Shirt	Armor
-258	0102	Long T-Shirt	Armor
-259	0103	Tank Top	Armor|Bugged
-260	0104	Lace Blouse	Armor
-261	0105	Gothic Shirt	Armor
-262	0106	Skull T-Shirt	Armor
-263	0107	Pretty Suit	Armor
-264	0108	Lace Camisole	Armor
-265	0109	0x109	FLR
-266	010A	Chain Mail	Armor
-267	010B	Kevlar Vest	Armor
-268	010C	Survival Guard	Armor
-269	010D	Metal Jacket	Armor
-270	010E	Lion Happi	Armor
-271	010F	Charm Robe	Armor
-272	0110	0x110	FLR
-273	0111	0x111	FLR
-274	0112	0x112	FLR
-275	0113	0x113	FLR
-276	0114	0x114	FLR
-277	0115	0x115	FLR
-278	0116	0x116	FLR
-279	0117	0x117	FLR
-280	0118	0x118	FLR
-281	0119	0x119	FLR
-282	011A	0x11A	FLR
-283	011B	0x11B	FLR
-284	011C	0x11C	FLR
-285	011D	0x11D	FLR
-286	011E	0x11E	FLR
-287	011F	Knifeproof Coat	Armor
-288	0120	Battle Camisole	Armor
-289	0121	Doumaru	Armor
-290	0122	Miori Shirt	Armor
-291	0123	0x123	FLR
-292	0124	0x124	FLR
-293	0125	Desperate Plate	Armor
-294	0126	Combat Dress	Armor
-295	0127	Gentleman's Tux	Armor
-296	0128	Hard Bolero	Armor
-297	0129	0x129	FLR
-298	012A	0x12A	FLR
-299	012B	0x12B	FLR
-300	012C	0x12C	FLR
-301	012D	0x12D	FLR
-302	012E	0x12E	FLR
-303	012F	0x12F	FLR
-304	0130	0x130	FLR
-305	0131	0x131	FLR
-306	0132	0x132	FLR
-307	0133	Black Stone Mail	Armor
-308	0134	Wolf Tunic	Armor
-309	0135	Knight Scale	Armor
-310	0136	Action Vest	Armor
-311	0137	0x137	FLR
-312	0138	0x138	FLR
-313	0139	0x139	FLR
-314	013A	0x13A	FLR
-315	013B	Hard Armor	Armor
-316	013C	Ame-Otoko	Armor
-317	013D	Zero Kosode	Armor
-318	013E	0x13E	FLR
-319	013F	0x13F	FLR
-320	0140	0x140	FLR
-321	0141	0x141	FLR
-322	0142	0x142	FLR
-323	0143	0x143	FLR
-324	0144	0x144	FLR
-325	0145	0x145	FLR
-326	0146	0x146	FLR
-327	0147	0x147	FLR
-328	0148	Plate Mail	Armor
-329	0149	Capital Robe	Armor
-330	014A	Ama-Gakure	Armor
-331	014B	Amakaze Happi	Armor
-332	014C	0x14C	FLR
-333	014D	0x14D	FLR
-334	014E	Passion Sweats	Armor
-335	014F	Steel Panier	Armor
-336	0150	Jingi Fundoshi	Armor
-337	0151	Breeze Tutu	Armor
-338	0152	Haikara Shirt	Armor
-339	0153	0x153	FLR
-340	0154	0x154	FLR
-341	0155	0x155	FLR
-342	0156	0x156	FLR
-343	0157	0x157	FLR
-344	0158	0x158	FLR
-345	0159	0x159	FLR
-346	015A	0x15A	FLR
-347	015B	Kuroito-odoshi	Armor
-348	015C	Divine Blouse	Armor
-349	015D	0x15D	FLR
-350	015E	Purple Suit	Armor
-351	015F	Talisman Cape	Armor
-352	0160	Amamusha Armor	Armor
-353	0161	Invincible Mini	Armor
-354	0162	Niagra Climber	Armor
-355	0163	Armada Bustier	Armor
-356	0164	Hurricane Coat	Armor
-357	0165	Uin Haori	Armor
-358	0166	Paladin Armor	Armor
-359	0167	0x167	FLR
-360	0168	0x168	FLR
-361	0169	0x169	FLR
-362	016A	0x16A	FLR
-363	016B	0x16B	FLR
-364	016C	0x16C	FLR
-365	016D	0x16D	FLR
-366	016E	0x16E	FLR
-367	016F	Dragon Scale	Armor
-368	0170	Mythos Robe	Armor
-369	0171	Stylish Kimono	Armor
-370	0172	Lan Ling Wang	Armor
-371	0173	0x173	FLR
-372	0174	Ame-agari Kesshi	Armor
-373	0175	Elint Duffle	Armor
-374	0176	Oracle Gown	Armor
-375	0177	Rune Dress	Armor
-376	0178	Charm Drape	Armor
-377	0179	Peach Battlesuit	Armor
-378	017A	Red Battlesuit	Armor
-379	017B	0x17B	FLR
-380	017C	0x17C	FLR
-381	017D	0x17D	FLR
-382	017E	0x17E	FLR
-383	017F	0x17F	FLR
-384	0180	0x180	FLR
-385	0181	0x181	FLR
-386	0182	0x182	FLR
-387	0183	1000-Stud Coat	Armor
-388	0184	Kikusui Awase	Armor
-389	0185	Mikagura Vest	Armor
-390	0186	Kotodama Cape	Armor
-391	0187	Komaryo Uchinugi	Armor
-392	0188	Shinra Robe	Armor
-393	0189	0x189	FLR
-394	018A	Surcoat	Armor
-395	018B	Mizuha Armor	Armor
-396	018C	Tsukuyomi Noshi	Armor
-397	018D	Amaterasu Hitoe	Armor
-398	018E	Angel Skirt	Armor
-399	018F	0x18F	FLR
-400	0190	0x190	FLR
-401	0191	0x191	FLR
-402	0192	0x192	FLR
-403	0193	0x193	FLR
-404	0194	0x194	FLR
-405	0195	0x195	FLR
-406	0196	0x196	FLR
-407	0197	Opera Coat	Armor
-408	0198	Yomi Sleeves	Armor
-409	0199	Lorica Hamata	Armor
-410	019A	Emery Meisen	Armor
-411	019B	Full Jin-Baori	Armor
-412	019C	Haten Robe	Armor
-413	019D	0x19D	FLR
-414	019E	Nubatama Suit	Armor
-415	019F	Uzume Robe	Armor
-416	01A0	Sonidori Wear	Armor
-417	01A1	Mandala Robe	Armor
-418	01A2	Godly Robe	Armor
-419	01A3	0x1A3	FLR
-420	01A4	White Joue	Armor|HF
-421	01A5	Fire Joue	Armor|HF
-422	01A6	Ice Joue	Armor|HF
-423	01A7	Wind Joue	Armor|HF
-424	01A8	Lightning Joue	Armor|HF
-425	01A9	Fire Repel Joue	Armor|HF
-426	01AA	Ice Repel Joue	Armor|HF
-427	01AB	Wind Repel Joue	Armor|HF
-428	01AC	Elec Repel Joue	Armor|HF
-429	01AD	Fire Drain Joue	Armor|HF
-430	01AE	Ice Drain Joue	Armor|HF
-431	01AF	Wind Drain Joue	Armor|HF
-432	01B0	Elec Drain Joue	Armor|HF
-433	01B1	0x1B1	FLR
-434	01B2	0x1B2	FLR
-435	01B3	0x1B3	FLR
-436	01B4	0x1B4	FLR
-437	01B5	0x1B5	FLR
-438	01B6	0x1B6	FLR
-439	01B7	0x1B7	FLR
-440	01B8	0x1B8	FLR
-441	01B9	0x1B9	FLR
-442	01BA	0x1BA	FLR
-443	01BB	0x1BB	FLR
-444	01BC	0x1BC	FLR
-445	01BD	0x1BD	FLR
-446	01BE	0x1BE	FLR
-447	01BF	0x1BF	FLR
-448	01C0	0x1C0	FLR
-449	01C1	0x1C1	FLR
-450	01C2	0x1C2	FLR
-451	01C3	0x1C3	FLR
-452	01C4	0x1C4	FLR
-453	01C5	0x1C5	FLR
-454	01C6	0x1C6	FLR
-455	01C7	0x1C7	FLR
-456	01C8	0x1C8	FLR
-457	01C9	0x1C9	FLR
-458	01CA	0x1CA	FLR
-459	01CB	0x1CB	FLR
-460	01CC	0x1CC	FLR
-461	01CD	0x1CD	FLR
-462	01CE	0x1CE	FLR
-463	01CF	0x1CF	FLR
-464	01D0	0x1D0	FLR
-465	01D1	0x1D1	FLR
-466	01D2	0x1D2	FLR
-467	01D3	0x1D3	FLR
-468	01D4	0x1D4	FLR
-469	01D5	0x1D5	FLR
-470	01D6	0x1D6	FLR
-471	01D7	0x1D7	FLR
-472	01D8	0x1D8	FLR
-473	01D9	0x1D9	FLR
-474	01DA	0x1DA	FLR
-475	01DB	0x1DB	FLR
-476	01DC	0x1DC	FLR
-477	01DD	0x1DD	FLR
-478	01DE	0x1DE	FLR
-479	01DF	0x1DF	FLR
-480	01E0	0x1E0	FLR
-481	01E1	0x1E1	FLR
-482	01E2	0x1E2	FLR
-483	01E3	0x1E3	FLR
-484	01E4	0x1E4	FLR
-485	01E5	0x1E5	FLR
-486	01E6	0x1E6	FLR
-487	01E7	0x1E7	FLR
-488	01E8	0x1E8	FLR
-489	01E9	0x1E9	FLR
-490	01EA	0x1EA	FLR
-491	01EB	0x1EB	FLR
-492	01EC	0x1EC	FLR
-493	01ED	0x1ED	FLR
-494	01EE	0x1EE	FLR
-495	01EF	0x1EF	FLR
-496	01F0	0x1F0	FLR
-497	01F1	0x1F1	FLR
-498	01F2	0x1F2	FLR
-499	01F3	0x1F3	FLR
-500	01F4	0x1F4	FLR
-501	01F5	0x1F5	FLR
-502	01F6	0x1F6	FLR
-503	01F7	0x1F7	FLR
-504	01F8	0x1F8	FLR
-505	01F9	0x1F9	FLR
-506	01FA	0x1FA	FLR
-507	01FB	0x1FB	FLR
-508	01FC	0x1FC	FLR
-509	01FD	0x1FD	FLR
-510	01FE	0x1FE	FLR
-511	01FF	0x1FF	FLR
-512	0200	Blank	BLN
-513	0201	Wristwatch	Acc
-514	0202	Plain Ring	Acc
-515	0203	Aluminum Badge	Acc
-516	0204	Hair Band	Acc
-517	0205	Spiral Earrings	Acc
-518	0206	Silver Locket	Acc
-519	0207	Bear Ears	Acc
-520	0208	Ribbon	Acc
-521	0209	0x209	FLR
-522	020A	Worn Rosary	Acc
-523	020B	Fire Vow	Acc
-524	020C	Flame Vow	Acc
-525	020D	Blaze Vow	Acc
-526	020E	Oven Vow	Acc
-527	020F	Kagutsuchi Vow	Acc
-528	0210	Ice Vow	Acc
-529	0211	Snow Vow	Acc
-530	0212	Blizzard Vow	Acc
-531	0213	Icicle Vow	Acc
-532	0214	Kuraokami Vow	Acc
-533	0215	Wind Vow	Acc
-534	0216	Gust Vow	Acc
-535	0217	Storm Vow	Acc
-536	0218	Gale Vow	Acc
-537	0219	Shinatobe Vow	Acc
-538	021A	Thunder Vow	Acc
-539	021B	Spark Vow	Acc
-540	021C	Volt Vow	Acc
-541	021D	Lightning Vow	Acc
-542	021E	Takefutsu Vow	Acc
-543	021F	Worn Talisman	Acc
-544	0220	Fire Pin	Acc
-545	0221	Flame Pin	Acc
-546	0222	Blaze Pin	Acc
-547	0223	Oven Pin	Acc
-548	0224	Kagutsuchi Pin	Acc
-549	0225	Ice Pin	Acc
-550	0226	Snow Pin	Acc
-551	0227	Blizzard Pin	Acc
-552	0228	Icicle Pin	Acc
-553	0229	Kuraokami Pin	Acc
-554	022A	Wind Pin	Acc
-555	022B	Gust Pin	Acc
-556	022C	Storm Pin	Acc
-557	022D	Gale Pin	Acc
-558	022E	Shinatobe Pin	Acc
-559	022F	Thunder Pin	Acc
-560	0230	Spark Pin	Acc
-561	0231	Volt Pin	Acc
-562	0232	Lightning Pin	Acc
-563	0233	Takefutsu Pin	Acc
-564	0234	Worn Evil Eye	Acc
-565	0235	Marksman Eye 1	Acc
-566	0236	Marksman Eye 2	Acc
-567	0237	Marksman Eye 3	Acc
-568	0238	Marksman Eye 4	Acc
-569	0239	Marksman Eye 5	Acc
-570	023A	Old Prayer Beads	Acc
-571	023B	Sight Beads 1	Acc
-572	023C	Sight Beads 2	Acc
-573	023D	Sight Beads 3	Acc
-574	023E	Sight Beads 4	Acc
-575	023F	Sight Beads 5	Acc
-576	0240	Disinfectant	Acc
-577	0241	Tranquil Buddha	Acc
-578	0242	Bravery Vessel	Acc
-579	0243	Healthy Recipe	Acc
-580	0244	Kid's Hachimaki	Acc
-581	0245	Cool Beads	Acc
-582	0246	Safety Belt	Acc
-583	0247	Disguise Mask	Acc
-584	0248	Gas Mask	Acc
-585	0249	Confusion Hat	Acc
-586	024A	Bold Ball	Acc
-587	024B	Healthy Homa	Acc
-588	024C	Pitch Pipes	Acc
-589	024D	Frozen Rose	Acc
-590	024E	Alarm Clock	Acc
-591	024F	Mask of Truth	Acc
-592	0250	Book of Ruin	Acc
-593	0251	Book of Serenity	Acc
-594	0252	Book of the Void	Acc
-595	0253	White Feather	Acc
-596	0254	Black Feather	Acc
-597	0255	Falcon Eye	Acc
-598	0256	Eagle Eye	Acc
-599	0257	Fire Suppressor	Acc
-600	0258	Eye of Flame	Acc
-601	0259	Ice Suppressor	Acc
-602	025A	Eye of Ice	Acc
-603	025B	Wind Suppressor	Acc
-604	025C	Eye of Wind	Acc
-605	025D	Volt Suppressor	Acc
-606	025E	Eye of Thunder	Acc
-607	025F	Omnipotent Orb	Acc
-608	0260	Cat Whisker	Acc
-609	0261	0x261	FLR
-610	0262	0x262	FLR
-611	0263	0x263	FLR
-612	0264	0x264	FLR
-613	0265	0x265	FLR
-614	0266	0x266	FLR
-615	0267	Revenge Ring	Acc
-616	0268	Reprisal Chain	Acc
-617	0269	Retribution Mask	Acc
-618	026A	Land Badge	Acc
-619	026B	Earth Badge	Acc
-620	026C	Space Badge	Acc
-621	026D	Mage's Mark	Acc
-622	026E	Sorcerer's Mark	Acc
-623	026F	Wizard's Mark	Acc
-624	0270	Awareness Note	Acc
-625	0271	Sigma Drive	Acc
-626	0272	Omega Drive	Acc
-627	0273	Barbaric Bracers	Acc
-628	0274	Divine Pillar	Acc
-629	0275	Chakra Ring	Acc
-630	0276	Rudra Ring	Acc
-631	0277	Blessed Hands	Acc
-632	0278	Patient Collar	Acc
-633	0279	Rebirth Prophecy	Acc
-634	027A	Headband	Acc
-635	027B	Power Belt	Acc
-636	027C	Power Tasuki	Acc
-637	027D	Spirit Hachimaki	Acc
-638	027E	Festival Drum	Acc
-639	027F	Power Muscle	Acc
-640	0280	Lizard Charm	Acc
-641	0281	Crow Charm	Acc
-642	0282	Bat Charm	Acc
-643	0283	Black Cat Charm	Acc
-644	0284	Witch Charm	Acc
-645	0285	Demon Charm	Acc
-646	0286	Amulet	Acc
-647	0287	Talisman	Acc
-648	0288	Guard Amulet	Acc
-649	0289	Iron Charm	Acc
-650	028A	Guard Rosary	Acc
-651	028B	Defense Essence	Acc
-652	028C	Feather Strap	Acc
-653	028D	Wing Strap	Acc
-654	028E	Flight Strap	Acc
-655	028F	Steed Strap	Acc
-656	0290	Pegasus Strap	Acc
-657	0291	Speed Star	Acc
-658	0292	Lucky Coin	Acc
-659	0293	Rabbit Foot	Acc
-660	0294	Silver Spoon	Acc
-661	0295	Maneki Neko	Acc
-662	0296	Wooden Ebisu	Acc
-663	0297	Lucky Seven	Acc
-664	0298	Feng Shui Brace	Acc
-665	0299	Kimyaku Brace	Acc
-666	029A	Ryumyaku Brace	Acc
-667	029B	Reisen Brace	Acc
-668	029C	Ouryu Brace	Acc
-669	029D	God's Love	Acc
-670	029E	Vigor Fob	Acc
-671	029F	Life Fob	Acc
-672	02A0	Amaterasu Fob	Acc
-673	02A1	Plum Potpourri	Acc
-674	02A2	Soul Potpourri	Acc
-675	02A3	Moon Potpourri	Acc
-676	02A4	Fire Bangle	Acc
-677	02A5	Agni Bangle	Acc
-678	02A6	Ice Bangle	Acc
-679	02A7	Varuna Bangle	Acc
-680	02A8	Thunder Bangle	Acc
-681	02A9	Indra Bangle	Acc
-682	02AA	Wind Bangle	Acc
-683	02AB	Vayu Bangle	Acc
-684	02AC	0x2AC	FLR
-685	02AD	Parting Stone	Acc|HF
-686	02AE	0x2AE	FLR
-687	02AF	Pain Stone	Acc|HF
-688	02B0	Grief Stone	Acc|HF
-689	02B1	Sorrow Stone	Acc|HF
-690	02B2	Love Stone	Acc|HF
-691	02B3	Suffering Stone	Acc|HF
-692	02B4	Anger Stone	Acc|HF
-693	02B5	Loneliness Stone	Acc|HF
-694	02B6	Invitation Stone	Acc|HF
-695	02B7	0x2B7	FLR
-696	02B8	0x2B8	FLR
-697	02B9	0x2B9	FLR
-698	02BA	0x2BA	FLR
-699	02BB	0x2BB	FLR
-700	02BC	0x2BC	FLR
-701	02BD	0x2BD	FLR
-702	02BE	0x2BE	FLR
-703	02BF	0x2BF	FLR
-704	02C0	0x2C0	FLR
-705	02C1	0x2C1	FLR
-706	02C2	0x2C2	FLR
-707	02C3	0x2C3	FLR
-708	02C4	0x2C4	FLR
-709	02C5	0x2C5	FLR
-710	02C6	0x2C6	FLR
-711	02C7	0x2C7	FLR
-712	02C8	0x2C8	FLR
-713	02C9	0x2C9	FLR
-714	02CA	0x2CA	FLR
-715	02CB	0x2CB	FLR
-716	02CC	0x2CC	FLR
-717	02CD	0x2CD	FLR
-718	02CE	0x2CE	FLR
-719	02CF	0x2CF	FLR
-720	02D0	0x2D0	FLR
-721	02D1	0x2D1	FLR
-722	02D2	0x2D2	FLR
-723	02D3	0x2D3	FLR
-724	02D4	0x2D4	FLR
-725	02D5	0x2D5	FLR
-726	02D6	0x2D6	FLR
-727	02D7	0x2D7	FLR
-728	02D8	0x2D8	FLR
-729	02D9	0x2D9	FLR
-730	02DA	0x2DA	FLR
-731	02DB	0x2DB	FLR
-732	02DC	0x2DC	FLR
-733	02DD	0x2DD	FLR
-734	02DE	0x2DE	FLR
-735	02DF	0x2DF	FLR
-736	02E0	0x2E0	FLR
-737	02E1	0x2E1	FLR
-738	02E2	0x2E2	FLR
-739	02E3	0x2E3	FLR
-740	02E4	0x2E4	FLR
-741	02E5	0x2E5	FLR
-742	02E6	0x2E6	FLR
-743	02E7	0x2E7	FLR
-744	02E8	0x2E8	FLR
-745	02E9	0x2E9	FLR
-746	02EA	0x2EA	FLR
-747	02EB	0x2EB	FLR
-748	02EC	0x2EC	FLR
-749	02ED	0x2ED	FLR
-750	02EE	0x2EE	FLR
-751	02EF	0x2EF	FLR
-752	02F0	0x2F0	FLR
-753	02F1	0x2F1	FLR
-754	02F2	Portrait Medal	Acc
-755	02F3	Paper Armband	Acc
-756	02F4	Bead Ring	Acc
-757	02F5	Partial Award	Acc
-758	02F6	Reader King	Acc
-759	02F7	Macho Medal	Acc
-760	02F8	Fluffy Muffler	Acc
-761	02F9	Leather Keychain	Acc
-762	02FA	Silver Bangle	Acc
-763	02FB	Handmade Watch	Acc
-764	02FC	Rugged Ring	Acc
-765	02FD	Fancy Mini-Car	Acc
-766	02FE	Hand-Knit Mitten	Acc
-767	02FF	0x2FF	FLR
-768	0300	Blank	BLN
-769	0301	Peach Seed	Expend
-770	0302	Medicine	Expend
-771	0303	Ointment	Expend
-772	0304	Antibiotic Gel	Expend
-773	0305	Life Stone	Expend
-774	0306	Bead	Expend
-775	0307	Value Medicine	Expend
-776	0308	Medical Kit	Expend
-777	0309	Macca Leaf	Expend
-778	030A	Bead Chain	Expend
-779	030B	Soul Drop	Expend
-780	030C	Snuff Soul	Expend
-781	030D	Chewing Soul	Expend
-782	030E	Soul Food	Expend
-783	030F	Revival Bead	Expend
-784	0310	Balm of Life	Expend
-785	0311	Royal Jelly	Expend
-786	0312	Dokudami Tea	Expend
-787	0313	Mouthwash	Expend
-788	0314	Sedative	Expend
-789	0315	Stimulant	Expend
-790	0316	Goho-M	Expend
-791	0317	Vanish Ball	Expend
-792	0318	Soma	Expend
-793	0319	Amrita Soda	Expend
-794	031A	Hiranya	Expend
-795	031B	Muscle Drink	Expend
-796	031C	Odd Morsel	Expend
-797	031D	Rancid Gravy	Expend
-798	031E	Moon Tsukubame	Expend
-799	031F	Magic Mirror	Expend
-800	0320	Physical Mirror	Expend
-801	0321	Assault Signal	Expend
-802	0322	Super Sonic	Expend
-803	0323	Diamond Shield	Expend
-804	0324	Purifying Water	Expend
-805	0325	Purifying Salt	Expend
-806	0326	Firecracker	Expend
-807	0327	San-zun Tama	Expend
-808	0328	Ice Cube	Expend
-809	0329	Dry Ice	Expend
-810	032A	Pinwheel	Expend
-811	032B	Yashichi	Expend
-812	032C	Ball Lightning	Expend
-813	032D	Tesla Coil	Expend
-814	032E	Smart Bomb	Expend
-815	032F	Segaki Rice	Expend
-816	0330	Curse Paper	Expend
-817	0331	Hell Magatama	Expend
-818	0332	Cyclone Magatama	Expend
-819	0333	Frost Magatama	Expend
-820	0334	Arc Magatama	Expend
-821	0335	Amethyst	Expend
-822	0336	Aquamarine	Expend
-823	0337	Emerald	Expend
-824	0338	Onyx	Expend
-825	0339	Opal	Expend
-826	033A	Garnet	Expend
-827	033B	Sapphire	Expend
-828	033C	Diamond	Expend
-829	033D	Turquoise	Expend
-830	033E	Topaz	Expend
-831	033F	Pearl	Expend
-832	0340	Homunculus	Expend
-833	0341	Chest Key	Expend|HF
-834	0342	Junes Lunch	Expend
-835	0343	Steak Skewer DX	Expend
-836	0344	Amagi Manju	Expend
-837	0345	Mom's Lunch	Expend
-838	0346	Mini Mechavator	Expend
-839	0347	Sample Food Set	Expend
-840	0348	Cough Drop	Expend
-841	0349	Meat Gum	Expend
-842	034A	Quelorie Magic	Expend
-843	034B	Bone Senbei	Expend
-844	034C	Milk Chocolate	Expend
-845	034D	Yummy Gummy	Expend
-846	034E	Ruby	Expend
-847	034F	Tater Longs	Expend
-848	0350	TaP Soda	Expend
-849	0351	Prize Sticker	Expend
-850	0352	Super Croquette	Expend
-851	0353	Steak Croquette	Expend
-852	0354	Steak Skewer	Expend
-853	0355	Dr. Salt NEO	Expend
-854	0356	Second Maid	Expend
-855	0357	The Natural	Expend
-856	0358	Orange Smash	Expend
-857	0359	Yukiko's Lunch	Expend
-858	035A	Chie's Muffin	Expend
-859	035B	Naoto's Candy	Expend
-860	035C	Pulsating Stone	Expend
-861	035D	Mystical Scarab	Expend
-862	035E	Olympic Tape	Expend
-863	035F	Uplifting Radio	Expend
-864	0360	Spirit Radio	Expend
-865	0361	Diet Food	Expend
-866	0362	Slimming Food	Expend
-867	0363	Heavy Soup	Expend
-868	0364	Giant Candy	Expend
-869	0365	Wasabi Jelly	Expend
-870	0366	Herbal Pill	Expend
-871	0367	Longevity Pill	Expend
-872	0368	0x368	FLR
-873	0369	Bug Bait	Expend
-874	036A	Luxurious Coffee	Expend
-875	036B	Power Mountain Blend	Expend
-876	036C	Magic Mountain Blend	Expend
-877	036D	Tough Mountain Blend	Expend
-878	036E	Speed Mountain Blend	Expend
-879	036F	Lucky Mountain Blend	Expend
-880	0370	0x370	FLR
-881	0371	Fire Breaker	Expend|HF
-882	0372	Ice Breaker	Expend|HF
-883	0373	Wind Breaker	Expend|HF
-884	0374	Lightning Breaker	Expend|HF
-885	0375	Sacred Branch	Expend|HF
-886	0376	0x376	FLR
-887	0377	0x377	FLR
-888	0378	0x378	FLR
-889	0379	0x379	FLR
-890	037A	0x37A	FLR
-891	037B	0x37B	FLR
-892	037C	0x37C	FLR
-893	037D	0x37D	FLR
-894	037E	0x37E	FLR
-895	037F	0x37F	FLR
-896	0380	0x380	FLR
-897	0381	0x381	FLR
-898	0382	0x382	FLR
-899	0383	0x383	FLR
-900	0384	0x384	FLR
-901	0385	0x385	FLR
-902	0386	0x386	FLR
-903	0387	0x387	FLR
-904	0388	0x388	FLR
-905	0389	0x389	FLR
-906	038A	0x38A	FLR
-907	038B	0x38B	FLR
-908	038C	Bread Crumbs	Expend
-909	038D	Tatsuhime Ladybug	Bugs
-910	038E	Yaso Locust	Bugs
-911	038F	Meiou Cricket	Bugs
-912	0390	Inaba Jewel Beetle	Bugs
-913	0391	Daimyo Grasshopper	Bugs
-914	0392	Heike Stag Beetle	Bugs
-915	0393	Genji Beetle	Bugs
-916	0394	0x394	FLR
-917	0395	0x395	FLR
-918	0396	0x396	FLR
-919	0397	0x397	FLR
-920	0398	0x398	FLR
-921	0399	0x399	FLR
-922	039A	0x39A	FLR
-923	039B	Passion Candy	Expend
-924	039C	Sincerity Cookie	Expend
-925	039D	Love Marshmallow	Expend
-926	039E	Rise's Flan	Expend
-927	039F	0x39F	FLR
-928	03A0	Life Stone	Expend|HF
-929	03A1	Revival Bead	Expend|HF
-930	03A2	Sentou Seed	Expend|HF
-931	03A3	Sentou Petal	Expend|HF
-932	03A4	Sentou Fruit	Expend|HF
-933	03A5	Fire Bell	Expend|HF
-934	03A6	Ice Bell	Expend|HF
-935	03A7	Wind Bell	Expend|HF
-936	03A8	Lightning Bell	Expend|HF
-937	03A9	Flame Dotaku	Expend|HF
-938	03AA	Frigid Dotaku	Expend|HF
-939	03AB	Gale Dotaku	Expend|HF
-940	03AC	Bolt Dotaku	Expend|HF
-941	03AD	0x3AD	FLR
-942	03AE	0x3AE	FLR
-943	03AF	Mini Melon Bread	Expend
-944	03B0	Choco Melon Bread	Expend
-945	03B1	Cream Melon Bread	Expend
-946	03B2	Mini Cornet	Expend
-947	03B3	Yakisoba Cornet	Expend
-948	03B4	Red Bean Cornet	Expend
-949	03B5	Mini Anpan	Expend
-950	03B6	Mochi Anpan	Expend
-951	03B7	Cream Anpan	Expend
-952	03B8	White Karinto	Expend
-953	03B9	Rice Chocolate	Expend
-954	03BA	Sour Konbu	Expend
-955	03BB	Plum Candy	Expend
-956	03BC	Rainbow Konpeito	Expend
-957	03BD	Quelorie Mate	Expend
-958	03BE	Corn Potage Cracker	Expend
-959	03BF	Blue Pepper Chips	Expend
-960	03C0	Blue Cheese Chips	Expend
-961	03C1	Seaweed Cracker	Expend
-962	03C2	Kampo Chocolate	Expend
-963	03C3	Checkerboard Cookie	Expend
-964	03C4	Caramel Drop	Expend
-965	03C5	Fruit Candy	Expend
-966	03C6	Rich Milk Candy	Expend
-967	03C7	0x3C7	FLR
-968	03C8	0x3C8	FLR
-969	03C9	0x3C9	FLR
-970	03CA	0x3CA	FLR
-971	03CB	0x3CB	FLR
-972	03CC	0x3CC	FLR
-973	03CD	0x3CD	FLR
-974	03CE	0x3CE	FLR
-975	03CF	0x3CF	FLR
-976	03D0	0x3D0	FLR
-977	03D1	0x3D1	FLR
-978	03D2	Angel Statue	Quest
-979	03D3	Demon Statue	Quest
-980	03D4	Ritz Wire	Quest
-981	03D5	Trio Wig	Quest
-982	03D6	Fitting Board	Quest
-983	03D7	Old Key	Quest
-984	03D8	Suspicious Pole	Quest
-985	03D9	Coal	Quest
-986	03DA	Reflecting Board	Quest
-987	03DB	Crooked Cross	Quest
-988	03DC	Grand Horn	Quest
-989	03DD	Flower Brooch	Quest
-990	03DE	Charmed Veil	Quest
-991	03DF	Eternal Lamp	Quest
-992	03E0	Leaf Pochette	Quest
-993	03E1	Culurium	Quest
-994	03E2	Crystal Ball	Quest
-995	03E3	Fine Coal	Quest
-996	03E4	High-Speed Gear	Quest
-997	03E5	Branch Headband	Quest
-998	03E6	Training Shell	Quest
-999	03E7	Animal Guide	Quest
-1000	03E8	Classy Lumber	Quest
-1001	03E9	Old Ore	Quest
-1002	03EA	Modest Lamp	Quest
-1003	03EB	Mori Ranmaru	Quest
-1004	03EC	Sea Guardian	Fish
-1005	03ED	Meguro Tuna	Fish
-1006	03EE	Drifting Trash	Fish
-1007	03EF	0x3EF	FLR
-1008	03F0	Guardian	Fish
-1009	03F1	Huge Fish	Fish
-1010	03F2	Inaba Trout	Fish
-1011	03F3	Amber Seema	Fish
-1012	03F4	Genji Ayu	Fish
-1013	03F5	Red Goldfish	Fish
-1014	03F6	Hachiro Octopus	Fish
-1015	03F7	0x3F7	FLR
-1016	03F8	Bait	Expend
-1017	03F9	0x3F9	FLR
-1018	03FA	0x3FA	FLR
-1019	03FB	0x3FB	FLR
-1020	03FC	0x3FC	FLR
-1021	03FD	0x3FD	FLR
-1022	03FE	0x3FE	FLR
-1023	03FF	0x3FF	FLR
-1024	0400	Blank	BLN
-1025	0401	Velvet Key	Key
-1026	0402	Mitsuo's Photo	Key
-1027	0403	0x403	FLR
-1028	0404	0x404	FLR
-1029	0405	0x405	FLR
-1030	0406	0x406	FLR
-1031	0407	0x407	FLR
-1032	0408	0x408	FLR
-1033	0409	0x409	FLR
-1034	040A	0x40A	FLR
-1035	040B	0x40B	FLR
-1036	040C	0x40C	FLR
-1037	040D	0x40D	FLR
-1038	040E	0x40E	FLR
-1039	040F	0x40F	FLR
-1040	0410	0x410	FLR
-1041	0411	0x411	FLR
-1042	0412	0x412	FLR
-1043	0413	0x413	FLR
-1044	0414	0x414	FLR
-1045	0415	0x415	FLR
-1046	0416	0x416	FLR
-1047	0417	0x417	FLR
-1048	0418	Spiral Bookmark	Key
-1049	0419	Orb of Sight	Key
-1050	041A	Aqua Invitation	Key
-1051	041B	0x41B	FLR
-1052	041C	0x41C	FLR
-1053	041D	Fishhook	Key
-1054	041E	Deep-Sea Rod	Key
-1055	041F	Butterfly Net	Key
-1056	0420	River Rod	Key
-1057	0421	Angler's Set	Key
-1058	0422	0x422	FLR
-1059	0423	0x423	FLR
-1060	0424	0x424	FLR
-1061	0425	0x425	FLR
-1062	0426	0x425	FLR
-1063	0427	0x427	FLR
-1064	0428	0x428	FLR
-1065	0429	0x429	FLR
-1066	042A	0x42A	FLR
-1067	042B	0x42B	FLR
-1068	042C	0x42C	FLR
-1069	042D	0x42D	FLR
-1070	042E	0x42E	FLR
-1071	042F	0x42F	FLR
-1072	0430	0x430	FLR
-1073	0431	Scooter License	Key
-1074	0432	Glass Key	Key
-1075	0433	Bathhouse Key	Key
-1076	0434	Research Card	Key
-1077	0435	Leader Card	Key
-1078	0436	Orb of Darkness	Key
-1079	0437	0x437	FLR
-1080	0438	0x438	FLR
-1081	0439	0x439	FLR
-1082	043A	0x43A	FLR
-1083	043B	0x43B	FLR
-1084	043C	0x43C	FLR
-1085	043D	0x43D	FLR
-1086	043E	0x43E	FLR
-1087	043F	0x43F	FLR
-1088	0440	0x440	FLR
-1089	0441	0x441	FLR
-1090	0442	0x442	FLR
-1091	0443	0x443	FLR
-1092	0444	0x444	FLR
-1093	0445	0x445	FLR
-1094	0446	0x446	FLR
-1095	0447	0x447	FLR
-1096	0448	0x448	FLR
-1097	0449	0x449	FLR
-1098	044A	0x44A	FLR
-1099	044B	0x44B	FLR
-1100	044C	0x44C	FLR
-1101	044D	0x44D	FLR
-1102	044E	0x44E	FLR
-1103	044F	0x44F	FLR
-1104	0450	0x450	FLR
-1105	0451	0x451	FLR
-1106	0452	0x452	FLR
-1107	0453	0x453	FLR
-1108	0454	0x454	FLR
-1109	0455	0x455	FLR
-1110	0456	0x456	FLR
-1111	0457	0x457	FLR
-1112	0458	0x458	FLR
-1113	0459	0x459	FLR
-1114	045A	0x45A	FLR
-1115	045B	0x45B	FLR
-1116	045C	0x45C	FLR
-1117	045D	0x45D	FLR
-1118	045E	0x45E	FLR
-1119	045F	0x45F	FLR
-1120	0460	0x460	FLR
-1121	0461	0x461	FLR
-1122	0462	0x462	FLR
-1123	0463	0x463	FLR
-1124	0464	Velvet Ticket	Key
-1125	0465	Velvet Card	Key
-1126	0466	Velvet Pass	Key
-1127	0467	Velvet VIP	Key
-1128	0468	0x468	FLR
-1129	0469	0x469	FLR
-1130	046A	0x46A	FLR
-1131	046B	0x46B	FLR
-1132	046C	0x46C	FLR
-1133	046D	0x46D	FLR
-1134	046E	0x46E	FLR
-1135	046F	0x46F	FLR
-1136	0470	Expert Study Methods	Book
-1137	0471	English Made Easy	Book
-1138	0472	100 Ghost Stories	Book
-1139	0473	Office Work Manual	Book
-1140	0474	Easy Origami	Book
-1141	0475	0x475	FLR
-1142	0476	0x476	FLR
-1143	0477	0x477	FLR
-1144	0478	0x478	FLR
-1145	0479	Food Fight!	Book
-1146	047A	Beginner Fishing	Book
-1147	047B	Expert Fishing	Book
-1148	047C	Catching Bugs	Book
-1149	047D	World Class Bugs	Book
-1150	047E	Home Gardening	Book
-1151	047F	Hyperspeed Reading	Book
-1152	0480	0x480	FLR
-1153	0481	0x481	FLR
-1154	0482	0x482	FLR
-1155	0483	0x483	FLR
-1156	0484	0x484	FLR
-1157	0485	0x485	FLR
-1158	0486	0x486	FLR
-1159	0487	0x487	FLR
-1160	0488	0x488	FLR
-1161	0489	0x489	FLR
-1162	048A	0x48A	FLR
-1163	048B	0x48B	FLR
-1164	048C	0x48C	FLR
-1165	048D	0x48D	FLR
-1166	048E	0x48E	FLR
-1167	048F	0x48F	FLR
-1168	0490	0x490	FLR
-1169	0491	0x491	FLR
-1170	0492	0x492	FLR
-1171	0493	0x493	FLR
-1172	0494	0x494	FLR
-1173	0495	0x495	FLR
-1174	0496	0x496	FLR
-1175	0497	0x497	FLR
-1176	0498	0x498	FLR
-1177	0499	0x499	FLR
-1178	049A	0x49A	FLR
-1179	049B	0x49B	FLR
-1180	049C	0x49C	FLR
-1181	049D	0x49D	FLR
-1182	049E	Dummy Compendium 1	Key
-1183	049F	Dummy Compendium 2	Key
-1184	04A0	Buddy's Bandage	SLink
-1185	04A1	Shrine Charm	SLink
-1186	04A2	Spiral Brooch	SLink
-1187	04A3	Cute Strap	SLink
-1188	04A4	Coffee Mug	SLink
-1189	04A5	Signed Photo	SLink
-1190	04A6	Wristbands	SLink
-1191	04A7	Family Picture	SLink
-1192	04A8	Gratitude Ema	SLink
-1193	04A9	Detective Badge	SLink
-1194	04AA	Letter to Kou	SLink
-1195	04AB	Spike Brush	SLink
-1196	04AC	Junes Receipt	SLink
-1197	04AD	Old Fountain Pen	SLink
-1198	04AE	Clover Bookmark	SLink
-1199	04AF	Hospital ID	SLink
-1200	04B0	Test Results	SLink
-1201	04B1	Compact	SLink
-1202	04B2	Annotated Script	SLink
-1203	04B3	Handmade Ticket	SLink
-1204	04B4	0x4B4	FLR
-1205	04B5	0x4B5	FLR
-1206	04B6	0x4B6	FLR
-1207	04B7	Adachi's Letter	SLink
-1208	04B8	Adachi's Number	SLink
-1209	04B9	Old Bamboo Comb	SLink
-1210	04BA	0x4BA	FLR
-1211	04BB	0x4BB	FLR
-1212	04BC	0x4BC	FLR
-1213	04BD	0x4BD	FLR
-1214	04BE	0x4BE	FLR
-1215	04BF	0x4BF	FLR
-1216	04C0	0x4C0	FLR
-1217	04C1	0x4C1	FLR
-1218	04C2	0x4C2	FLR
-1219	04C3	0x4C3	FLR
-1220	04C4	0x4C4	FLR
-1221	04C5	0x4C5	FLR
-1222	04C6	0x4C6	FLR
-1223	04C7	0x4C7	FLR
-1224	04C8	Husband's Letters	Key
-1225	04C9	Hisano's Letters	Key
-1226	04CA	Family Photo	Key
-1227	04CB	0x4CB	FLR
-1228	04CC	Handkerchief	Key
-1229	04CD	White Card	Key
-1230	04CE	Round Wallet	Key
-1231	04CF	Square Wallet	Key
-1232	04D0	Small Package	Key
-1233	04D1	Tankiriman Sticker	Key
-1234	04D2	Unfinished Model	Shelf
-1235	04D3	MF-06S Brahman	Shelf
-1236	04D4	Unfinished Model	Shelf
-1237	04D5	Heavy-Armor Agni	Shelf
-1238	04D6	Mokoi Doll	Shelf
-1239	04D7	Unfinished Model	Shelf
-1240	04D8	Melee Harihara	Shelf
-1241	04D9	Unfinished Model	Shelf
-1242	04DA	Turbo Recon Dyaus	Shelf
-1243	04DB	Unfinished Model	Shelf
-1244	04DC	Mobile Model Varna	Shelf
-1245	04DD	Unfinished Model	Shelf
-1246	04DE	D-Type Prithvi	Shelf
-1247	04DF	0x4DF	FLR
-1248	04E0	0x4E0	FLR
-1249	04E1	0x4E1	FLR
-1250	04E2	0x4E2	FLR
-1251	04E3	0x4E3	FLR
-1252	04E4	0x4E4	FLR
-1253	04E5	0x4E5	FLR
-1254	04E6	0x4E6	FLR
-1255	04E7	0x4E7	FLR
-1256	04E8	0x4E8	FLR
-1257	04E9	0x4E9	FLR
-1258	04EA	0x4EA	FLR
-1259	04EB	The Lovely Man	Book
-1260	04EC	Forever Macho	Book
-1261	04ED	Man of History	Book
-1262	04EE	Man-God	Book
-1263	04EF	Farewell to Man	Book
-1264	04F0	Off Today	Book
-1265	04F1	Short on Cash	Book
-1266	04F2	Changing Careers	Book
-1267	04F3	Sensei's Friends	Book
-1268	04F4	The Final Lesson	Book
-1269	04F5	The O-Cha Way	Book
-1270	04F6	The Gentle Way	Book
-1271	04F7	The Divine Way	Book
-1272	04F8	The Ramen Way	Book
-1273	04F9	The Punk's Way	Book
-1274	04FA	Witch Detective	Book
-1275	04FB	Poly-land	Book
-1276	04FC	Guide to Pests	Book
-1277	04FD	Picross Rules!	Book
-1278	04FE	Who Am I?	Book
-1279	04FF	0x4FF	FLR
-1280	0500	Blank	BLN
-1281	0501	Coward's Orb	Material
-1282	0502	Selfish Ornament	Material
-1283	0503	4th Girl's Talc	Material
-1284	0504	Notched Heart	Material
-1285	0505	Light Iron	Material
-1286	0506	Thick Hide	Material
-1287	0507	Glossy Clasp	Material
-1288	0508	Electric Rock	Material
-1289	0509	Magic Cross	Material
-1290	050A	Brave Lumber	Material
-1291	050B	Divine Bark	Material
-1292	050C	Thought Cross	Material
-1293	050D	Supple Metal	Material
-1294	050E	Smooth Fabric	Material
-1295	050F	Smart Clasp	Material
-1296	0510	Living Metal	Material
-1297	0511	Big Incisor	Material
-1298	0512	Sturdy Molar	Material
-1299	0513	Sharp Premolar	Material
-1300	0514	Diamond Canine	Material
-1301	0515	Brutal Orb	Material
-1302	0516	Powered Iron	Material
-1303	0517	4th Boy's Talc	Material
-1304	0518	Bluff Mask	Material
-1305	0519	Curious Line	Material
-1306	051A	Rare Poncho	Material
-1307	051B	Orb of Love	Material
-1308	051C	Klein Bottle	Material
-1309	051D	Paleograph	Material
-1310	051E	Crimson Cover	Material
-1311	051F	Word String	Material
-1312	0520	Prophecy Orb	Material
-1313	0521	Decorative Stone	Material
-1314	0522	Heavy Iron Lump	Material
-1315	0523	Trial Obsidian	Material
-1316	0524	Calm Marble	Material
-1317	0525	Force Rock	Material
-1318	0526	Idea Paper	Material
-1319	0527	Firm Cloth	Material
-1320	0528	Guard Stationery	Material
-1321	0529	Oracle Textile	Material
-1322	052A	Orb of Vanity	Material
-1323	052B	Idle Stone Iron	Material
-1324	052C	3rd Girl's Talc	Material
-1325	052D	Birdcage Key	Material
-1326	052E	Haori Iron	Material
-1327	052F	Jet Black Steel	Material
-1328	0530	God Tailfeather	Material
-1329	0531	Death Sentence	Material
-1330	0532	Hard Rock	Material
-1331	0533	Stone Hide	Material
-1332	0534	Porcelain Statue	Material
-1333	0535	Silver Claw	Material
-1334	0536	Fur Clasp	Material
-1335	0537	Mink Fur	Material
-1336	0538	Queen's Nail	Material
-1337	0539	Silver Fox Fur	Material
-1338	053A	Poison Flower	Material
-1339	053B	Quiet Bouquet	Material
-1340	053C	Alluring Lily	Material
-1341	053D	Royal Blossom	Material
-1342	053E	Orb of Pride	Material
-1343	053F	Tortoise Shell	Material
-1344	0540	3rd Boy's Talc	Material|Bugged
-1345	0541	Fruit of Love	Material
-1346	0542	Sharp Horn	Material
-1347	0543	Safety Angle	Material
-1348	0544	Golden Horn	Material
-1349	0545	Platinum Shell	Material
-1350	0546	Hard Horn	Material
-1351	0547	Bronze Reins	Material
-1352	0548	Steel Reins	Material
-1353	0549	Black Reins	Material
-1354	054A	Platinum Reins	Material
-1355	054B	Curious Boulder	Material
-1356	054C	Power Rock	Material
-1357	054D	Rare Raincoat	Material
-1358	054E	Snow Stone	Material
-1359	054F	Moustache Fiber	Material
-1360	0550	Beard Fiber	Material
-1361	0551	Dignified Lump	Material
-1362	0552	Silver String	Material
-1363	0553	Orb of Sloth	Material
-1364	0554	Dependent Iron	Material
-1365	0555	2nd Girl's Talc	Material
-1366	0556	Malice Fragment	Material
-1367	0557	Wonder Cloth	Material
-1368	0558	Gray Shackle	Material
-1369	0559	Cascade String	Material
-1370	055A	Ill Will Claw	Material
-1371	055B	Platinum Crown	Material
-1372	055C	Dogma Clasp	Material
-1373	055D	Sacrilege Iron	Material
-1374	055E	Ruinous Crown	Material
-1375	055F	Crown of Truth	Material
-1376	0560	Alloy Signature	Material
-1377	0561	Silver Signature	Material
-1378	0562	Black Signature	Material
-1379	0563	Gold Signature	Material
-1380	0564	Tough Hide	Material
-1381	0565	Tanned Hide	Material
-1382	0566	Compacted Metal	Material
-1383	0567	Platinum Lump	Material
-1384	0568	Orb of Betrayal	Material
-1385	0569	Anguish Stone	Material
-1386	056A	2nd Boy's Talc	Material
-1387	056B	Loose Parts	Material
-1388	056C	Cloth Wings	Material
-1389	056D	Chirping Wings	Material
-1390	056E	Crystal of Light	Material
-1391	056F	Pure White Bead	Material
-1392	0570	Passion Clasp	Material
-1393	0571	Blade Metal	Material
-1394	0572	Yellow Cord	Material
-1395	0573	Hemp Cloth	Material
-1396	0574	Love Clasp	Material
-1397	0575	Jet Black Scale	Material
-1398	0576	Venomous Fang	Material
-1399	0577	Scorching Scale	Material
-1400	0578	Scaly Lump	Material
-1401	0579	Forbidden Scale	Material
-1402	057A	Shiny Scale	Material
-1403	057B	Flame Scale	Material
-1404	057C	Miracle Scale	Material
-1405	057D	Love Scale	Material
-1406	057E	Breakdown Orb	Material
-1407	057F	Insolence Steel	Material
-1408	0580	1st Girl's Talc	Material
-1409	0581	0x581	FLR
-1410	0582	Zero Cloth	Material
-1411	0583	Bushy Fur	Material
-1412	0584	Flame Steel	Material
-1413	0585	Brilliant Armor	Material
-1414	0586	Iron Gear	Material
-1415	0587	Fixing Bolt	Material
-1416	0588	Torrent Gear	Material
-1417	0589	Platinum Gear	Material
-1418	058A	Sheet Metal	Material
-1419	058B	Super-Alloy	Material
-1420	058C	Black Sheet	Material
-1421	058D	Judgement Shot	Material
-1422	058E	Flame Sheet	Material
-1423	058F	Bull's-Eye Shot	Material
-1424	0590	Iron Barrel	Material
-1425	0591	Steel Barrel	Material
-1426	0592	Golden Barrel	Material
-1427	0593	Unknown Barrel	Material
-1428	0594	Genuine Orb	Material
-1429	0595	Source Lump	Material
-1430	0596	1st Boy's Talc	Material
-1431	0597	0x597	FLR
-1432	0598	Zero Board	Material
-1433	0599	Rain Steel	Material
-1434	059A	Rain Metal	Material
-1435	059B	Cascade Metal	Material
-1436	059C	Proof of Spirit	Material
-1437	059D	Proof of Fight	Material
-1438	059E	Proof of Passion	Material
-1439	059F	Claw of Myth	Material
-1440	05A0	Formidable Proof	Material
-1441	05A1	Life Collar	Material
-1442	05A2	Steel Collar	Material
-1443	05A3	Demon Collar	Material
-1444	05A4	Platinum Fur	Material
-1445	05A5	Merciless Cord	Material
-1446	05A6	Azalea Cord	Material
-1447	05A7	Ayanishiki	Material
-1448	05A8	Oguruma Brocade	Material
-1449	05A9	Red-Gold Cord	Material
-1450	05AA	Orb of Greed	Material
-1451	05AB	Submission Shard	Material
-1452	05AC	Aloof Myrrh	Material
-1453	05AD	0x5AD	FLR
-1454	05AE	Black Lamp	Material
-1455	05AF	Karma Lamp	Material
-1456	05B0	Wrought Lamp	Material
-1457	05B1	Devilish Feather	Material
-1458	05B2	Golden Cloth	Material
-1459	05B3	Magic Cloth	Material
-1460	05B4	Treasure Cloth	Material
-1461	05B5	Prime Hide	Material
-1462	05B6	Demon Cloth	Material
-1463	05B7	Iron Eyeball	Material
-1464	05B8	Gazing Clasp	Material
-1465	05B9	Golden Film	Material
-1466	05BA	Mysterious Eye	Material
-1467	05BB	Windcutter Cloth	Material
-1468	05BC	Practical Cloth	Material
-1469	05BD	Knowledge Staff	Material
-1470	05BE	Sephirot Staff	Material
-1471	05BF	Error-Prone Orb	Material
-1472	05C0	Accident Crystal	Material
-1473	05C1	Lucky Myrrh	Material
-1474	05C2	0x5C2	FLR
-1475	05C3	Power String	Material
-1476	05C4	Pure Iron Lump	Material
-1477	05C5	Silver Lump	Material
-1478	05C6	Light String	Material
-1479	05C7	Mental Thread	Material
-1480	05C8	Cursed Stone	Material
-1481	05C9	Death Lump	Material
-1482	05CA	Vengeance Steel	Material
-1483	05CB	Illusionary Sand	Material
-1484	05CC	Golden Sand	Material
-1485	05CD	Nightmare Sand	Material
-1486	05CE	Mobius Sand	Material
-1487	05CF	Rubbery Object	Material
-1488	05D0	Stretchy Object	Material
-1489	05D1	Unthinkable Metal	Material
-1490	05D2	Unknowable Fiber	Material
-1491	05D3	Conviction Orb	Material
-1492	05D4	Bias Crystal	Material
-1493	05D5	Order Myrrh	Material
-1494	05D6	0x5D6	FLR
-1495	05D7	Nice Ornament	Material
-1496	05D8	Perpetual Edge	Material
-1497	05D9	Spark Ornament	Material
-1498	05DA	Holy Gold Lump	Material
-1499	05DB	Golden Dish	Material
-1500	05DC	Fashionable Dish	Material
-1501	05DD	Shining Dish	Material
-1502	05DE	Blessed Dish	Material
-1503	05DF	Fixed Lump	Material
-1504	05E0	Prime Steel	Material
-1505	05E1	Diamond Sheet	Material
-1506	05E2	Soul-Death Steel	Material
-1507	05E3	Tungsten	Material
-1508	05E4	Damascus	Material
-1509	05E5	Orichalcum	Material
-1510	05E6	Pyroxene Fiber	Material
-1511	05E7	Sacrifice Orb	Material
-1512	05E8	Oppression Shard	Material
-1513	05E9	Service Myrrh	Material
-1514	05EA	0x5EA	FLR
-1515	05EB	Heavy Chains	Material
-1516	05EC	Strength Claw	Material
-1517	05ED	Golden Chains	Material
-1518	05EE	Platinum Hide	Material
-1519	05EF	Tyrannical Hide	Material
-1520	05F0	Riveted Hide	Material
-1521	05F1	Bloody Hide	Material
-1522	05F2	Thunder Bead	Material
-1523	05F3	Ripper Horse	Material
-1524	05F4	Sharp Thorn	Material
-1525	05F5	Steel Thorn	Material
-1526	05F6	Hard Thorn	Material
-1527	05F7	Blade Thorn	Material
-1528	05F8	Cruel Thorn	Material
-1529	05F9	Bloody Thorn	Material
-1530	05FA	Guard Cloth	Material
-1531	05FB	Thirsty Claw	Material
-1532	05FC	Activated Felt	Material
-1533	05FD	Invincible Felt	Material
-1534	05FE	0x5FE	FLR
-1535	05FF	0x5FF	FLR
-1536	0600	Blank	BLN
-1537	0601	Agi	Card
-1538	0602	Agilao	Card
-1539	0603	Agidyne	Card
-1540	0604	Maragi	Card
-1541	0605	Maragion	Card
-1542	0606	Maragidyne	Card
-1543	0607	Garu	Card
-1544	0608	Garula	Card
-1545	0609	Garudyne	Card
-1546	060A	Magaru	Card
-1547	060B	Magarula	Card
-1548	060C	Magarudyne	Card
-1549	060D	Bufu	Card
-1550	060E	Bufula	Card
-1551	060F	Bufudyne	Card
-1552	0610	Mabufu	Card
-1553	0611	Mabufula	Card
-1554	0612	Mabufudyne	Card
-1555	0613	Zio	Card
-1556	0614	Zionga	Card
-1557	0615	Ziodyne	Card
-1558	0616	Mazio	Card
-1559	0617	Mazionga	Card
-1560	0618	Maziodyne	Card
-1561	0619	Megido	Card
-1562	061A	Megidola	Card
-1563	061B	Megidolaon	Card
-1564	061C	Hama	Card
-1565	061D	Hamaon	Card
-1566	061E	Mahama	Card
-1567	061F	Mahamaon	Card
-1568	0620	Mudo	Card
-1569	0621	Mudoon	Card
-1570	0622	Mamudo	Card
-1571	0623	Mamudoon	Card
-1572	0624	Pulinpa	Card
-1573	0625	Tentarafoo	Card
-1574	0626	Evil Touch	Card
-1575	0627	Evil Smile	Card
-1576	0628	Ghastly Wail	Card
-1577	0629	Balzac	Card
-1578	062A	Valiant Dance	Card
-1579	062B	Poisma	Card
-1580	062C	Poison Mist	Card
-1581	062D	Soul Break	Card
-1582	062E	Anima Freeze	Card
-1583	062F	Enervation	Card
-1584	0630	Old One	Card
-1585	0631	Galgalim Eyes	Card
-1586	0632	Makajam	Card
-1587	0633	Foolish Whisper	Card
-1588	0634	Foul Breath	Card
-1589	0635	Stagnant Air	Card
-1590	0636	Life Drain	Card
-1591	0637	Spirit Drain	Card
-1592	0638	Assault Dive	Card
-1593	0639	Sonic Punch	Card
-1594	063A	Double Fangs	Card
-1595	063B	Kill Rush	Card
-1596	063C	Swift Strike	Card
-1597	063D	Twin Shot	Card
-1598	063E	Fatal End	Card
-1599	063F	Mighty Swing	Card
-1600	0640	Torrent Shot	Card
-1601	0641	Heat Wave	Card
-1602	0642	Gigantic Fist	Card
-1603	0643	Blade of Fury	Card
-1604	0644	Deathbound	Card
-1605	0645	Arrow Rain	Card
-1606	0646	Akasha Arts	Card
-1607	0647	Tempest Slash	Card
-1608	0648	Heaven's Blade	Card
-1609	0649	Myriad Arrows	Card
-1610	064A	God's Hand	Card
-1611	064B	Prayala	Card
-1612	064C	Primal Force	Card
-1613	064D	Vorpal Blade	Card
-1614	064E	Power Slash	Card
-1615	064F	Gale Slash	Card
-1616	0650	Brave Blade	Card
-1617	0651	Herculean Strike	Card
-1618	0652	Vicious Strike	Card
-1619	0653	Poison Skewer	Card
-1620	0654	Poison Arrow	Card
-1621	0655	Blight	Card
-1622	0656	Virus Wave	Card
-1623	0657	Skull Cracker	Card
-1624	0658	Mind Slice	Card
-1625	0659	Hysterical Slap	Card
-1626	065A	Crazy Chain	Card
-1627	065B	Muzzle Shot	Card
-1628	065C	Seal Bomb	Card
-1629	065D	Arm Chopper	Card
-1630	065E	Atom Smasher	Card
-1631	065F	Cell Breaker	Card
-1632	0660	Mustard Bomb	Card
-1633	0661	Brain Shake	Card
-1634	0662	Navas Nebula	Card
-1635	0663	Black Spot	Card
-1636	0664	Rainy Death	Card
-1637	0665	Rampage	Card
-1638	0666	Aeon Rain	Card
-1639	0667	Agneyastra	Card
-1640	0668	Cruel Attack	Card
-1641	0669	Vile Assault	Card
-1642	066A	Dia	Card
-1643	066B	Diarama	Card
-1644	066C	Diarahan	Card
-1645	066D	Media	Card
-1646	066E	Mediarama	Card
-1647	066F	Mediarahan	Card
-1648	0670	Salvation	Card
-1649	0671	Amrita	Card
-1650	0672	Recarm	Card
-1651	0673	Samarecarm	Card
-1652	0674	Tarunda	Card
-1653	0675	Matarunda	Card
-1654	0676	Sukunda	Card
-1655	0677	Masukunda	Card
-1656	0678	Rakunda	Card
-1657	0679	Marakunda	Card
-1658	067A	Dekunda	Card
-1659	067B	Tarukaja	Card
-1660	067C	Matarukaja	Card
-1661	067D	Sukukaja	Card
-1662	067E	Masukukaja	Card
-1663	067F	Rakukaja	Card
-1664	0680	Marakukaja	Card
-1665	0681	Dekaja	Card
-1666	0682	Energy Shower	Card
-1667	0683	Debilitate	Card
-1668	0684	Power Charge	Card
-1669	0685	Mind Charge	Card
-1670	0686	Tetrakarn	Card
-1671	0687	Makarakarn	Card
-1672	0688	Tetra Break	Card
-1673	0689	Makara Break	Card
-1674	068A	Tetraja	Card
-1675	068B	Rebellion	Card
-1676	068C	Revolution	Card
-1677	068D	Fire Break	Card
-1678	068E	Ice Break	Card
-1679	068F	Wind Break	Card
-1680	0690	Elec Break	Card
-1681	0691	Red Wall	Card
-1682	0692	White Wall	Card
-1683	0693	Blue Wall	Card
-1684	0694	Green Wall	Card
-1685	0695	Trafuri	Card
-1686	0696	Recarmdra	Card
-1687	0697	Traesto	Card
-1688	0698	Resist Physical	Card
-1689	0699	Absorb Physical	Card
-1690	069A	Resist Fire	Card
-1691	069B	Absorb Fire	Card
-1692	069C	Resist Ice	Card
-1693	069D	Absorb Ice	Card
-1694	069E	Resist Elec	Card
-1695	069F	Absorb Elec	Card
-1696	06A0	Resist Wind	Card
-1697	06A1	Absorb Wind	Card
-1698	06A2	Repel Light	Card
-1699	06A3	Repel Dark	Card
-1700	06A4	Null Panic	Card
-1701	06A5	Null Exhaust	Card
-1702	06A6	Null Mute	Card
-1703	06A7	Null Fear	Card
-1704	06A8	Null Rage	Card
-1705	06A9	Null Poison	Card
-1706	06AA	Null Dizzy	Card
-1707	06AB	Null Enervate	Card
-1708	06AC	Unshaken Will	Card
-1709	06AD	Dodge Physical	Card
-1710	06AE	Evade Physical	Card
-1711	06AF	Dodge Fire	Card
-1712	06B0	Evade Fire	Card
-1713	06B1	Dodge Ice	Card
-1714	06B2	Evade Ice	Card
-1715	06B3	Dodge Wind	Card
-1716	06B4	Evade Wind	Card
-1717	06B5	Dodge Elec	Card
-1718	06B6	Evade Elec	Card
-1719	06B7	Angelic Grace	Card
-1720	06B8	Fire Boost	Card
-1721	06B9	Fire Amp	Card
-1722	06BA	Ice Boost	Card
-1723	06BB	Ice Amp	Card
-1724	06BC	Elec Boost	Card
-1725	06BD	Elec Amp	Card
-1726	06BE	Wind Boost	Card
-1727	06BF	Wind Amp	Card
-1728	06C0	Counter	Card
-1729	06C1	Counterstrike	Card
-1730	06C2	High Counter	Card
-1731	06C3	Regenerate 1	Card
-1732	06C4	Regenerate 2	Card
-1733	06C5	Regenerate 3	Card
-1734	06C6	Invigorate 1	Card
-1735	06C7	Invigorate 2	Card
-1736	06C8	Invigorate 3	Card
-1737	06C9	Growth 1	Card
-1738	06CA	Growth 2	Card
-1739	06CB	Growth 3	Card
-1740	06CC	Auto-Tarukaja	Card
-1741	06CD	Auto-Rakukaja	Card
-1742	06CE	Auto-Sukukaja	Card
-1743	06CF	Alertness	Card
-1744	06D0	Sharp Student	Card
-1745	06D1	Apt Pupil	Card
-1746	06D2	Firm Stance	Card
-1747	06D3	Spell Master	Card
-1748	06D4	Arms Master	Card
-1749	06D5	Divine Grace	Card
-1750	06D6	Endure	Card
-1751	06D7	Enduring Soul	Card
-1752	06D8	Survive Light	Card
-1753	06D9	Survive Dark	Card
-1754	06DA	Auto-Maraku	Card
-1755	06DB	Auto-Mataru	Card
-1756	06DC	Auto-Masuku	Card
-1757	06DD	Panic Boost	Card
-1758	06DE	Poison Boost	Card
-1759	06DF	Exhaust Boost	Card
-1760	06E0	Silence Boost	Card
-1761	06E1	Fear Boost	Card
-1762	06E2	Rage Boost	Card
-1763	06E3	Dizzy Boost	Card
-1764	06E4	Enervate Boost	Card
-1765	06E5	Ailment Boost	Card
-1766	06E6	Hama Boost	Card
-1767	06E7	Mudo Boost	Card
-1768	06E8	Endure Light	Card
-1769	06E9	Endure Dark	Card
-1770	06EA	Cool Breeze	Card
-1771	06EB	Victory Cry	Card
-1772	06EC	Resist Poison	Card
-1773	06ED	Resist Panic	Card
-1774	06EE	Resist Fear	Card
-1775	06EF	Resist Exhaust	Card
-1776	06F0	Resist Enervate	Card
-1777	06F1	Resist Rage	Card
-1778	06F2	Resist Dizzy	Card
-1779	06F3	Resist Mute	Card
-1780	06F4	Fast Heal	Card
-1781	06F5	Insta-Heal	Card
-1782	06F6	Patra	Card
-1783	06F7	Me Patra	Card
-1784	06F8	Re Patra	Card
-1785	06F9	Posumudi	Card
-1786	06FA	Mutudi	Card
-1787	06FB	Nervundi	Card
-1788	06FC	Heat Riser	Card
-1789	06FD	Single Shot	Card
-1790	06FE	0x6FE	FLR
-1791	06FF	0x6FF	FLR
-1792	0700	Default Clothing	Clothes
-1793	0701	Winter Yaso Outfit	Clothes
-1794	0702	Winter Yaso Outfit	Clothes
-1795	0703	Winter Yaso Outfit	Clothes
-1796	0704	Winter Yaso Outfit	Clothes
-1797	0705	Blank	BLN
-1798	0706	Winter Yaso Outfit	Clothes
-1799	0707	Winter Yaso Outfit	Clothes
-1800	0708	Teddie Costume	Clothes
-1801	0709	Summer Yaso Outfit	Clothes
-1802	070A	Summer Yaso Outfit	Clothes
-1803	070B	Summer Yaso Outfit	Clothes
-1804	070C	Summer Yaso Outfit	Clothes
-1805	070D	Blank	BLN
-1806	070E	Summer Yaso Outfit	Clothes
-1807	070F	Summer Yaso Outfit	Clothes
-1808	0710	Blank	BLN
-1809	0711	Summer Clothes	Clothes
-1810	0712	Summer Clothes	Clothes
-1811	0713	Summer Clothes	Clothes
-1812	0714	Summer Clothes	Clothes
-1813	0715	Blank	BLN
-1814	0716	Summer Clothes	Clothes
-1815	0717	Summer Clothes	Clothes
-1816	0718	Summer Clothes	Clothes
-1817	0719	Winter Clothes	Clothes
-1818	071A	Winter Clothes	Clothes
-1819	071B	Winter Clothes	Clothes
-1820	071C	Winter Clothes	Clothes
-1821	071D	Blank	BLN
-1822	071E	Winter Clothes	Clothes
-1823	071F	Winter Clothes	Clothes
-1824	0720	Blank	BLN
-1825	0721	Gekkou Uniform	Clothes
-1826	0722	Gekkou Uniform	Clothes
-1827	0723	Gekkou Uniform	Clothes
-1828	0724	Gekkou Uniform	Clothes
-1829	0725	Blank	BLN
-1830	0726	Gekkou Uniform	Clothes
-1831	0727	Gekkou Uniform	Clothes
-1832	0728	Gekkou Uniform	Clothes
-1833	0729	Drag Costume	Clothes
-1834	072A	Drag Costume	Clothes
-1835	072B	Blank	BLN
-1836	072C	Blank	BLN
-1837	072D	Blank	BLN
-1838	072E	Drag Costume	Clothes
-1839	072F	Blank	BLN
-1840	0730	Drag Costume	Clothes
-1841	0731	Cool Trunks	Clothes
-1842	0732	Summer Trunks	Clothes
-1843	0733	Striped Bikini	Clothes
-1844	0734	Trim Bikini	Clothes
-1845	0735	Blank	BLN
-1846	0736	Dangerous Briefs	Clothes
-1847	0737	School Swimsuit	Clothes
-1848	0738	Sailor Trunks	Clothes
-1849	0739	Yaso High Jersey	Clothes
-1850	073A	Yaso High Jersey	Clothes
-1851	073B	Yaso High Jersey	Clothes
-1852	073C	Yaso High Jersey	Clothes
-1853	073D	Blank	BLN
-1854	073E	Yaso High Jersey	Clothes
-1855	073F	Yaso High Jersey	Clothes
-1856	0740	Yaso High Jersey	Clothes
-1857	0741	Cleaning Uniform	Clothes
-1858	0742	Junes Apron	Clothes
-1859	0743	Track Suit	Clothes
-1860	0744	Tsukesage	Clothes
-1861	0745	Blank	BLN
-1862	0746	Kingpin Duster	Clothes
-1863	0747	Girls' Yaso Outfit	Clothes
-1864	0748	Lord Flauntleroy	Clothes
-1865	0749	Blank	BLN
-1866	074A	Blank	BLN
-1867	074B	Fighter Armor	Clothes
-1868	074C	Magical Armor	Clothes
-1869	074D	Blank	BLN
-1870	074E	Blank	BLN
-1871	074F	Coronet Armor	Clothes
-1872	0750	Blank	BLN
-1873	0751	Neo Featherman Suit	Clothes
-1874	0752	Neo Featherman Suit	Clothes
-1875	0753	Neo Featherman Suit	Clothes
-1876	0754	Neo Featherman Suit	Clothes
-1877	0755	Blank	BLN
-1878	0756	Neo Featherman Suit	Clothes
-1879	0757	Neo Featherman Suit	Clothes
-1880	0758	Neo Featherman Suit	Clothes
-1881	0759	Bath Towel	Clothes
-1882	075A	Bath Towel	Clothes
-1883	075B	Blank	BLN
-1884	075C	Blank	BLN
-1885	075D	Blank	BLN
-1886	075E	Bath Towel	Clothes
-1887	075F	Blank	BLN
-1888	0760	Bath Towel	Clothes
-1889	0761	Agent Suit	Clothes
-1890	0762	Agent Suit	Clothes
-1891	0763	Agent Suit	Clothes
-1892	0764	Agent Suit	Clothes
-1893	0765	Blank	BLN
-1894	0766	Agent Suit	Clothes
-1895	0767	Agent Suit	Clothes
-1896	0768	Agent Suit	Clothes
-1897	0769	Gag Winter Outfit	Clothes
-1898	076A	Gag Winter Outfit	Clothes
-1899	076B	Gag Winter Outfit	Clothes
-1900	076C	Gag Winter Outfit	Clothes
-1901	076D	Blank	BLN
-1902	076E	Gag Winter Outfit	Clothes
-1903	076F	Gag Winter Outfit	Clothes
-1904	0770	Gag Glasses	Clothes
-1905	0771	Gag Summer Outfit	Clothes
-1906	0772	Gag Summer Outfit	Clothes
-1907	0773	Gag Summer Outfit	Clothes
-1908	0774	Gag Summer Outfit	Clothes
-1909	0775	Blank	BLN
-1910	0776	Gag Summer Outfit	Clothes
-1911	0777	Gag Summer Outfit	Clothes
-1912	0778	Gag Summer Outfit	Clothes
-1913	0779	Christmas Costume	Clothes
-1914	077A	Christmas Costume	Clothes
-1915	077B	Christmas Costume	Clothes
-1916	077C	Christmas Costume	Clothes
-1917	077D	Blank	BLN
-1918	077E	Christmas Costume	Clothes
-1919	077F	Christmas Costume	Clothes
-1920	0780	Christmas Costume	Clothes
-1921	0781	Festival Jinbei	Clothes
-1922	0782	Festival Jinbei	Clothes
-1923	0783	Festival Yukata	Clothes
-1924	0784	Festival Yukata	Clothes
-1925	0785	Blank	BLN
-1926	0786	Festival Jinbei	Clothes
-1927	0787	Festival Jinbei	Clothes
-1928	0788	Festival Happi	Clothes
-1929	0789	Halloween Costume	Clothes
-1930	078A	Halloween Costume	Clothes
-1931	078B	Halloween Costume	Clothes
-1932	078C	Halloween Costume	Clothes
-1933	078D	Blank	BLN
-1934	078E	Halloween Costume	Clothes
-1935	078F	Halloween Costume	Clothes
-1936	0790	Halloween Costume	Clothes
-1937	0791	Midwinter Outfit	Clothes
-1938	0792	Midwinter Outfit	Clothes
-1939	0793	Midwinter Outfit	Clothes
-1940	0794	Midwinter Outfit	Clothes
-1941	0795	Blank	BLN
-1942	0796	Midwinter Outfit	Clothes
-1943	0797	Midwinter Outfit	Clothes
-1944	0798	Midwinter Outfit	Clothes
-1945	0799	Butler Suit	Clothes
-1946	079A	Butler Suit	Clothes
-1947	079B	Maid Uniform	Clothes
-1948	079C	Maid Uniform	Clothes
-1949	079D	Blank	BLN
-1950	079E	Butler Suit	Clothes
-1951	079F	Maid Uniform	Clothes
-1952	07A0	Butler Suit	Clothes
-1953	07A1	Cheer Squad Outfit	Clothes
-1954	07A2	Cheer Squad Outfit	Clothes
-1955	07A3	Cheerleader Outfit	Clothes
-1956	07A4	Cheerleader Outfit	Clothes
-1957	07A5	Blank	BLN
-1958	07A6	Cheer Squad Outfit	Clothes
-1959	07A7	Cheerleader Outfit	Clothes
-1960	07A8	Cheer Squad Outfit	Clothes
-1961	07A9	Deep Blue Clothes	Clothes
-1962	07AA	Deep Blue Clothes	Clothes
-1963	07AB	Deep Blue Clothes	Clothes
-1964	07AC	Deep Blue Clothes	Clothes
-1965	07AD	Blank	BLN
-1966	07AE	Deep Blue Clothes	Clothes
-1967	07AF	Deep Blue Clothes	Clothes
-1968	07B0	Deep Blue Clothes	Clothes
-1969	07B1	Hardboiled Look	Clothes
-1970	07B2	Junes Coveralls	Clothes
-1971	07B3	Kung Fu Costume	Clothes
-1972	07B4	Ceremonial Kimono	Clothes
-1973	07B5	Blank	BLN
-1974	07B6	Working Clothes	Clothes
-1975	07B7	Detective Costume	Clothes
-1976	07B8	Teddie's Apron	Clothes
-1977	07B9	Midwinter Yaso	Clothes
-1978	07BA	Midwinter Yaso	Clothes
-1979	07BB	Midwinter Yaso	Clothes
-1980	07BC	Midwinter Yaso	Clothes
-1981	07BD	Blank	BLN
-1982	07BE	Midwinter Yaso	Clothes
-1983	07BF	Midwinter Yaso	Clothes
-1984	07C0	Blank	BLN
-1985	07C1	0x7C1	FLR
-1986	07C2	0x7C2	FLR
-1987	07C3	0x7C3	FLR
-1988	07C4	0x7C4	FLR
-1989	07C5	0x7C5	FLR
-1990	07C6	0x7C6	FLR
-1991	07C7	0x7C7	FLR
-1992	07C8	0x7C8	FLR
-1993	07C9	0x7C9	FLR
-1994	07CA	0x7CA	FLR
-1995	07CB	0x7CB	FLR
-1996	07CC	0x7CC	FLR
-1997	07CD	0x7CD	FLR
-1998	07CE	0x7CE	FLR
-1999	07CF	0x7CF	FLR
-2000	07D0	0x7D0	FLR
-2001	07D1	0x7D1	FLR
-2002	07D2	0x7D2	FLR
-2003	07D3	0x7D3	FLR
-2004	07D4	0x7D4	FLR
-2005	07D5	0x7D5	FLR
-2006	07D6	0x7D6	FLR
-2007	07D7	0x7D7	FLR
-2008	07D8	0x7D8	FLR
-2009	07D9	0x7D9	FLR
-2010	07DA	0x7DA	FLR
-2011	07DB	0x7DB	FLR
-2012	07DC	0x7DC	FLR
-2013	07DD	0x7DD	FLR
-2014	07DE	0x7DE	FLR
-2015	07DF	0x7DF	FLR
-2016	07E0	0x7E0	FLR
-2017	07E1	0x7E1	FLR
-2018	07E2	0x7E2	FLR
-2019	07E3	0x7E3	FLR
-2020	07E4	0x7E4	FLR
-2021	07E5	0x7E5	FLR
-2022	07E6	0x7E6	FLR
-2023	07E7	0x7E7	FLR
-2024	07E8	0x7E8	FLR
-2025	07E9	0x7E9	FLR
-2026	07EA	0x7EA	FLR
-2027	07EB	0x7EB	FLR
-2028	07EC	0x7EC	FLR
-2029	07ED	0x7ED	FLR
-2030	07EE	0x7EE	FLR
-2031	07EF	0x7EF	FLR
-2032	07F0	0x7F0	FLR
-2033	07F1	0x7F1	FLR
-2034	07F2	0x7F2	FLR
-2035	07F3	0x7F3	FLR
-2036	07F4	0x7F4	FLR
-2037	07F5	0x7F5	FLR
-2038	07F6	0x7F6	FLR
-2039	07F7	0x7F7	FLR
-2040	07F8	Agent Set	Clothes
-2041	07F9	Butler Set	Clothes
-2042	07FA	Festival Set	Clothes
-2043	07FB	Cheer Squad Set	Clothes
-2044	07FC	Maid Set	Clothes
-2045	07FD	Neo Featherman Set	Clothes
-2046	07FE	0x7FE	FLR
-2047	07FF	0x7FF	FLR
-2048	0800	Blank	BLN
-2049	0801	Unfinished Scooter	Key
-2050	0802	Unfinished Scooter	Key
-2051	0803	Unfinished Scooter	Key
-2052	0804	Unfinished Scooter	Key
-2053	0805	Unfinished Scooter	Key
-2054	0806	Unfinished Scooter	Key
-2055	0807	0x82F	FLR
-2056	0808	Jack Frost Doll	Shelf
-2057	0809	Black Frost Doll	Shelf
-2058	080A	King Frost Doll	Shelf
-2059	080B	Pyro Jack Doll	Shelf
-2060	080C	Neko Shogun Doll	Shelf
-2061	080D	Silver Scooter	Shelf
-2062	080E	Orange Scooter	Shelf
-2063	080F	Light Blue Scooter	Shelf
-2064	0810	Red Scooter	Shelf
-2065	0811	Pink Scooter	Shelf
-2066	0812	Blue Scooter	Shelf
-2067	0813	0x813	FLR
-2068	0814	0x814	FLR
-2069	0815	0x815	FLR
-2070	0816	0x816	FLR
-2071	0817	0x817	FLR
-2072	0818	0x818	FLR
-2073	0819	0x819	FLR
-2074	081A	0x81A	FLR
-2075	081B	0x81B	FLR
-2076	081C	0x81C	FLR
-2077	081D	0x81D	FLR
-2078	081E	0x81E	FLR
-2079	081F	0x81F	FLR
-2080	0820	0x820	FLR
-2081	0821	0x821	FLR
-2082	0822	0x822	FLR
-2083	0823	0x823	FLR
-2084	0824	0x824	FLR
-2085	0825	0x825	FLR
-2086	0826	0x826	FLR
-2087	0827	0x827	FLR
-2088	0828	0x828	FLR
-2089	0829	Tomato Seedling	Veg
-2090	082A	Eggplant Seedling	Veg
-2091	082B	Daikon Seedling	Veg
-2092	082C	Barrier Corn	Veg
-2093	082D	Cabbage Seedling	Veg
-2094	082E	Wall Paprika	Veg
-2095	082F	Wheat Seedling	Veg
-2096	0830	Melon Seedling	Veg
-2097	0831	Tiny Soul Tomato	Veg
-2098	0832	Scapegoat Eggplant	Veg
-2099	0833	Return Daikon	Veg
-2100	0834	Tetracorn	Veg
-2101	0835	Hiranya Cabbage	Veg
-2102	0836	Red Paprika	Veg
-2103	0837	Crack Wheat	Veg
-2104	0838	Bead Melon	Veg
-2105	0839	0x839	FLR
-2106	083A	0x83A	FLR
-2107	083B	Makaracorn	Veg
-2108	083C	White Paprika	Veg
-2109	083D	Blue Paprika	Veg
-2110	083E	Green Paprika	Veg
-2111	083F	0x83F	FLR
-2112	0840	0x840	FLR
-2113	0841	0x841	FLR
-2114	0842	0x842	FLR
-2115	0843	0x843	FLR
-2116	0844	0x844	FLR
-2117	0845	0x845	FLR
-2118	0846	0x846	FLR
-2119	0847	0x847	FLR
-2120	0848	0x848	FLR
-2121	0849	0x849	FLR
-2122	084A	0x84A	FLR
-2123	084B	0x84B	FLR
-2124	084C	0x84C	FLR
-2125	084D	0x84D	FLR
-2126	084E	0x84E	FLR
-2127	084F	0x84F	FLR
-2128	0850	Iolite	Gems
-2129	0851	Blue Quartz	Gems
-2130	0852	Fluorite	Gems
-2131	0853	Smoky Quartz	Gems
-2132	0854	Lepidolite	Gems
-2133	0855	Lemon Quartz	Gems
-2134	0856	Olive Stone	Gems
-2135	0857	Howlite	Gems
-2136	0858	Milky Quartz	Gems
-2137	0859	Bloodstone	Gems
-2138	085A	Meteorite	Gems
-2139	085B	Rose Quartz	Gems
-2140	085C	Buffalo Stone	Gems
-2141	085D	Sphalerite	Gems
-2142	085E	Aurora Quartz	Gems
-2143	085F	Sunstone	Gems
-2144	0860	Angelite	Gems
-2145	0861	Rainbow Quartz	Gems
-2146	0862	Moonstone	Gems
-2147	0863	Magatsu Xandrite	Gems
-2148	0864	Kingyou Stone	Gems
-2149	0865	Gyosen Stone	Gems
-2150	0866	Yazu Stone	Gems
-2151	0867	Masuda Stone	Gems
-2152	0868	Taisui Stone	Gems
-2153	0869	Mondo Stone	Gems
-2154	086A	Takou Stone	Gems
-2155	086B	Meguro Stone	Gems
-2156	086C	Kaiou Stone	Gems
-2157	086D	Ryugu Stone	Gems
-2158	086E	0x86E	FLR
-2159	086F	0x86F	FLR
-2160	0870	0x870	FLR
-2161	0871	0x871	FLR
-2162	0872	0x872	FLR
-2163	0873	0x873	FLR
-2164	0874	0x874	FLR
-2165	0875	0x875	FLR
-2166	0876	0x876	FLR
-2167	0877	0x877	FLR
-2168	0878	0x878	FLR
-2169	0879	0x879	FLR
-2170	087A	0x87A	FLR
-2171	087B	0x87B	FLR
-2172	087C	0x87C	FLR
-2173	087D	0x87D	FLR
-2174	087E	0x87E	FLR
-2175	087F	0x87F	FLR
-2176	0880	0x880	FLR
-2177	0881	0x881	FLR
-2178	0882	0x882	FLR
-2179	0883	0x883	FLR
-2180	0884	0x884	FLR
-2181	0885	0x885	FLR
-2182	0886	0x886	FLR
-2183	0887	0x887	FLR
-2184	0888	0x888	FLR
-2185	0889	0x889	FLR
-2186	088A	0x88A	FLR
-2187	088B	0x88B	FLR
-2188	088C	0x88C	FLR
-2189	088D	0x88D	FLR
-2190	088E	0x88E	FLR
-2191	088F	0x88F	FLR
-2192	0890	0x890	FLR
-2193	0891	0x891	FLR
-2194	0892	0x892	FLR
-2195	0893	0x893	FLR
-2196	0894	0x894	FLR
-2197	0895	0x895	FLR
-2198	0896	0x896	FLR
-2199	0897	0x897	FLR
-2200	0898	0x898	FLR
-2201	0899	0x899	FLR
-2202	089A	0x89A	FLR
-2203	089B	0x89B	FLR
-2204	089C	0x89C	FLR
-2205	089D	0x89D	FLR
-2206	089E	0x89E	FLR
-2207	089F	0x89F	FLR
-2208	08A0	0x8A0	FLR
-2209	08A1	0x8A1	FLR
-2210	08A2	0x8A2	FLR
-2211	08A3	0x8A3	FLR
-2212	08A4	0x8A4	FLR
-2213	08A5	0x8A5	FLR
-2214	08A6	0x8A6	FLR
-2215	08A7	0x8A7	FLR
-2216	08A8	0x8A8	FLR
-2217	08A9	0x8A9	FLR
-2218	08AA	0x8AA	FLR
-2219	08AB	0x8AB	FLR
-2220	08AC	0x8AC	FLR
-2221	08AD	0x8AD	FLR
-2222	08AE	0x8AE	FLR
-2223	08AF	0x8AF	FLR
-2224	08B0	0x8B0	FLR
-2225	08B1	0x8B1	FLR
-2226	08B2	0x8B2	FLR
-2227	08B3	0x8B3	FLR
-2228	08B4	0x8B4	FLR
-2229	08B5	0x8B5	FLR
-2230	08B6	0x8B6	FLR
-2231	08B7	0x8B7	FLR
-2232	08B8	0x8B8	FLR
-2233	08B9	0x8B9	FLR
-2234	08BA	0x8BA	FLR
-2235	08BB	0x8BB	FLR
-2236	08BC	0x8BC	FLR
-2237	08BD	0x8BD	FLR
-2238	08BE	0x8BE	FLR
-2239	08BF	0x8BF	FLR
-2240	08C0	0x8C0	FLR
-2241	08C1	0x8C1	FLR
-2242	08C2	0x8C2	FLR
-2243	08C3	0x8C3	FLR
-2244	08C4	0x8C4	FLR
-2245	08C5	0x8C5	FLR
-2246	08C6	0x8C6	FLR
-2247	08C7	0x8C7	FLR
-2248	08C8	0x8C8	FLR
-2249	08C9	0x8C9	FLR
-2250	08CA	0x8CA	FLR
-2251	08CB	0x8CB	FLR
-2252	08CC	0x8CC	FLR
-2253	08CD	0x8CD	FLR
-2254	08CE	0x8CE	FLR
-2255	08CF	0x8CF	FLR
-2256	08D0	0x8D0	FLR
-2257	08D1	0x8D1	FLR
-2258	08D2	0x8D2	FLR
-2259	08D3	0x8D3	FLR
-2260	08D4	0x8D4	FLR
-2261	08D5	0x8D5	FLR
-2262	08D6	0x8D6	FLR
-2263	08D7	0x8D7	FLR
-2264	08D8	0x8D8	FLR
-2265	08D9	0x8D9	FLR
-2266	08DA	0x8DA	FLR
-2267	08DB	0x8DB	FLR
-2268	08DC	0x8DC	FLR
-2269	08DD	0x8DD	FLR
-2270	08DE	0x8DE	FLR
-2271	08DF	0x8DF	FLR
-2272	08E0	0x8E0	FLR
-2273	08E1	0x8E1	FLR
-2274	08E2	0x8E2	FLR
-2275	08E3	0x8E3	FLR
-2276	08E4	0x8E4	FLR
-2277	08E5	0x8E5	FLR
-2278	08E6	0x8E6	FLR
-2279	08E7	0x8E7	FLR
-2280	08E8	0x8E8	FLR
-2281	08E9	0x8E9	FLR
-2282	08EA	0x8EA	FLR
-2283	08EB	0x8EB	FLR
-2284	08EC	0x8EC	FLR
-2285	08ED	0x8ED	FLR
-2286	08EE	0x8EE	FLR
-2287	08EF	0x8EF	FLR
-2288	08F0	0x8F0	FLR
-2289	08F1	0x8F1	FLR
-2290	08F2	0x8F2	FLR
-2291	08F3	0x8F3	FLR
-2292	08F4	0x8F4	FLR
-2293	08F5	0x8F5	FLR
-2294	08F6	0x8F6	FLR
-2295	08F7	0x8F7	FLR
-2296	08F8	0x8F8	FLR
-2297	08F9	0x8F9	FLR
-2298	08FA	0x8FA	FLR
-2299	08FB	0x8FB	FLR
-2300	08FC	0x8FC	FLR
-2301	08FD	0x8FD	FLR
-2302	08FE	0x8FE	FLR
-2303	08FF	0x8FF	FLR
-2304	0900	0x900	FLR
-2305	0901	Beach Parasol	Weapon
-2306	0902	Cleaning Mop	Weapon
-2307	0903	Light Sword	Weapon
-2308	0904	Bass	Weapon
-2309	0905	Skull Rod	Weapon
-2310	0906	Cheering Flag	Weapon
-2311	0907	Spiked Bat	Weapon
-2312	0908	Bus Stop Sign	Weapon
-2313	0909	Carbon Pole	Weapon
-2314	090A	Sharp Shovel	Weapon
-2315	090B	Bamboo Broom	Weapon
-2316	090C	0x90C	FLR
-2317	090D	0x90D	FLR
-2318	090E	0x90E	FLR
-2319	090F	0x90F	FLR
-2320	0910	0x910	FLR
-2321	0911	0x911	FLR
-2322	0912	0x912	FLR
-2323	0913	0x913	FLR
-2324	0914	0x914	FLR
-2325	0915	0x915	FLR
-2326	0916	Grilled Corn	Weapon
-2327	0917	Feather Dagger	Weapon
-2328	0918	Happy Maracas	Weapon
-2329	0919	Pinwheel	Weapon
-2330	091A	Bone	Weapon
-2331	091B	Megaphone	Weapon
-2332	091C	Inaba Trout	Weapon
-2333	091D	Bowling Pin	Weapon
-2334	091E	Chinese Cleaver	Weapon
-2335	091F	0x91F	FLR
-2336	0920	0x920	FLR
-2337	0921	0x921	FLR
-2338	0922	0x922	FLR
-2339	0923	0x923	FLR
-2340	0924	0x924	FLR
-2341	0925	0x925	FLR
-2342	0926	0x926	FLR
-2343	0927	0x927	FLR
-2344	0928	0x928	FLR
-2345	0929	Flying Disc	Weapon
-2346	092A	Disco Fan	Weapon
-2347	092B	Feather Boomerang	Weapon
-2348	092C	Tambourine	Weapon
-2349	092D	Santa Fan	Weapon
-2350	092E	Festival Fan	Weapon
-2351	092F	Bat Saucer	Weapon
-2352	0930	Table Tennis Racket	Weapon
-2353	0931	Victory Fan	Weapon
-2354	0932	Silver Tray	Weapon
-2355	0933	Gothic Fan	Weapon
-2356	0934	0x934	FLR
-2357	0935	0x935	FLR
-2358	0936	0x936	FLR
-2359	0937	0x937	FLR
-2360	0938	0x938	FLR
-2361	0939	0x939	FLR
-2362	093A	0x93A	FLR
-2363	093B	0x93B	FLR
-2364	093C	0x93C	FLR
-2365	093D	0x93D	FLR
-2366	093E	0x93E	FLR
-2367	093F	Invisible Shoes	Weapon
-2368	0940	Wrestling Boots	Weapon
-2369	0941	Jet Boots	Weapon
-2370	0942	Inline Skates	Weapon
-2371	0943	Foot-Maces	Weapon
-2372	0944	Metal Geta	Weapon
-2373	0945	Loose Socks	Weapon
-2374	0946	Animal Slippers	Weapon
-2375	0947	Spring Boots	Weapon
-2376	0948	0x948	FLR
-2377	0949	0x949	FLR
-2378	094A	0x94A	FLR
-2379	094B	0x94B	FLR
-2380	094C	0x94C	FLR
-2381	094D	0x94D	FLR
-2382	094E	0x94E	FLR
-2383	094F	0x94F	FLR
-2384	0950	0x950	FLR
-2385	0951	Bodyboard	Weapon
-2386	0952	Factory Sign	Weapon
-2387	0953	Feather Shield	Weapon
-2388	0954	0x954	FLR
-2389	0955	Big Cymbal	Weapon
-2390	0956	Christmas Wreath	Weapon
-2391	0957	Casket Lid	Weapon
-2392	0958	Colored Bench	Weapon
-2393	0959	Flat Taiko	Weapon
-2394	095A	Guardian	Weapon
-2395	095B	Dining Table	Weapon
-2396	095C	Half-Sized Tatami	Weapon
-2397	095D	0x95D	FLR
-2398	095E	0x95E	FLR
-2399	095F	0x95F	FLR
-2400	0960	0x960	FLR
-2401	0961	0x961	FLR
-2402	0962	0x962	FLR
-2403	0963	0x963	FLR
-2404	0964	0x964	FLR
-2405	0965	0x965	FLR
-2406	0966	0x966	FLR
-2407	0967	Water Gun	Weapon
-2408	0968	Feather Shot	Weapon
-2409	0969	Bat Magnum	Weapon
-2410	096A	Flintlock	Weapon
-2411	096B	Frost Shot	Weapon
-2412	096C	Special Ray Gun	Weapon
-2413	096D	Rubber Band Gun	Weapon
-2414	096E	Machine Pistol	Weapon
-2415	096F	0x96F	FLR
-2416	0970	0x970	FLR
-2417	0971	0x971	FLR
-2418	0972	0x972	FLR
-2419	0973	0x973	FLR
-2420	0974	0x974	FLR
-2421	0975	0x975	FLR
-2422	0976	0x976	FLR
-2423	0977	0x977	FLR
-2424	0978	0x978	FLR
-2425	0979	Beach Ball	Weapon
-2426	097A	Animal Paw	Weapon
-2427	097B	Feather Claw	Weapon
-2428	097C	Reindeer Hoof	Weapon
-2429	097D	Pyro Puppet	Weapon
-2430	097E	Hyper Drill	Weapon
-2431	097F	Crab Claw	Weapon
-2432	0980	Frost Puppet	Weapon
-2433	0981	0x981	FLR
-2434	0982	Strange Sword	Weapon|HF
-2435	0983	Strange Daggers	Weapon|HF
-2436	0984	Strange Greaves	Weapon|HF
-2437	0985	Strange Fan	Weapon|HF
-2438	0986	Strange Shield	Weapon|HF
-2439	0987	Strange Firearm	Weapon|HF
-2440	0988	Strange Claw	Weapon|HF
-2441	0989	0x989	FLR
-2442	098A	0x98A	FLR
-2443	098B	0x98B	FLR
-2444	098C	0x98C	FLR
-2445	098D	0x98D	FLR
-2446	098E	0x98E	FLR
-2447	098F	0x98F	FLR
-2448	0990	0x990	FLR
-2449	0991	0x991	FLR
-2450	0992	0x992	FLR
-2451	0993	0x993	FLR
-2452	0994	0x994	FLR
-2453	0995	0x995	FLR
-2454	0996	0x996	FLR
-2455	0997	0x997	FLR
-2456	0998	0x998	FLR
-2457	0999	0x999	FLR
-2458	099A	0x99A	FLR
-2459	099B	0x99B	FLR
-2460	099C	0x99C	FLR
-2461	099D	0x99D	FLR
-2462	099E	0x99E	FLR
-2463	099F	0x99F	FLR
-2464	09A0	0x9A0	FLR
-2465	09A1	0x9A1	FLR
-2466	09A2	0x9A2	FLR
-2467	09A3	0x9A3	FLR
-2468	09A4	0x9A4	FLR
-2469	09A5	0x9A5	FLR
-2470	09A6	0x9A6	FLR
-2471	09A7	0x9A7	FLR
-2472	09A8	0x9A8	FLR
-2473	09A9	0x9A9	FLR
-2474	09AA	0x9AA	FLR
-2475	09AB	0x9AB	FLR
-2476	09AC	0x9AC	FLR
-2477	09AD	0x9AD	FLR
-2478	09AE	0x9AE	FLR
-2479	09AF	0x9AF	FLR
-2480	09B0	0x9B0	FLR
-2481	09B1	0x9B1	FLR
-2482	09B2	0x9B2	FLR
-2483	09B3	0x9B3	FLR
-2484	09B4	0x9B4	FLR
-2485	09B5	0x9B5	FLR
-2486	09B6	0x9B6	FLR
-2487	09B7	0x9B7	FLR
-2488	09B8	0x9B8	FLR
-2489	09B9	0x9B9	FLR
-2490	09BA	0x9BA	FLR
-2491	09BB	0x9BB	FLR
-2492	09BC	0x9BC	FLR
-2493	09BD	0x9BD	FLR
-2494	09BE	0x9BE	FLR
-2495	09BF	0x9BF	FLR
-2496	09C0	0x9C0	FLR
-2497	09C1	0x9C1	FLR
-2498	09C2	0x9C2	FLR
-2499	09C3	0x9C3	FLR
-2500	09C4	0x9C4	FLR
-2501	09C5	0x9C5	FLR
-2502	09C6	0x9C6	FLR
-2503	09C7	0x9C7	FLR
-2504	09C8	0x9C8	FLR
-2505	09C9	0x9C9	FLR
-2506	09CA	0x9CA	FLR
-2507	09CB	0x9CB	FLR
-2508	09CC	0x9CC	FLR
-2509	09CD	0x9CD	FLR
-2510	09CE	0x9CE	FLR
-2511	09CF	0x9CF	FLR
-2512	09D0	0x9D0	FLR
-2513	09D1	0x9D1	FLR
-2514	09D2	0x9D2	FLR
-2515	09D3	0x9D3	FLR
-2516	09D4	0x9D4	FLR
-2517	09D5	0x9D5	FLR
-2518	09D6	0x9D6	FLR
-2519	09D7	0x9D7	FLR
-2520	09D8	0x9D8	FLR
-2521	09D9	0x9D9	FLR
-2522	09DA	0x9DA	FLR
-2523	09DB	0x9DB	FLR
-2524	09DC	0x9DC	FLR
-2525	09DD	0x9DD	FLR
-2526	09DE	0x9DE	FLR
-2527	09DF	0x9DF	FLR
-2528	09E0	0x9E0	FLR
-2529	09E1	0x9E1	FLR
-2530	09E2	0x9E2	FLR
-2531	09E3	0x9E3	FLR
-2532	09E4	0x9E4	FLR
-2533	09E5	0x9E5	FLR
-2534	09E6	0x9E6	FLR
-2535	09E7	0x9E7	FLR
-2536	09E8	0x9E8	FLR
-2537	09E9	0x9E9	FLR
-2538	09EA	0x9EA	FLR
-2539	09EB	0x9EB	FLR
-2540	09EC	0x9EC	FLR
-2541	09ED	0x9ED	FLR
-2542	09EE	0x9EE	FLR
-2543	09EF	0x9EF	FLR
-2544	09F0	0x9F0	FLR
-2545	09F1	0x9F1	FLR
-2546	09F2	0x9F2	FLR
-2547	09F3	0x9F3	FLR
-2548	09F4	0x9F4	FLR
-2549	09F5	0x9F5	FLR
-2550	09F6	0x9F6	FLR
-2551	09F7	0x9F7	FLR
-2552	09F8	0x9F8	FLR
-2553	09F9	0x9F9	FLR
-2554	09FA	0x9FA	FLR
-2555	09FB	0x9FB	FLR
-2556	09FC	0x9FC	FLR
-2557	09FD	0x9FD	FLR
-2558	09FE	0x9FE	FLR
-2559	09FF	0x9FF	FLR
+0	000	Blank	BLN
+1	001	Golf Club	Weapon
+2	002	Titanium Club	Weapon
+3	003	5-Iron	Weapon
+4	004	Imitation Katana	Weapon
+5	005	Musashi Shinai	Weapon
+6	006	Long Sword	Weapon
+7	007	Zweihander	Weapon
+8	008	Iai Katana	Weapon
+9	009	Bastard Sword	Weapon
+10	00A	Gothic Sword	Weapon
+11	00B	Type-98 Gunto	Weapon
+12	00C	Downpour Sword	Weapon|Bugged
+13	00D	Edge	Weapon
+14	00E	Kage-Dachi	Weapon
+15	00F	Great Sword	Weapon
+16	010	Midare Hamon	Weapon
+17	011	Anglaise	Weapon
+18	012	Kakitsubata	Weapon
+19	013	Gardenia Sword	Weapon
+20	014	Kenka	Weapon
+21	015	Krieg	Weapon
+22	016	Kijintou	Weapon
+23	017	Number One	Weapon
+24	018	Gaia Sword	Weapon
+25	019	Tsubaki-Otoshi	Weapon
+26	01A	Myth-like Sword	Weapon
+27	01B	Shichisei-Ken	Weapon
+28	01C	El Caliente	Weapon
+29	01D	Yahiro Sword	Weapon
+30	01E	Triumph	Weapon
+31	01F	Tajikarao Sword	Weapon
+32	020	Futsuno Mitama	Weapon
+33	021	Soul Crusher	Weapon
+34	022	Wooden Bat	Weapon
+35	023	Metal Bat	Weapon
+36	024	Blade of Totsuka	Weapon
+37	025	0x025	Weapon
+38	026	0x026	Weapon
+39	027	Monkey Wrench	Weapon
+40	028	Titanium Wrench	Weapon
+41	029	Skill Spanner	Weapon
+42	02A	Hunting Nata	Weapon
+43	02B	Kunai	Weapon
+44	02C	Poison Kunai	Weapon
+45	02D	Reign Skinner	Weapon
+46	02E	Santou	Weapon
+47	02F	Kozuka	Weapon
+48	030	Throwing Kunai	Weapon
+49	031	Kris Naga	Weapon
+50	032	Kaiken	Weapon
+51	033	Bashin	Weapon
+52	034	Yashioori Dagger	Weapon
+53	035	Yashima	Weapon
+54	036	En-Giri	Weapon
+55	037	Bloody Kunai	Weapon
+56	038	Fearful Kunai	Weapon
+57	039	Castilla Knife	Weapon
+58	03A	Ohorinomikoto	Weapon
+59	03B	Flying Kato	Weapon
+60	03C	Basho	Weapon
+61	03D	Thief Dagger	Weapon
+62	03E	Fuuma Kotaro	Weapon
+63	03F	Militia Dagger	Weapon
+64	040	Blitz Knife	Weapon
+65	041	Hattori	Weapon
+66	042	Ogre Tooth	Weapon
+67	043	Rappa	Weapon
+68	044	Kashin Koji	Weapon
+69	045	Kitchen Knife	Weapon
+70	046	Malakh	Weapon
+71	047	0x047	Weapon
+72	048	0x048	Weapon
+73	049	0x049	Weapon
+74	04A	0x04A	Weapon
+75	04B	0x04B	Weapon
+76	04C	0x04C	Weapon
+77	04D	Kyo Sensu	Weapon
+78	04E	Silk Fan	Weapon
+79	04F	Suzaku Feather	Weapon
+80	050	Arazuyu Fan	Weapon
+81	051	Tesseb	Weapon
+82	052	Masquerade	Weapon
+83	053	Akisame Fan	Weapon
+84	054	Hanachirusato	Weapon
+85	055	Madam's Charm	Weapon
+86	056	Inversion Fan	Weapon
+87	057	Amagyou Fan	Weapon
+88	058	Mogari-Bue	Weapon
+89	059	Fickle Madam	Weapon
+90	05A	Ganar	Weapon
+91	05B	Harlot's Mercy	Weapon
+92	05C	Courtesia	Weapon
+93	05D	Uhi Fan	Weapon
+94	05E	Adoracion	Weapon
+95	05F	Suzumushi	Weapon
+96	060	Duchess	Weapon
+97	061	Noblesse Oblige	Weapon
+98	062	Hototogisu	Weapon
+99	063	Secret Fan	Weapon
+100	064	Kacho Fugetsu	Weapon
+101	065	Pieta	Weapon
+102	066	Yume no Ukihashi	Weapon
+103	067	Noh Fan	Weapon
+104	068	Boundless Sea	Weapon
+105	069	0x069	Weapon
+106	06A	0x06A	Weapon
+107	06B	0x06B	Weapon
+108	06C	0x06C	Weapon
+109	06D	0x06D	Weapon
+110	06E	0x06E	Weapon
+111	06F	0x06F	Weapon
+112	070	Leather Shoes	Weapon
+113	071	Red-Leaf Gusoku	Weapon
+114	072	Shield Boots	Weapon
+115	073	Nanman Gusoku	Weapon
+116	074	Punk Shoes	Weapon
+117	075	Hard Boots	Weapon
+118	076	Skill Greaves	Weapon
+119	077	Adios Shoes	Weapon
+120	078	Nice Shoes	Weapon
+121	079	Cowboy Boots	Weapon
+122	07A	Heavy Heels	Weapon
+123	07B	Bishamonten	Weapon
+124	07C	Amami Legs	Weapon
+125	07D	Furinkazan	Weapon
+126	07E	Bucking Broncos	Weapon
+127	07F	Sleipnir	Weapon
+128	080	Four Beasts	Weapon
+129	081	Vampire Shoes	Weapon
+130	082	Mjolnir Boots	Weapon
+131	083	Vidar's Boots	Weapon
+132	084	Kintabi Gusoku	Weapon
+133	085	Stella Greaves	Weapon
+134	086	Hero Legs	Weapon
+135	087	Demon Boots	Weapon
+136	088	Kehaya	Weapon
+137	089	Gigant Fall	Weapon
+138	08A	Peerless Heels	Weapon
+139	08B	Judgment Boots	Weapon
+140	08C	Steel Slippers	Weapon
+141	08D	Platform Sneaks	Weapon
+142	08E	Moses Sandals	Weapon
+143	08F	0x08F	Weapon
+144	090	0x090	Weapon
+145	091	0x091	Weapon
+146	092	0x092	Weapon
+147	093	0x093	Weapon
+148	094	0x094	Weapon
+149	095	0x095	Weapon
+150	096	Folding Chair	Weapon
+151	097	Steel Plate	Weapon
+152	098	Hard Board	Weapon
+153	099	Photon Plate	Weapon
+154	09A	Power Plate	Weapon
+155	09B	Alloyed Plate	Weapon
+156	09C	Thunder Plate	Weapon
+157	09D	Gorgon Plate	Weapon
+158	09E	Scutum	Weapon
+159	09F	Barbarian Shield	Weapon
+160	0A0	Golden Plate	Weapon
+161	0A1	Demon Shield	Weapon
+162	0A2	Mega Buckler	Weapon
+163	0A3	Oni-Gawara	Weapon
+164	0A4	Bath Lid	Weapon
+165	0A5	Death Scudetto	Weapon
+166	0A6	Phalanx	Weapon
+167	0A7	Sol Breaker	Weapon
+168	0A8	Asturias	Weapon
+169	0A9	Black Targe	Weapon
+170	0AA	Aegis Shield	Weapon
+171	0AB	Dullahan	Weapon
+172	0AC	Christ Mirror	Weapon
+173	0AD	Yasogami Desk	Weapon
+174	0AE	Iron Plate	Weapon
+175	0AF	Perun Plate	Weapon
+176	0B0	0x0B0	Weapon
+177	0B1	0x0B1	Weapon
+178	0B2	0x0B2	Weapon
+179	0B3	0x0B3	Weapon
+180	0B4	0x0B4	Weapon
+181	0B5	0x0B5	Weapon
+182	0B6	0x0B6	Weapon
+183	0B7	Nambu 2	Weapon
+184	0B8	Peacemaker	Weapon
+185	0B9	Raging Bull	Weapon
+186	0BA	Crimson Dirge	Weapon
+187	0BB	.44 Anaconda	Weapon
+188	0BC	Magatsu Kiba	Weapon
+189	0BD	Chrome Heart	Weapon
+190	0BE	Jovian Thunder	Weapon
+191	0BF	Unlimited	Weapon
+192	0C0	Camel Red	Weapon
+193	0C1	Algernon	Weapon
+194	0C2	From Zero	Weapon
+195	0C3	Judge of Hell	Weapon
+196	0C4	Athena Kiss R	Weapon
+197	0C5	Black Hole	Weapon
+198	0C6	0x0C6	Weapon
+199	0C7	0x0C7	Weapon
+200	0C8	0x0C8	Weapon
+201	0C9	0x0C9	Weapon
+202	0CA	0x0CA	Weapon
+203	0CB	0x0CB	Weapon
+204	0CC	0x0CC	Weapon
+205	0CD	0x0CD	Weapon
+206	0CE	0x0CE	Weapon
+207	0CF	0x0CF	Weapon
+208	0D0	0x0D0	Weapon
+209	0D1	0x0D1	Weapon
+210	0D2	0x0D2	Weapon
+211	0D3	0x0D3	Weapon
+212	0D4	0x0D4	Weapon
+213	0D5	0x0D5	Weapon
+214	0D6	0x0D6	Weapon
+215	0D7	0x0D7	Weapon
+216	0D8	0x0D8	Weapon
+217	0D9	Spikey Punch	Weapon
+218	0DA	Mewling Claw	Weapon
+219	0DB	Bear Claw	Weapon
+220	0DC	Drunken Fist	Weapon
+221	0DD	Typhoon Claw	Weapon
+222	0DE	Mail Duster	Weapon
+223	0DF	Air Break	Weapon
+224	0E0	Poison Claw	Weapon
+225	0E1	Assault Spike	Weapon
+226	0E2	Gehenna Claw	Weapon
+227	0E3	Cute Assassin	Weapon
+228	0E4	Chain Glove	Weapon
+229	0E5	Fuuma Bundou	Weapon
+230	0E6	Strega Claw	Weapon
+231	0E7	Pure Assassin	Weapon
+232	0E8	Needle Spike	Weapon
+233	0E9	Seiryu Claw	Weapon
+234	0EA	Jakotsu Claw	Weapon
+235	0EB	Shitisei Jakotsu	Weapon
+236	0EC	Platinum Claw	Weapon
+237	0ED	The Ripper	Weapon
+238	0EE	Seireiga	Weapon
+239	0EF	0x0EF	Weapon
+240	0F0	0x0F0	Weapon
+241	0F1	0x0F1	Weapon
+242	0F2	0x0F2	Weapon
+243	0F3	0x0F3	Weapon
+244	0F4	0x0F4	Weapon
+245	0F5	0x0F5	Weapon
+246	0F6	0x0F6	Weapon
+247	0F7	0x0F7	Weapon
+248	0F8	0x0F8	Weapon
+249	0F9	0x0F9	Weapon
+250	0FA	0x0FA	Weapon
+251	0FB	0x0FB	Weapon
+252	0FC	0x0FC	Weapon
+253	0FD	0x0FD	Weapon
+254	0FE	Bare Hands	Weapon
+255	0FF	0x0FF	Weapon
+256	100	Blank	BLN
+257	101	T-Shirt	Armor
+258	102	Long T-Shirt	Armor
+259	103	Tank Top	Armor|Bugged
+260	104	Lace Blouse	Armor
+261	105	Gothic Shirt	Armor
+262	106	Skull T-Shirt	Armor
+263	107	Pretty Suit	Armor
+264	108	Lace Camisole	Armor
+265	109	0x109	Armor
+266	10A	Chain Mail	Armor
+267	10B	Kevlar Vest	Armor
+268	10C	Survival Guard	Armor
+269	10D	Metal Jacket	Armor
+270	10E	Lion Happi	Armor
+271	10F	Charm Robe	Armor
+272	110	0x110	Armor
+273	111	0x111	Armor
+274	112	0x112	Armor
+275	113	0x113	Armor
+276	114	0x114	Armor
+277	115	0x115	Armor
+278	116	0x116	Armor
+279	117	0x117	Armor
+280	118	0x118	Armor
+281	119	0x119	Armor
+282	11A	0x11A	Armor
+283	11B	0x11B	Armor
+284	11C	0x11C	Armor
+285	11D	0x11D	Armor
+286	11E	0x11E	Armor
+287	11F	Knifeproof Coat	Armor
+288	120	Battle Camisole	Armor
+289	121	Doumaru	Armor
+290	122	Miori Shirt	Armor
+291	123	0x123	Armor
+292	124	0x124	Armor
+293	125	Desperate Plate	Armor
+294	126	Combat Dress	Armor
+295	127	Gentleman's Tux	Armor
+296	128	Hard Bolero	Armor
+297	129	0x129	Armor
+298	12A	0x12A	Armor
+299	12B	0x12B	Armor
+300	12C	0x12C	Armor
+301	12D	0x12D	Armor
+302	12E	0x12E	Armor
+303	12F	0x12F	Armor
+304	130	0x130	Armor
+305	131	0x131	Armor
+306	132	0x132	Armor
+307	133	Black Stone Mail	Armor
+308	134	Wolf Tunic	Armor
+309	135	Knight Scale	Armor
+310	136	Action Vest	Armor
+311	137	0x137	Armor
+312	138	0x138	Armor
+313	139	0x139	Armor
+314	13A	0x13A	Armor
+315	13B	Hard Armor	Armor
+316	13C	Ame-Otoko	Armor
+317	13D	Zero Kosode	Armor
+318	13E	0x13E	Armor
+319	13F	0x13F	Armor
+320	140	0x140	Armor
+321	141	0x141	Armor
+322	142	0x142	Armor
+323	143	0x143	Armor
+324	144	0x144	Armor
+325	145	0x145	Armor
+326	146	0x146	Armor
+327	147	0x147	Armor
+328	148	Plate Mail	Armor
+329	149	Capital Robe	Armor
+330	14A	Ama-Gakure	Armor
+331	14B	Amakaze Happi	Armor
+332	14C	0x14C	Armor
+333	14D	0x14D	Armor
+334	14E	Passion Sweats	Armor
+335	14F	Steel Panier	Armor
+336	150	Jingi Fundoshi	Armor
+337	151	Breeze Tutu	Armor
+338	152	Haikara Shirt	Armor
+339	153	0x153	Armor
+340	154	0x154	Armor
+341	155	0x155	Armor
+342	156	0x156	Armor
+343	157	0x157	Armor
+344	158	0x158	Armor
+345	159	0x159	Armor
+346	15A	0x15A	Armor
+347	15B	Kuroito-odoshi	Armor
+348	15C	Divine Blouse	Armor
+349	15D	0x15D	Armor
+350	15E	Purple Suit	Armor
+351	15F	Talisman Cape	Armor
+352	160	Amamusha Armor	Armor
+353	161	Invincible Mini	Armor
+354	162	Niagra Climber	Armor
+355	163	Armada Bustier	Armor
+356	164	Hurricane Coat	Armor
+357	165	Uin Haori	Armor
+358	166	Paladin Armor	Armor
+359	167	0x167	Armor
+360	168	0x168	Armor
+361	169	0x169	Armor
+362	16A	0x16A	Armor
+363	16B	0x16B	Armor
+364	16C	0x16C	Armor
+365	16D	0x16D	Armor
+366	16E	0x16E	Armor
+367	16F	Dragon Scale	Armor
+368	170	Mythos Robe	Armor
+369	171	Stylish Kimono	Armor
+370	172	Lan Ling Wang	Armor
+371	173	0x173	Armor
+372	174	Ame-agari Kesshi	Armor
+373	175	Elint Duffle	Armor
+374	176	Oracle Gown	Armor
+375	177	Rune Dress	Armor
+376	178	Charm Drape	Armor
+377	179	Peach Battlesuit	Armor
+378	17A	Red Battlesuit	Armor
+379	17B	0x17B	Armor
+380	17C	0x17C	Armor
+381	17D	0x17D	Armor
+382	17E	0x17E	Armor
+383	17F	0x17F	Armor
+384	180	0x180	Armor
+385	181	0x181	Armor
+386	182	0x182	Armor
+387	183	1000-Stud Coat	Armor
+388	184	Kikusui Awase	Armor
+389	185	Mikagura Vest	Armor
+390	186	Kotodama Cape	Armor
+391	187	Komaryo Uchinugi	Armor
+392	188	Shinra Robe	Armor
+393	189	0x189	Armor
+394	18A	Surcoat	Armor
+395	18B	Mizuha Armor	Armor
+396	18C	Tsukuyomi Noshi	Armor
+397	18D	Amaterasu Hitoe	Armor
+398	18E	Angel Skirt	Armor
+399	18F	0x18F	Armor
+400	190	0x190	Armor
+401	191	0x191	Armor
+402	192	0x192	Armor
+403	193	0x193	Armor
+404	194	0x194	Armor
+405	195	0x195	Armor
+406	196	0x196	Armor
+407	197	Opera Coat	Armor
+408	198	Yomi Sleeves	Armor
+409	199	Lorica Hamata	Armor
+410	19A	Emery Meisen	Armor
+411	19B	Full Jin-Baori	Armor
+412	19C	Haten Robe	Armor
+413	19D	0x19D	Armor
+414	19E	Nubatama Suit	Armor
+415	19F	Uzume Robe	Armor
+416	1A0	Sonidori Wear	Armor
+417	1A1	Mandala Robe	Armor
+418	1A2	Godly Robe	Armor
+419	1A3	0x1A3	Armor
+420	1A4	White Joue	Armor|HF
+421	1A5	Fire Joue	Armor|HF
+422	1A6	Ice Joue	Armor|HF
+423	1A7	Wind Joue	Armor|HF
+424	1A8	Lightning Joue	Armor|HF
+425	1A9	Fire Repel Joue	Armor|HF
+426	1AA	Ice Repel Joue	Armor|HF
+427	1AB	Wind Repel Joue	Armor|HF
+428	1AC	Elec Repel Joue	Armor|HF
+429	1AD	Fire Drain Joue	Armor|HF
+430	1AE	Ice Drain Joue	Armor|HF
+431	1AF	Wind Drain Joue	Armor|HF
+432	1B0	Elec Drain Joue	Armor|HF
+433	1B1	0x1B1	Armor
+434	1B2	0x1B2	Armor
+435	1B3	0x1B3	Armor
+436	1B4	0x1B4	Armor
+437	1B5	0x1B5	Armor
+438	1B6	0x1B6	Armor
+439	1B7	0x1B7	Armor
+440	1B8	0x1B8	Armor
+441	1B9	0x1B9	Armor
+442	1BA	0x1BA	Armor
+443	1BB	0x1BB	Armor
+444	1BC	0x1BC	Armor
+445	1BD	0x1BD	Armor
+446	1BE	0x1BE	Armor
+447	1BF	0x1BF	Armor
+448	1C0	0x1C0	Armor
+449	1C1	0x1C1	Armor
+450	1C2	0x1C2	Armor
+451	1C3	0x1C3	Armor
+452	1C4	0x1C4	Armor
+453	1C5	0x1C5	Armor
+454	1C6	0x1C6	Armor
+455	1C7	0x1C7	Armor
+456	1C8	0x1C8	Armor
+457	1C9	0x1C9	Armor
+458	1CA	0x1CA	Armor
+459	1CB	0x1CB	Armor
+460	1CC	0x1CC	Armor
+461	1CD	0x1CD	Armor
+462	1CE	0x1CE	Armor
+463	1CF	0x1CF	Armor
+464	1D0	0x1D0	Armor
+465	1D1	0x1D1	Armor
+466	1D2	0x1D2	Armor
+467	1D3	0x1D3	Armor
+468	1D4	0x1D4	Armor
+469	1D5	0x1D5	Armor
+470	1D6	0x1D6	Armor
+471	1D7	0x1D7	Armor
+472	1D8	0x1D8	Armor
+473	1D9	0x1D9	Armor
+474	1DA	0x1DA	Armor
+475	1DB	0x1DB	Armor
+476	1DC	0x1DC	Armor
+477	1DD	0x1DD	Armor
+478	1DE	0x1DE	Armor
+479	1DF	0x1DF	Armor
+480	1E0	0x1E0	Armor
+481	1E1	0x1E1	Armor
+482	1E2	0x1E2	Armor
+483	1E3	0x1E3	Armor
+484	1E4	0x1E4	Armor
+485	1E5	0x1E5	Armor
+486	1E6	0x1E6	Armor
+487	1E7	0x1E7	Armor
+488	1E8	0x1E8	Armor
+489	1E9	0x1E9	Armor
+490	1EA	0x1EA	Armor
+491	1EB	0x1EB	Armor
+492	1EC	0x1EC	Armor
+493	1ED	0x1ED	Armor
+494	1EE	0x1EE	Armor
+495	1EF	0x1EF	Armor
+496	1F0	0x1F0	Armor
+497	1F1	0x1F1	Armor
+498	1F2	0x1F2	Armor
+499	1F3	0x1F3	Armor
+500	1F4	0x1F4	Armor
+501	1F5	0x1F5	Armor
+502	1F6	0x1F6	Armor
+503	1F7	0x1F7	Armor
+504	1F8	0x1F8	Armor
+505	1F9	0x1F9	Armor
+506	1FA	0x1FA	Armor
+507	1FB	0x1FB	Armor
+508	1FC	0x1FC	Armor
+509	1FD	0x1FD	Armor
+510	1FE	0x1FE	Armor
+511	1FF	0x1FF	Armor
+512	200	Blank	BLN
+513	201	Wristwatch	Acc
+514	202	Plain Ring	Acc
+515	203	Aluminum Badge	Acc
+516	204	Hair Band	Acc
+517	205	Spiral Earrings	Acc
+518	206	Silver Locket	Acc
+519	207	Bear Ears	Acc
+520	208	Ribbon	Acc
+521	209	0x209	Acc
+522	20A	Worn Rosary	Acc
+523	20B	Fire Vow	Acc
+524	20C	Flame Vow	Acc
+525	20D	Blaze Vow	Acc
+526	20E	Oven Vow	Acc
+527	20F	Kagutsuchi Vow	Acc
+528	210	Ice Vow	Acc
+529	211	Snow Vow	Acc
+530	212	Blizzard Vow	Acc
+531	213	Icicle Vow	Acc
+532	214	Kuraokami Vow	Acc
+533	215	Wind Vow	Acc
+534	216	Gust Vow	Acc
+535	217	Storm Vow	Acc
+536	218	Gale Vow	Acc
+537	219	Shinatobe Vow	Acc
+538	21A	Thunder Vow	Acc
+539	21B	Spark Vow	Acc
+540	21C	Volt Vow	Acc
+541	21D	Lightning Vow	Acc
+542	21E	Takefutsu Vow	Acc
+543	21F	Worn Talisman	Acc
+544	220	Fire Pin	Acc
+545	221	Flame Pin	Acc
+546	222	Blaze Pin	Acc
+547	223	Oven Pin	Acc
+548	224	Kagutsuchi Pin	Acc
+549	225	Ice Pin	Acc
+550	226	Snow Pin	Acc
+551	227	Blizzard Pin	Acc
+552	228	Icicle Pin	Acc
+553	229	Kuraokami Pin	Acc
+554	22A	Wind Pin	Acc
+555	22B	Gust Pin	Acc
+556	22C	Storm Pin	Acc
+557	22D	Gale Pin	Acc
+558	22E	Shinatobe Pin	Acc
+559	22F	Thunder Pin	Acc
+560	230	Spark Pin	Acc
+561	231	Volt Pin	Acc
+562	232	Lightning Pin	Acc
+563	233	Takefutsu Pin	Acc
+564	234	Worn Evil Eye	Acc
+565	235	Marksman Eye 1	Acc
+566	236	Marksman Eye 2	Acc
+567	237	Marksman Eye 3	Acc
+568	238	Marksman Eye 4	Acc
+569	239	Marksman Eye 5	Acc
+570	23A	Old Prayer Beads	Acc
+571	23B	Sight Beads 1	Acc
+572	23C	Sight Beads 2	Acc
+573	23D	Sight Beads 3	Acc
+574	23E	Sight Beads 4	Acc
+575	23F	Sight Beads 5	Acc
+576	240	Disinfectant	Acc
+577	241	Tranquil Buddha	Acc
+578	242	Bravery Vessel	Acc
+579	243	Healthy Recipe	Acc
+580	244	Kid's Hachimaki	Acc
+581	245	Cool Beads	Acc
+582	246	Safety Belt	Acc
+583	247	Disguise Mask	Acc
+584	248	Gas Mask	Acc
+585	249	Confusion Hat	Acc
+586	24A	Bold Ball	Acc
+587	24B	Healthy Homa	Acc
+588	24C	Pitch Pipes	Acc
+589	24D	Frozen Rose	Acc
+590	24E	Alarm Clock	Acc
+591	24F	Mask of Truth	Acc
+592	250	Book of Ruin	Acc
+593	251	Book of Serenity	Acc
+594	252	Book of the Void	Acc
+595	253	White Feather	Acc
+596	254	Black Feather	Acc
+597	255	Falcon Eye	Acc
+598	256	Eagle Eye	Acc
+599	257	Fire Suppressor	Acc
+600	258	Eye of Flame	Acc
+601	259	Ice Suppressor	Acc
+602	25A	Eye of Ice	Acc
+603	25B	Wind Suppressor	Acc
+604	25C	Eye of Wind	Acc
+605	25D	Volt Suppressor	Acc
+606	25E	Eye of Thunder	Acc
+607	25F	Omnipotent Orb	Acc
+608	260	Cat Whisker	Acc
+609	261	0x261	Acc
+610	262	0x262	Acc
+611	263	0x263	Acc
+612	264	0x264	Acc
+613	265	0x265	Acc
+614	266	0x266	Acc
+615	267	Revenge Ring	Acc
+616	268	Reprisal Chain	Acc
+617	269	Retribution Mask	Acc
+618	26A	Land Badge	Acc
+619	26B	Earth Badge	Acc
+620	26C	Space Badge	Acc
+621	26D	Mage's Mark	Acc
+622	26E	Sorcerer's Mark	Acc
+623	26F	Wizard's Mark	Acc
+624	270	Awareness Note	Acc
+625	271	Sigma Drive	Acc
+626	272	Omega Drive	Acc
+627	273	Barbaric Bracers	Acc
+628	274	Divine Pillar	Acc
+629	275	Chakra Ring	Acc
+630	276	Rudra Ring	Acc
+631	277	Blessed Hands	Acc
+632	278	Patient Collar	Acc
+633	279	Rebirth Prophecy	Acc
+634	27A	Headband	Acc
+635	27B	Power Belt	Acc
+636	27C	Power Tasuki	Acc
+637	27D	Spirit Hachimaki	Acc
+638	27E	Festival Drum	Acc
+639	27F	Power Muscle	Acc
+640	280	Lizard Charm	Acc
+641	281	Crow Charm	Acc
+642	282	Bat Charm	Acc
+643	283	Black Cat Charm	Acc
+644	284	Witch Charm	Acc
+645	285	Demon Charm	Acc
+646	286	Amulet	Acc
+647	287	Talisman	Acc
+648	288	Guard Amulet	Acc
+649	289	Iron Charm	Acc
+650	28A	Guard Rosary	Acc
+651	28B	Defense Essence	Acc
+652	28C	Feather Strap	Acc
+653	28D	Wing Strap	Acc
+654	28E	Flight Strap	Acc
+655	28F	Steed Strap	Acc
+656	290	Pegasus Strap	Acc
+657	291	Speed Star	Acc
+658	292	Lucky Coin	Acc
+659	293	Rabbit Foot	Acc
+660	294	Silver Spoon	Acc
+661	295	Maneki Neko	Acc
+662	296	Wooden Ebisu	Acc
+663	297	Lucky Seven	Acc
+664	298	Feng Shui Brace	Acc
+665	299	Kimyaku Brace	Acc
+666	29A	Ryumyaku Brace	Acc
+667	29B	Reisen Brace	Acc
+668	29C	Ouryu Brace	Acc
+669	29D	God's Love	Acc
+670	29E	Vigor Fob	Acc
+671	29F	Life Fob	Acc
+672	2A0	Amaterasu Fob	Acc
+673	2A1	Plum Potpourri	Acc
+674	2A2	Soul Potpourri	Acc
+675	2A3	Moon Potpourri	Acc
+676	2A4	Fire Bangle	Acc
+677	2A5	Agni Bangle	Acc
+678	2A6	Ice Bangle	Acc
+679	2A7	Varuna Bangle	Acc
+680	2A8	Thunder Bangle	Acc
+681	2A9	Indra Bangle	Acc
+682	2AA	Wind Bangle	Acc
+683	2AB	Vayu Bangle	Acc
+684	2AC	0x2AC	Acc
+685	2AD	Parting Stone	Acc|HF
+686	2AE	0x2AE	Acc
+687	2AF	Pain Stone	Acc|HF
+688	2B0	Grief Stone	Acc|HF
+689	2B1	Sorrow Stone	Acc|HF
+690	2B2	Love Stone	Acc|HF
+691	2B3	Suffering Stone	Acc|HF
+692	2B4	Anger Stone	Acc|HF
+693	2B5	Loneliness Stone	Acc|HF
+694	2B6	Invitation Stone	Acc|HF
+695	2B7	0x2B7	Acc
+696	2B8	0x2B8	Acc
+697	2B9	0x2B9	Acc
+698	2BA	0x2BA	Acc
+699	2BB	0x2BB	Acc
+700	2BC	0x2BC	Acc
+701	2BD	0x2BD	Acc
+702	2BE	0x2BE	Acc
+703	2BF	0x2BF	Acc
+704	2C0	0x2C0	Acc
+705	2C1	0x2C1	Acc
+706	2C2	0x2C2	Acc
+707	2C3	0x2C3	Acc
+708	2C4	0x2C4	Acc
+709	2C5	0x2C5	Acc
+710	2C6	0x2C6	Acc
+711	2C7	0x2C7	Acc
+712	2C8	0x2C8	Acc
+713	2C9	0x2C9	Acc
+714	2CA	0x2CA	Acc
+715	2CB	0x2CB	Acc
+716	2CC	0x2CC	Acc
+717	2CD	0x2CD	Acc
+718	2CE	0x2CE	Acc
+719	2CF	0x2CF	Acc
+720	2D0	0x2D0	Acc
+721	2D1	0x2D1	Acc
+722	2D2	0x2D2	Acc
+723	2D3	0x2D3	Acc
+724	2D4	0x2D4	Acc
+725	2D5	0x2D5	Acc
+726	2D6	0x2D6	Acc
+727	2D7	0x2D7	Acc
+728	2D8	0x2D8	Acc
+729	2D9	0x2D9	Acc
+730	2DA	0x2DA	Acc
+731	2DB	0x2DB	Acc
+732	2DC	0x2DC	Acc
+733	2DD	0x2DD	Acc
+734	2DE	0x2DE	Acc
+735	2DF	0x2DF	Acc
+736	2E0	0x2E0	Acc
+737	2E1	0x2E1	Acc
+738	2E2	0x2E2	Acc
+739	2E3	0x2E3	Acc
+740	2E4	0x2E4	Acc
+741	2E5	0x2E5	Acc
+742	2E6	0x2E6	Acc
+743	2E7	0x2E7	Acc
+744	2E8	0x2E8	Acc
+745	2E9	0x2E9	Acc
+746	2EA	0x2EA	Acc
+747	2EB	0x2EB	Acc
+748	2EC	0x2EC	Acc
+749	2ED	0x2ED	Acc
+750	2EE	0x2EE	Acc
+751	2EF	0x2EF	Acc
+752	2F0	0x2F0	Acc
+753	2F1	0x2F1	Acc
+754	2F2	Portrait Medal	Acc
+755	2F3	Paper Armband	Acc
+756	2F4	Bead Ring	Acc
+757	2F5	Partial Award	Acc
+758	2F6	Reader King	Acc
+759	2F7	Macho Medal	Acc
+760	2F8	Fluffy Muffler	Acc
+761	2F9	Leather Keychain	Acc
+762	2FA	Silver Bangle	Acc
+763	2FB	Handmade Watch	Acc
+764	2FC	Rugged Ring	Acc
+765	2FD	Fancy Mini-Car	Acc
+766	2FE	Hand-Knit Mitten	Acc
+767	2FF	0x2FF	Acc
+768	300	Blank	BLN
+769	301	Peach Seed	Expend
+770	302	Medicine	Expend
+771	303	Ointment	Expend
+772	304	Antibiotic Gel	Expend
+773	305	Life Stone	Expend
+774	306	Bead	Expend
+775	307	Value Medicine	Expend
+776	308	Medical Kit	Expend
+777	309	Macca Leaf	Expend
+778	30A	Bead Chain	Expend
+779	30B	Soul Drop	Expend
+780	30C	Snuff Soul	Expend
+781	30D	Chewing Soul	Expend
+782	30E	Soul Food	Expend
+783	30F	Revival Bead	Expend
+784	310	Balm of Life	Expend
+785	311	Royal Jelly	Expend
+786	312	Dokudami Tea	Expend
+787	313	Mouthwash	Expend
+788	314	Sedative	Expend
+789	315	Stimulant	Expend
+790	316	Goho-M	Expend
+791	317	Vanish Ball	Expend
+792	318	Soma	Expend
+793	319	Amrita Soda	Expend
+794	31A	Hiranya	Expend
+795	31B	Muscle Drink	Expend
+796	31C	Odd Morsel	Expend
+797	31D	Rancid Gravy	Expend
+798	31E	Moon Tsukubame	Expend
+799	31F	Magic Mirror	Expend
+800	320	Physical Mirror	Expend
+801	321	Assault Signal	Expend
+802	322	Super Sonic	Expend
+803	323	Diamond Shield	Expend
+804	324	Purifying Water	Expend
+805	325	Purifying Salt	Expend
+806	326	Firecracker	Expend
+807	327	San-zun Tama	Expend
+808	328	Ice Cube	Expend
+809	329	Dry Ice	Expend
+810	32A	Pinwheel	Expend
+811	32B	Yashichi	Expend
+812	32C	Ball Lightning	Expend
+813	32D	Tesla Coil	Expend
+814	32E	Smart Bomb	Expend
+815	32F	Segaki Rice	Expend
+816	330	Curse Paper	Expend
+817	331	Hell Magatama	Expend
+818	332	Cyclone Magatama	Expend
+819	333	Frost Magatama	Expend
+820	334	Arc Magatama	Expend
+821	335	Amethyst	Expend
+822	336	Aquamarine	Expend
+823	337	Emerald	Expend
+824	338	Onyx	Expend
+825	339	Opal	Expend
+826	33A	Garnet	Expend
+827	33B	Sapphire	Expend
+828	33C	Diamond	Expend
+829	33D	Turquoise	Expend
+830	33E	Topaz	Expend
+831	33F	Pearl	Expend
+832	340	Homunculus	Expend
+833	341	Chest Key	Expend|HF
+834	342	Junes Lunch	Expend
+835	343	Steak Skewer DX	Expend
+836	344	Amagi Manju	Expend
+837	345	Mom's Lunch	Expend
+838	346	Mini Mechavator	Expend
+839	347	Sample Food Set	Expend
+840	348	Cough Drop	Expend
+841	349	Meat Gum	Expend
+842	34A	Quelorie Magic	Expend
+843	34B	Bone Senbei	Expend
+844	34C	Milk Chocolate	Expend
+845	34D	Yummy Gummy	Expend
+846	34E	Ruby	Expend
+847	34F	Tater Longs	Expend
+848	350	TaP Soda	Expend
+849	351	Prize Sticker	Expend
+850	352	Super Croquette	Expend
+851	353	Steak Croquette	Expend
+852	354	Steak Skewer	Expend
+853	355	Dr. Salt NEO	Expend
+854	356	Second Maid	Expend
+855	357	The Natural	Expend
+856	358	Orange Smash	Expend
+857	359	Yukiko's Lunch	Expend
+858	35A	Chie's Muffin	Expend
+859	35B	Naoto's Candy	Expend
+860	35C	Pulsating Stone	Expend
+861	35D	Mystical Scarab	Expend
+862	35E	Olympic Tape	Expend
+863	35F	Uplifting Radio	Expend
+864	360	Spirit Radio	Expend
+865	361	Diet Food	Expend
+866	362	Slimming Food	Expend
+867	363	Heavy Soup	Expend
+868	364	Giant Candy	Expend
+869	365	Wasabi Jelly	Expend
+870	366	Herbal Pill	Expend
+871	367	Longevity Pill	Expend
+872	368	0x368	Expend
+873	369	Bug Bait	Expend
+874	36A	Luxurious Coffee	Expend
+875	36B	Power Mountain Blend	Expend
+876	36C	Magic Mountain Blend	Expend
+877	36D	Tough Mountain Blend	Expend
+878	36E	Speed Mountain Blend	Expend
+879	36F	Lucky Mountain Blend	Expend
+880	370	0x370	Expend
+881	371	Fire Breaker	Expend|HF
+882	372	Ice Breaker	Expend|HF
+883	373	Wind Breaker	Expend|HF
+884	374	Lightning Breaker	Expend|HF
+885	375	Sacred Branch	Expend|HF
+886	376	0x376	Expend
+887	377	0x377	Expend
+888	378	0x378	Expend
+889	379	0x379	Expend
+890	37A	0x37A	Expend
+891	37B	0x37B	Expend
+892	37C	0x37C	Expend
+893	37D	0x37D	Expend
+894	37E	0x37E	Expend
+895	37F	0x37F	Expend
+896	380	0x380	Expend
+897	381	0x381	Expend
+898	382	0x382	Expend
+899	383	0x383	Expend
+900	384	0x384	Expend
+901	385	0x385	Expend
+902	386	0x386	Expend
+903	387	0x387	Expend
+904	388	0x388	Expend
+905	389	0x389	Expend
+906	38A	0x38A	Expend
+907	38B	0x38B	Expend
+908	38C	Bread Crumbs	Expend
+909	38D	Tatsuhime Ladybug	Bugs
+910	38E	Yaso Locust	Bugs
+911	38F	Meiou Cricket	Bugs
+912	390	Inaba Jewel Beetle	Bugs
+913	391	Daimyo Grasshopper	Bugs
+914	392	Heike Stag Beetle	Bugs
+915	393	Genji Beetle	Bugs
+916	394	0x394	Bugs
+917	395	0x395	Bugs
+918	396	0x396	Bugs
+919	397	0x397	Bugs
+920	398	0x398	Bugs
+921	399	0x399	Bugs
+922	39A	0x39A	Bugs
+923	39B	Passion Candy	Expend
+924	39C	Sincerity Cookie	Expend
+925	39D	Love Marshmallow	Expend
+926	39E	Rise's Flan	Expend
+927	39F	0x39F	Expend
+928	3A0	Life Stone	Expend|HF
+929	3A1	Revival Bead	Expend|HF
+930	3A2	Sentou Seed	Expend|HF
+931	3A3	Sentou Petal	Expend|HF
+932	3A4	Sentou Fruit	Expend|HF
+933	3A5	Fire Bell	Expend|HF
+934	3A6	Ice Bell	Expend|HF
+935	3A7	Wind Bell	Expend|HF
+936	3A8	Lightning Bell	Expend|HF
+937	3A9	Flame Dotaku	Expend|HF
+938	3AA	Frigid Dotaku	Expend|HF
+939	3AB	Gale Dotaku	Expend|HF
+940	3AC	Bolt Dotaku	Expend|HF
+941	3AD	0x3AD	Expend
+942	3AE	0x3AE	Expend
+943	3AF	Mini Melon Bread	Expend
+944	3B0	Choco Melon Bread	Expend
+945	3B1	Cream Melon Bread	Expend
+946	3B2	Mini Cornet	Expend
+947	3B3	Yakisoba Cornet	Expend
+948	3B4	Red Bean Cornet	Expend
+949	3B5	Mini Anpan	Expend
+950	3B6	Mochi Anpan	Expend
+951	3B7	Cream Anpan	Expend
+952	3B8	White Karinto	Expend
+953	3B9	Rice Chocolate	Expend
+954	3BA	Sour Konbu	Expend
+955	3BB	Plum Candy	Expend
+956	3BC	Rainbow Konpeito	Expend
+957	3BD	Quelorie Mate	Expend
+958	3BE	Corn Potage Cracker	Expend
+959	3BF	Blue Pepper Chips	Expend
+960	3C0	Blue Cheese Chips	Expend
+961	3C1	Seaweed Cracker	Expend
+962	3C2	Kampo Chocolate	Expend
+963	3C3	Checkerboard Cookie	Expend
+964	3C4	Caramel Drop	Expend
+965	3C5	Fruit Candy	Expend
+966	3C6	Rich Milk Candy	Expend
+967	3C7	0x3C7	Expend
+968	3C8	0x3C8	Expend
+969	3C9	0x3C9	Expend
+970	3CA	0x3CA	Expend
+971	3CB	0x3CB	Expend
+972	3CC	0x3CC	Expend
+973	3CD	0x3CD	Expend
+974	3CE	0x3CE	Expend
+975	3CF	0x3CF	Expend
+976	3D0	0x3D0	Expend
+977	3D1	0x3D1	Expend
+978	3D2	Angel Statue	Quest
+979	3D3	Demon Statue	Quest
+980	3D4	Ritz Wire	Quest
+981	3D5	Trio Wig	Quest
+982	3D6	Fitting Board	Quest
+983	3D7	Old Key	Quest
+984	3D8	Suspicious Pole	Quest
+985	3D9	Coal	Quest
+986	3DA	Reflecting Board	Quest
+987	3DB	Crooked Cross	Quest
+988	3DC	Grand Horn	Quest
+989	3DD	Flower Brooch	Quest
+990	3DE	Charmed Veil	Quest
+991	3DF	Eternal Lamp	Quest
+992	3E0	Leaf Pochette	Quest
+993	3E1	Culurium	Quest
+994	3E2	Crystal Ball	Quest
+995	3E3	Fine Coal	Quest
+996	3E4	High-Speed Gear	Quest
+997	3E5	Branch Headband	Quest
+998	3E6	Training Shell	Quest
+999	3E7	Animal Guide	Quest
+1000	3E8	Classy Lumber	Quest
+1001	3E9	Old Ore	Quest
+1002	3EA	Modest Lamp	Quest
+1003	3EB	Mori Ranmaru	Quest
+1004	3EC	Sea Guardian	Fish
+1005	3ED	Meguro Tuna	Fish
+1006	3EE	Drifting Trash	Fish
+1007	3EF	0x3EF	Fish
+1008	3F0	Guardian	Fish
+1009	3F1	Huge Fish	Fish
+1010	3F2	Inaba Trout	Fish
+1011	3F3	Amber Seema	Fish
+1012	3F4	Genji Ayu	Fish
+1013	3F5	Red Goldfish	Fish
+1014	3F6	Hachiro Octopus	Fish
+1015	3F7	0x3F7	Expend
+1016	3F8	Bait	Expend
+1017	3F9	0x3F9	Expend
+1018	3FA	0x3FA	Expend
+1019	3FB	0x3FB	Expend
+1020	3FC	0x3FC	Expend
+1021	3FD	0x3FD	Expend
+1022	3FE	0x3FE	Expend
+1023	3FF	0x3FF	Expend
+1024	400	Blank	BLN
+1025	401	Velvet Key	Key
+1026	402	Mitsuo's Photo	Key
+1027	403	0x403	Key
+1028	404	0x404	Key
+1029	405	0x405	Key
+1030	406	0x406	Key
+1031	407	0x407	Key
+1032	408	0x408	Key
+1033	409	0x409	Key
+1034	40A	0x40A	Key
+1035	40B	0x40B	Key
+1036	40C	0x40C	Key
+1037	40D	0x40D	Key
+1038	40E	0x40E	Key
+1039	40F	0x40F	Key
+1040	410	0x410	Key
+1041	411	0x411	Key
+1042	412	0x412	Key
+1043	413	0x413	Key
+1044	414	0x414	Key
+1045	415	0x415	Key
+1046	416	0x416	Key
+1047	417	0x417	Key
+1048	418	Spiral Bookmark	Key
+1049	419	Orb of Sight	Key
+1050	41A	Aqua Invitation	Key
+1051	41B	0x41B	Key
+1052	41C	0x41C	Key
+1053	41D	Fishhook	Key
+1054	41E	Deep-Sea Rod	Key
+1055	41F	Butterfly Net	Key
+1056	420	River Rod	Key
+1057	421	Angler's Set	Key
+1058	422	0x422	Key
+1059	423	0x423	Key
+1060	424	0x424	Key
+1061	425	0x425	Key
+1062	426	0x425	Key
+1063	427	0x427	Key
+1064	428	0x428	Key
+1065	429	0x429	Key
+1066	42A	0x42A	Key
+1067	42B	0x42B	Key
+1068	42C	0x42C	Key
+1069	42D	0x42D	Key
+1070	42E	0x42E	Key
+1071	42F	0x42F	Key
+1072	430	0x430	Key
+1073	431	Scooter License	Key
+1074	432	Glass Key	Key
+1075	433	Bathhouse Key	Key
+1076	434	Research Card	Key
+1077	435	Leader Card	Key
+1078	436	Orb of Darkness	Key
+1079	437	0x437	Key
+1080	438	0x438	Key
+1081	439	0x439	Key
+1082	43A	0x43A	Key
+1083	43B	0x43B	Key
+1084	43C	0x43C	Key
+1085	43D	0x43D	Key
+1086	43E	0x43E	Key
+1087	43F	0x43F	Key
+1088	440	0x440	Key
+1089	441	0x441	Key
+1090	442	0x442	Key
+1091	443	0x443	Key
+1092	444	0x444	Key
+1093	445	0x445	Key
+1094	446	0x446	Key
+1095	447	0x447	Key
+1096	448	0x448	Key
+1097	449	0x449	Key
+1098	44A	0x44A	Key
+1099	44B	0x44B	Key
+1100	44C	0x44C	Key
+1101	44D	0x44D	Key
+1102	44E	0x44E	Key
+1103	44F	0x44F	Key
+1104	450	0x450	Key
+1105	451	0x451	Key
+1106	452	0x452	Key
+1107	453	0x453	Key
+1108	454	0x454	Key
+1109	455	0x455	Key
+1110	456	0x456	Key
+1111	457	0x457	Key
+1112	458	0x458	Key
+1113	459	0x459	Key
+1114	45A	0x45A	Key
+1115	45B	0x45B	Key
+1116	45C	0x45C	Key
+1117	45D	0x45D	Key
+1118	45E	0x45E	Key
+1119	45F	0x45F	Key
+1120	460	0x460	Key
+1121	461	0x461	Key
+1122	462	0x462	Key
+1123	463	0x463	Key
+1124	464	Velvet Ticket	Key
+1125	465	Velvet Card	Key
+1126	466	Velvet Pass	Key
+1127	467	Velvet VIP	Key
+1128	468	0x468	Key
+1129	469	0x469	Key
+1130	46A	0x46A	Key
+1131	46B	0x46B	Key
+1132	46C	0x46C	Key
+1133	46D	0x46D	Key
+1134	46E	0x46E	Key
+1135	46F	0x46F	Key
+1136	470	Expert Study Methods	Book
+1137	471	English Made Easy	Book
+1138	472	100 Ghost Stories	Book
+1139	473	Office Work Manual	Book
+1140	474	Easy Origami	Book
+1141	475	0x475	Book
+1142	476	0x476	Book
+1143	477	0x477	Book
+1144	478	0x478	Book
+1145	479	Food Fight!	Book
+1146	47A	Beginner Fishing	Book
+1147	47B	Expert Fishing	Book
+1148	47C	Catching Bugs	Book
+1149	47D	World Class Bugs	Book
+1150	47E	Home Gardening	Book
+1151	47F	Hyperspeed Reading	Book
+1152	480	0x480	Key
+1153	481	0x481	Key
+1154	482	0x482	Key
+1155	483	0x483	Key
+1156	484	0x484	Key
+1157	485	0x485	Key
+1158	486	0x486	Key
+1159	487	0x487	Key
+1160	488	0x488	Key
+1161	489	0x489	Key
+1162	48A	0x48A	Key
+1163	48B	0x48B	Key
+1164	48C	0x48C	Key
+1165	48D	0x48D	Key
+1166	48E	0x48E	Key
+1167	48F	0x48F	Key
+1168	490	0x490	Key
+1169	491	0x491	Key
+1170	492	0x492	Key
+1171	493	0x493	Key
+1172	494	0x494	Key
+1173	495	0x495	Key
+1174	496	0x496	Key
+1175	497	0x497	Key
+1176	498	0x498	Key
+1177	499	0x499	Key
+1178	49A	0x49A	Key
+1179	49B	0x49B	Key
+1180	49C	0x49C	Key
+1181	49D	0x49D	Key
+1182	49E	Dummy Compendium 1	Key
+1183	49F	Dummy Compendium 2	Key
+1184	4A0	Buddy's Bandage	SLink
+1185	4A1	Shrine Charm	SLink
+1186	4A2	Spiral Brooch	SLink
+1187	4A3	Cute Strap	SLink
+1188	4A4	Coffee Mug	SLink
+1189	4A5	Signed Photo	SLink
+1190	4A6	Wristbands	SLink
+1191	4A7	Family Picture	SLink
+1192	4A8	Gratitude Ema	SLink
+1193	4A9	Detective Badge	SLink
+1194	4AA	Letter to Kou	SLink
+1195	4AB	Spike Brush	SLink
+1196	4AC	Junes Receipt	SLink
+1197	4AD	Old Fountain Pen	SLink
+1198	4AE	Clover Bookmark	SLink
+1199	4AF	Hospital ID	SLink
+1200	4B0	Test Results	SLink
+1201	4B1	Compact	SLink
+1202	4B2	Annotated Script	SLink
+1203	4B3	Handmade Ticket	SLink
+1204	4B4	0x4B4	SLink
+1205	4B5	0x4B5	SLink
+1206	4B6	0x4B6	SLink
+1207	4B7	Adachi's Letter	SLink
+1208	4B8	Adachi's Number	SLink
+1209	4B9	Old Bamboo Comb	SLink
+1210	4BA	0x4BA	Key
+1211	4BB	0x4BB	Key
+1212	4BC	0x4BC	Key
+1213	4BD	0x4BD	Key
+1214	4BE	0x4BE	Key
+1215	4BF	0x4BF	Key
+1216	4C0	0x4C0	Key
+1217	4C1	0x4C1	Key
+1218	4C2	0x4C2	Key
+1219	4C3	0x4C3	Key
+1220	4C4	0x4C4	Key
+1221	4C5	0x4C5	Key
+1222	4C6	0x4C6	Key
+1223	4C7	0x4C7	Key
+1224	4C8	Husband's Letters	Key
+1225	4C9	Hisano's Letters	Key
+1226	4CA	Family Photo	Key
+1227	4CB	0x4CB	Key
+1228	4CC	Handkerchief	Key
+1229	4CD	White Card	Key
+1230	4CE	Round Wallet	Key
+1231	4CF	Square Wallet	Key
+1232	4D0	Small Package	Key
+1233	4D1	Tankiriman Sticker	Key
+1234	4D2	Unfinished Model	Shelf
+1235	4D3	MF-06S Brahman	Shelf
+1236	4D4	Unfinished Model	Shelf
+1237	4D5	Heavy-Armor Agni	Shelf
+1238	4D6	Mokoi Doll	Shelf
+1239	4D7	Unfinished Model	Shelf
+1240	4D8	Melee Harihara	Shelf
+1241	4D9	Unfinished Model	Shelf
+1242	4DA	Turbo Recon Dyaus	Shelf
+1243	4DB	Unfinished Model	Shelf
+1244	4DC	Mobile Model Varna	Shelf
+1245	4DD	Unfinished Model	Shelf
+1246	4DE	D-Type Prithvi	Shelf
+1247	4DF	0x4DF	Shelf
+1248	4E0	0x4E0	Key
+1249	4E1	0x4E1	Key
+1250	4E2	0x4E2	Key
+1251	4E3	0x4E3	Key
+1252	4E4	0x4E4	Key
+1253	4E5	0x4E5	Key
+1254	4E6	0x4E6	Key
+1255	4E7	0x4E7	Key
+1256	4E8	0x4E8	Key
+1257	4E9	0x4E9	Key
+1258	4EA	0x4EA	Key
+1259	4EB	The Lovely Man	Book
+1260	4EC	Forever Macho	Book
+1261	4ED	Man of History	Book
+1262	4EE	Man-God	Book
+1263	4EF	Farewell to Man	Book
+1264	4F0	Off Today	Book
+1265	4F1	Short on Cash	Book
+1266	4F2	Changing Careers	Book
+1267	4F3	Sensei's Friends	Book
+1268	4F4	The Final Lesson	Book
+1269	4F5	The O-Cha Way	Book
+1270	4F6	The Gentle Way	Book
+1271	4F7	The Divine Way	Book
+1272	4F8	The Ramen Way	Book
+1273	4F9	The Punk's Way	Book
+1274	4FA	Witch Detective	Book
+1275	4FB	Poly-land	Book
+1276	4FC	Guide to Pests	Book
+1277	4FD	Picross Rules!	Book
+1278	4FE	Who Am I?	Book
+1279	4FF	0x4FF	Key
+1280	500	Blank	BLN
+1281	501	Coward's Orb	Material
+1282	502	Selfish Ornament	Material
+1283	503	4th Girl's Talc	Material
+1284	504	Notched Heart	Material
+1285	505	Light Iron	Material
+1286	506	Thick Hide	Material
+1287	507	Glossy Clasp	Material
+1288	508	Electric Rock	Material
+1289	509	Magic Cross	Material
+1290	50A	Brave Lumber	Material
+1291	50B	Divine Bark	Material
+1292	50C	Thought Cross	Material
+1293	50D	Supple Metal	Material
+1294	50E	Smooth Fabric	Material
+1295	50F	Smart Clasp	Material
+1296	510	Living Metal	Material
+1297	511	Big Incisor	Material
+1298	512	Sturdy Molar	Material
+1299	513	Sharp Premolar	Material
+1300	514	Diamond Canine	Material
+1301	515	Brutal Orb	Material
+1302	516	Powered Iron	Material
+1303	517	4th Boy's Talc	Material
+1304	518	Bluff Mask	Material
+1305	519	Curious Line	Material
+1306	51A	Rare Poncho	Material
+1307	51B	Orb of Love	Material
+1308	51C	Klein Bottle	Material
+1309	51D	Paleograph	Material
+1310	51E	Crimson Cover	Material
+1311	51F	Word String	Material
+1312	520	Prophecy Orb	Material
+1313	521	Decorative Stone	Material
+1314	522	Heavy Iron Lump	Material
+1315	523	Trial Obsidian	Material
+1316	524	Calm Marble	Material
+1317	525	Force Rock	Material
+1318	526	Idea Paper	Material
+1319	527	Firm Cloth	Material
+1320	528	Guard Stationery	Material
+1321	529	Oracle Textile	Material
+1322	52A	Orb of Vanity	Material
+1323	52B	Idle Stone Iron	Material
+1324	52C	3rd Girl's Talc	Material
+1325	52D	Birdcage Key	Material
+1326	52E	Haori Iron	Material
+1327	52F	Jet Black Steel	Material
+1328	530	God Tailfeather	Material
+1329	531	Death Sentence	Material
+1330	532	Hard Rock	Material
+1331	533	Stone Hide	Material
+1332	534	Porcelain Statue	Material
+1333	535	Silver Claw	Material
+1334	536	Fur Clasp	Material
+1335	537	Mink Fur	Material
+1336	538	Queen's Nail	Material
+1337	539	Silver Fox Fur	Material
+1338	53A	Poison Flower	Material
+1339	53B	Quiet Bouquet	Material
+1340	53C	Alluring Lily	Material
+1341	53D	Royal Blossom	Material
+1342	53E	Orb of Pride	Material
+1343	53F	Tortoise Shell	Material
+1344	540	3rd Boy's Talc	Material|Bugged
+1345	541	Fruit of Love	Material
+1346	542	Sharp Horn	Material
+1347	543	Safety Angle	Material
+1348	544	Golden Horn	Material
+1349	545	Platinum Shell	Material
+1350	546	Hard Horn	Material
+1351	547	Bronze Reins	Material
+1352	548	Steel Reins	Material
+1353	549	Black Reins	Material
+1354	54A	Platinum Reins	Material
+1355	54B	Curious Boulder	Material
+1356	54C	Power Rock	Material
+1357	54D	Rare Raincoat	Material
+1358	54E	Snow Stone	Material
+1359	54F	Moustache Fiber	Material
+1360	550	Beard Fiber	Material
+1361	551	Dignified Lump	Material
+1362	552	Silver String	Material
+1363	553	Orb of Sloth	Material
+1364	554	Dependent Iron	Material
+1365	555	2nd Girl's Talc	Material
+1366	556	Malice Fragment	Material
+1367	557	Wonder Cloth	Material
+1368	558	Gray Shackle	Material
+1369	559	Cascade String	Material
+1370	55A	Ill Will Claw	Material
+1371	55B	Platinum Crown	Material
+1372	55C	Dogma Clasp	Material
+1373	55D	Sacrilege Iron	Material
+1374	55E	Ruinous Crown	Material
+1375	55F	Crown of Truth	Material
+1376	560	Alloy Signature	Material
+1377	561	Silver Signature	Material
+1378	562	Black Signature	Material
+1379	563	Gold Signature	Material
+1380	564	Tough Hide	Material
+1381	565	Tanned Hide	Material
+1382	566	Compacted Metal	Material
+1383	567	Platinum Lump	Material
+1384	568	Orb of Betrayal	Material
+1385	569	Anguish Stone	Material
+1386	56A	2nd Boy's Talc	Material
+1387	56B	Loose Parts	Material
+1388	56C	Cloth Wings	Material
+1389	56D	Chirping Wings	Material
+1390	56E	Crystal of Light	Material
+1391	56F	Pure White Bead	Material
+1392	570	Passion Clasp	Material
+1393	571	Blade Metal	Material
+1394	572	Yellow Cord	Material
+1395	573	Hemp Cloth	Material
+1396	574	Love Clasp	Material
+1397	575	Jet Black Scale	Material
+1398	576	Venomous Fang	Material
+1399	577	Scorching Scale	Material
+1400	578	Scaly Lump	Material
+1401	579	Forbidden Scale	Material
+1402	57A	Shiny Scale	Material
+1403	57B	Flame Scale	Material
+1404	57C	Miracle Scale	Material
+1405	57D	Love Scale	Material
+1406	57E	Breakdown Orb	Material
+1407	57F	Insolence Steel	Material
+1408	580	1st Girl's Talc	Material
+1409	581	0x581	Material
+1410	582	Zero Cloth	Material
+1411	583	Bushy Fur	Material
+1412	584	Flame Steel	Material
+1413	585	Brilliant Armor	Material
+1414	586	Iron Gear	Material
+1415	587	Fixing Bolt	Material
+1416	588	Torrent Gear	Material
+1417	589	Platinum Gear	Material
+1418	58A	Sheet Metal	Material
+1419	58B	Super-Alloy	Material
+1420	58C	Black Sheet	Material
+1421	58D	Judgement Shot	Material
+1422	58E	Flame Sheet	Material
+1423	58F	Bull's-Eye Shot	Material
+1424	590	Iron Barrel	Material
+1425	591	Steel Barrel	Material
+1426	592	Golden Barrel	Material
+1427	593	Unknown Barrel	Material
+1428	594	Genuine Orb	Material
+1429	595	Source Lump	Material
+1430	596	1st Boy's Talc	Material
+1431	597	0x597	Material
+1432	598	Zero Board	Material
+1433	599	Rain Steel	Material
+1434	59A	Rain Metal	Material
+1435	59B	Cascade Metal	Material
+1436	59C	Proof of Spirit	Material
+1437	59D	Proof of Fight	Material
+1438	59E	Proof of Passion	Material
+1439	59F	Claw of Myth	Material
+1440	5A0	Formidable Proof	Material
+1441	5A1	Life Collar	Material
+1442	5A2	Steel Collar	Material
+1443	5A3	Demon Collar	Material
+1444	5A4	Platinum Fur	Material
+1445	5A5	Merciless Cord	Material
+1446	5A6	Azalea Cord	Material
+1447	5A7	Ayanishiki	Material
+1448	5A8	Oguruma Brocade	Material
+1449	5A9	Red-Gold Cord	Material
+1450	5AA	Orb of Greed	Material
+1451	5AB	Submission Shard	Material
+1452	5AC	Aloof Myrrh	Material
+1453	5AD	0x5AD	Material
+1454	5AE	Black Lamp	Material
+1455	5AF	Karma Lamp	Material
+1456	5B0	Wrought Lamp	Material
+1457	5B1	Devilish Feather	Material
+1458	5B2	Golden Cloth	Material
+1459	5B3	Magic Cloth	Material
+1460	5B4	Treasure Cloth	Material
+1461	5B5	Prime Hide	Material
+1462	5B6	Demon Cloth	Material
+1463	5B7	Iron Eyeball	Material
+1464	5B8	Gazing Clasp	Material
+1465	5B9	Golden Film	Material
+1466	5BA	Mysterious Eye	Material
+1467	5BB	Windcutter Cloth	Material
+1468	5BC	Practical Cloth	Material
+1469	5BD	Knowledge Staff	Material
+1470	5BE	Sephirot Staff	Material
+1471	5BF	Error-Prone Orb	Material
+1472	5C0	Accident Crystal	Material
+1473	5C1	Lucky Myrrh	Material
+1474	5C2	0x5C2	Material
+1475	5C3	Power String	Material
+1476	5C4	Pure Iron Lump	Material
+1477	5C5	Silver Lump	Material
+1478	5C6	Light String	Material
+1479	5C7	Mental Thread	Material
+1480	5C8	Cursed Stone	Material
+1481	5C9	Death Lump	Material
+1482	5CA	Vengeance Steel	Material
+1483	5CB	Illusionary Sand	Material
+1484	5CC	Golden Sand	Material
+1485	5CD	Nightmare Sand	Material
+1486	5CE	Mobius Sand	Material
+1487	5CF	Rubbery Object	Material
+1488	5D0	Stretchy Object	Material
+1489	5D1	Unthinkable Metal	Material
+1490	5D2	Unknowable Fiber	Material
+1491	5D3	Conviction Orb	Material
+1492	5D4	Bias Crystal	Material
+1493	5D5	Order Myrrh	Material
+1494	5D6	0x5D6	Material
+1495	5D7	Nice Ornament	Material
+1496	5D8	Perpetual Edge	Material
+1497	5D9	Spark Ornament	Material
+1498	5DA	Holy Gold Lump	Material
+1499	5DB	Golden Dish	Material
+1500	5DC	Fashionable Dish	Material
+1501	5DD	Shining Dish	Material
+1502	5DE	Blessed Dish	Material
+1503	5DF	Fixed Lump	Material
+1504	5E0	Prime Steel	Material
+1505	5E1	Diamond Sheet	Material
+1506	5E2	Soul-Death Steel	Material
+1507	5E3	Tungsten	Material
+1508	5E4	Damascus	Material
+1509	5E5	Orichalcum	Material
+1510	5E6	Pyroxene Fiber	Material
+1511	5E7	Sacrifice Orb	Material
+1512	5E8	Oppression Shard	Material
+1513	5E9	Service Myrrh	Material
+1514	5EA	0x5EA	Material
+1515	5EB	Heavy Chains	Material
+1516	5EC	Strength Claw	Material
+1517	5ED	Golden Chains	Material
+1518	5EE	Platinum Hide	Material
+1519	5EF	Tyrannical Hide	Material
+1520	5F0	Riveted Hide	Material
+1521	5F1	Bloody Hide	Material
+1522	5F2	Thunder Bead	Material
+1523	5F3	Ripper Horse	Material
+1524	5F4	Sharp Thorn	Material
+1525	5F5	Steel Thorn	Material
+1526	5F6	Hard Thorn	Material
+1527	5F7	Blade Thorn	Material
+1528	5F8	Cruel Thorn	Material
+1529	5F9	Bloody Thorn	Material
+1530	5FA	Guard Cloth	Material
+1531	5FB	Thirsty Claw	Material
+1532	5FC	Activated Felt	Material
+1533	5FD	Invincible Felt	Material
+1534	5FE	0x5FE	Material
+1535	5FF	0x5FF	Material
+1536	600	Blank	BLN
+1537	601	Agi	Card
+1538	602	Agilao	Card
+1539	603	Agidyne	Card
+1540	604	Maragi	Card
+1541	605	Maragion	Card
+1542	606	Maragidyne	Card
+1543	607	Garu	Card
+1544	608	Garula	Card
+1545	609	Garudyne	Card
+1546	60A	Magaru	Card
+1547	60B	Magarula	Card
+1548	60C	Magarudyne	Card
+1549	60D	Bufu	Card
+1550	60E	Bufula	Card
+1551	60F	Bufudyne	Card
+1552	610	Mabufu	Card
+1553	611	Mabufula	Card
+1554	612	Mabufudyne	Card
+1555	613	Zio	Card
+1556	614	Zionga	Card
+1557	615	Ziodyne	Card
+1558	616	Mazio	Card
+1559	617	Mazionga	Card
+1560	618	Maziodyne	Card
+1561	619	Megido	Card
+1562	61A	Megidola	Card
+1563	61B	Megidolaon	Card
+1564	61C	Hama	Card
+1565	61D	Hamaon	Card
+1566	61E	Mahama	Card
+1567	61F	Mahamaon	Card
+1568	620	Mudo	Card
+1569	621	Mudoon	Card
+1570	622	Mamudo	Card
+1571	623	Mamudoon	Card
+1572	624	Pulinpa	Card
+1573	625	Tentarafoo	Card
+1574	626	Evil Touch	Card
+1575	627	Evil Smile	Card
+1576	628	Ghastly Wail	Card
+1577	629	Balzac	Card
+1578	62A	Valiant Dance	Card
+1579	62B	Poisma	Card
+1580	62C	Poison Mist	Card
+1581	62D	Soul Break	Card
+1582	62E	Anima Freeze	Card
+1583	62F	Enervation	Card
+1584	630	Old One	Card
+1585	631	Galgalim Eyes	Card
+1586	632	Makajam	Card
+1587	633	Foolish Whisper	Card
+1588	634	Foul Breath	Card
+1589	635	Stagnant Air	Card
+1590	636	Life Drain	Card
+1591	637	Spirit Drain	Card
+1592	638	Assault Dive	Card
+1593	639	Sonic Punch	Card
+1594	63A	Double Fangs	Card
+1595	63B	Kill Rush	Card
+1596	63C	Swift Strike	Card
+1597	63D	Twin Shot	Card
+1598	63E	Fatal End	Card
+1599	63F	Mighty Swing	Card
+1600	640	Torrent Shot	Card
+1601	641	Heat Wave	Card
+1602	642	Gigantic Fist	Card
+1603	643	Blade of Fury	Card
+1604	644	Deathbound	Card
+1605	645	Arrow Rain	Card
+1606	646	Akasha Arts	Card
+1607	647	Tempest Slash	Card
+1608	648	Heaven's Blade	Card
+1609	649	Myriad Arrows	Card
+1610	64A	God's Hand	Card
+1611	64B	Prayala	Card
+1612	64C	Primal Force	Card
+1613	64D	Vorpal Blade	Card
+1614	64E	Power Slash	Card
+1615	64F	Gale Slash	Card
+1616	650	Brave Blade	Card
+1617	651	Herculean Strike	Card
+1618	652	Vicious Strike	Card
+1619	653	Poison Skewer	Card
+1620	654	Poison Arrow	Card
+1621	655	Blight	Card
+1622	656	Virus Wave	Card
+1623	657	Skull Cracker	Card
+1624	658	Mind Slice	Card
+1625	659	Hysterical Slap	Card
+1626	65A	Crazy Chain	Card
+1627	65B	Muzzle Shot	Card
+1628	65C	Seal Bomb	Card
+1629	65D	Arm Chopper	Card
+1630	65E	Atom Smasher	Card
+1631	65F	Cell Breaker	Card
+1632	660	Mustard Bomb	Card
+1633	661	Brain Shake	Card
+1634	662	Navas Nebula	Card
+1635	663	Black Spot	Card
+1636	664	Rainy Death	Card
+1637	665	Rampage	Card
+1638	666	Aeon Rain	Card
+1639	667	Agneyastra	Card
+1640	668	Cruel Attack	Card
+1641	669	Vile Assault	Card
+1642	66A	Dia	Card
+1643	66B	Diarama	Card
+1644	66C	Diarahan	Card
+1645	66D	Media	Card
+1646	66E	Mediarama	Card
+1647	66F	Mediarahan	Card
+1648	670	Salvation	Card
+1649	671	Amrita	Card
+1650	672	Recarm	Card
+1651	673	Samarecarm	Card
+1652	674	Tarunda	Card
+1653	675	Matarunda	Card
+1654	676	Sukunda	Card
+1655	677	Masukunda	Card
+1656	678	Rakunda	Card
+1657	679	Marakunda	Card
+1658	67A	Dekunda	Card
+1659	67B	Tarukaja	Card
+1660	67C	Matarukaja	Card
+1661	67D	Sukukaja	Card
+1662	67E	Masukukaja	Card
+1663	67F	Rakukaja	Card
+1664	680	Marakukaja	Card
+1665	681	Dekaja	Card
+1666	682	Energy Shower	Card
+1667	683	Debilitate	Card
+1668	684	Power Charge	Card
+1669	685	Mind Charge	Card
+1670	686	Tetrakarn	Card
+1671	687	Makarakarn	Card
+1672	688	Tetra Break	Card
+1673	689	Makara Break	Card
+1674	68A	Tetraja	Card
+1675	68B	Rebellion	Card
+1676	68C	Revolution	Card
+1677	68D	Fire Break	Card
+1678	68E	Ice Break	Card
+1679	68F	Wind Break	Card
+1680	690	Elec Break	Card
+1681	691	Red Wall	Card
+1682	692	White Wall	Card
+1683	693	Blue Wall	Card
+1684	694	Green Wall	Card
+1685	695	Trafuri	Card
+1686	696	Recarmdra	Card
+1687	697	Traesto	Card
+1688	698	Resist Physical	Card
+1689	699	Absorb Physical	Card
+1690	69A	Resist Fire	Card
+1691	69B	Absorb Fire	Card
+1692	69C	Resist Ice	Card
+1693	69D	Absorb Ice	Card
+1694	69E	Resist Elec	Card
+1695	69F	Absorb Elec	Card
+1696	6A0	Resist Wind	Card
+1697	6A1	Absorb Wind	Card
+1698	6A2	Repel Light	Card
+1699	6A3	Repel Dark	Card
+1700	6A4	Null Panic	Card
+1701	6A5	Null Exhaust	Card
+1702	6A6	Null Mute	Card
+1703	6A7	Null Fear	Card
+1704	6A8	Null Rage	Card
+1705	6A9	Null Poison	Card
+1706	6AA	Null Dizzy	Card
+1707	6AB	Null Enervate	Card
+1708	6AC	Unshaken Will	Card
+1709	6AD	Dodge Physical	Card
+1710	6AE	Evade Physical	Card
+1711	6AF	Dodge Fire	Card
+1712	6B0	Evade Fire	Card
+1713	6B1	Dodge Ice	Card
+1714	6B2	Evade Ice	Card
+1715	6B3	Dodge Wind	Card
+1716	6B4	Evade Wind	Card
+1717	6B5	Dodge Elec	Card
+1718	6B6	Evade Elec	Card
+1719	6B7	Angelic Grace	Card
+1720	6B8	Fire Boost	Card
+1721	6B9	Fire Amp	Card
+1722	6BA	Ice Boost	Card
+1723	6BB	Ice Amp	Card
+1724	6BC	Elec Boost	Card
+1725	6BD	Elec Amp	Card
+1726	6BE	Wind Boost	Card
+1727	6BF	Wind Amp	Card
+1728	6C0	Counter	Card
+1729	6C1	Counterstrike	Card
+1730	6C2	High Counter	Card
+1731	6C3	Regenerate 1	Card
+1732	6C4	Regenerate 2	Card
+1733	6C5	Regenerate 3	Card
+1734	6C6	Invigorate 1	Card
+1735	6C7	Invigorate 2	Card
+1736	6C8	Invigorate 3	Card
+1737	6C9	Growth 1	Card
+1738	6CA	Growth 2	Card
+1739	6CB	Growth 3	Card
+1740	6CC	Auto-Tarukaja	Card
+1741	6CD	Auto-Rakukaja	Card
+1742	6CE	Auto-Sukukaja	Card
+1743	6CF	Alertness	Card
+1744	6D0	Sharp Student	Card
+1745	6D1	Apt Pupil	Card
+1746	6D2	Firm Stance	Card
+1747	6D3	Spell Master	Card
+1748	6D4	Arms Master	Card
+1749	6D5	Divine Grace	Card
+1750	6D6	Endure	Card
+1751	6D7	Enduring Soul	Card
+1752	6D8	Survive Light	Card
+1753	6D9	Survive Dark	Card
+1754	6DA	Auto-Maraku	Card
+1755	6DB	Auto-Mataru	Card
+1756	6DC	Auto-Masuku	Card
+1757	6DD	Panic Boost	Card
+1758	6DE	Poison Boost	Card
+1759	6DF	Exhaust Boost	Card
+1760	6E0	Silence Boost	Card
+1761	6E1	Fear Boost	Card
+1762	6E2	Rage Boost	Card
+1763	6E3	Dizzy Boost	Card
+1764	6E4	Enervate Boost	Card
+1765	6E5	Ailment Boost	Card
+1766	6E6	Hama Boost	Card
+1767	6E7	Mudo Boost	Card
+1768	6E8	Endure Light	Card
+1769	6E9	Endure Dark	Card
+1770	6EA	Cool Breeze	Card
+1771	6EB	Victory Cry	Card
+1772	6EC	Resist Poison	Card
+1773	6ED	Resist Panic	Card
+1774	6EE	Resist Fear	Card
+1775	6EF	Resist Exhaust	Card
+1776	6F0	Resist Enervate	Card
+1777	6F1	Resist Rage	Card
+1778	6F2	Resist Dizzy	Card
+1779	6F3	Resist Mute	Card
+1780	6F4	Fast Heal	Card
+1781	6F5	Insta-Heal	Card
+1782	6F6	Patra	Card
+1783	6F7	Me Patra	Card
+1784	6F8	Re Patra	Card
+1785	6F9	Posumudi	Card
+1786	6FA	Mutudi	Card
+1787	6FB	Nervundi	Card
+1788	6FC	Heat Riser	Card
+1789	6FD	Single Shot	Card
+1790	6FE	0x6FE	Card
+1791	6FF	0x6FF	Card
+1792	700	Default Clothing	Clothes
+1793	701	Winter Yaso Outfit	Clothes
+1794	702	Winter Yaso Outfit	Clothes
+1795	703	Winter Yaso Outfit	Clothes
+1796	704	Winter Yaso Outfit	Clothes
+1797	705	Blank	BLN
+1798	706	Winter Yaso Outfit	Clothes
+1799	707	Winter Yaso Outfit	Clothes
+1800	708	Teddie Costume	Clothes
+1801	709	Summer Yaso Outfit	Clothes
+1802	70A	Summer Yaso Outfit	Clothes
+1803	70B	Summer Yaso Outfit	Clothes
+1804	70C	Summer Yaso Outfit	Clothes
+1805	70D	Blank	BLN
+1806	70E	Summer Yaso Outfit	Clothes
+1807	70F	Summer Yaso Outfit	Clothes
+1808	710	Blank	BLN
+1809	711	Summer Clothes	Clothes
+1810	712	Summer Clothes	Clothes
+1811	713	Summer Clothes	Clothes
+1812	714	Summer Clothes	Clothes
+1813	715	Blank	BLN
+1814	716	Summer Clothes	Clothes
+1815	717	Summer Clothes	Clothes
+1816	718	Summer Clothes	Clothes
+1817	719	Winter Clothes	Clothes
+1818	71A	Winter Clothes	Clothes
+1819	71B	Winter Clothes	Clothes
+1820	71C	Winter Clothes	Clothes
+1821	71D	Blank	BLN
+1822	71E	Winter Clothes	Clothes
+1823	71F	Winter Clothes	Clothes
+1824	720	Blank	BLN
+1825	721	Gekkou Uniform	Clothes
+1826	722	Gekkou Uniform	Clothes
+1827	723	Gekkou Uniform	Clothes
+1828	724	Gekkou Uniform	Clothes
+1829	725	Blank	BLN
+1830	726	Gekkou Uniform	Clothes
+1831	727	Gekkou Uniform	Clothes
+1832	728	Gekkou Uniform	Clothes
+1833	729	Drag Costume	Clothes
+1834	72A	Drag Costume	Clothes
+1835	72B	Blank	BLN
+1836	72C	Blank	BLN
+1837	72D	Blank	BLN
+1838	72E	Drag Costume	Clothes
+1839	72F	Blank	BLN
+1840	730	Drag Costume	Clothes
+1841	731	Cool Trunks	Clothes
+1842	732	Summer Trunks	Clothes
+1843	733	Striped Bikini	Clothes
+1844	734	Trim Bikini	Clothes
+1845	735	Blank	BLN
+1846	736	Dangerous Briefs	Clothes
+1847	737	School Swimsuit	Clothes
+1848	738	Sailor Trunks	Clothes
+1849	739	Yaso High Jersey	Clothes
+1850	73A	Yaso High Jersey	Clothes
+1851	73B	Yaso High Jersey	Clothes
+1852	73C	Yaso High Jersey	Clothes
+1853	73D	Blank	BLN
+1854	73E	Yaso High Jersey	Clothes
+1855	73F	Yaso High Jersey	Clothes
+1856	740	Yaso High Jersey	Clothes
+1857	741	Cleaning Uniform	Clothes
+1858	742	Junes Apron	Clothes
+1859	743	Track Suit	Clothes
+1860	744	Tsukesage	Clothes
+1861	745	Blank	BLN
+1862	746	Kingpin Duster	Clothes
+1863	747	Girls' Yaso Outfit	Clothes
+1864	748	Lord Flauntleroy	Clothes
+1865	749	Blank	BLN
+1866	74A	Blank	BLN
+1867	74B	Fighter Armor	Clothes
+1868	74C	Magical Armor	Clothes
+1869	74D	Blank	BLN
+1870	74E	Blank	BLN
+1871	74F	Coronet Armor	Clothes
+1872	750	Blank	BLN
+1873	751	Neo Featherman Suit	Clothes
+1874	752	Neo Featherman Suit	Clothes
+1875	753	Neo Featherman Suit	Clothes
+1876	754	Neo Featherman Suit	Clothes
+1877	755	Blank	BLN
+1878	756	Neo Featherman Suit	Clothes
+1879	757	Neo Featherman Suit	Clothes
+1880	758	Neo Featherman Suit	Clothes
+1881	759	Bath Towel	Clothes
+1882	75A	Bath Towel	Clothes
+1883	75B	Blank	BLN
+1884	75C	Blank	BLN
+1885	75D	Blank	BLN
+1886	75E	Bath Towel	Clothes
+1887	75F	Blank	BLN
+1888	760	Bath Towel	Clothes
+1889	761	Agent Suit	Clothes
+1890	762	Agent Suit	Clothes
+1891	763	Agent Suit	Clothes
+1892	764	Agent Suit	Clothes
+1893	765	Blank	BLN
+1894	766	Agent Suit	Clothes
+1895	767	Agent Suit	Clothes
+1896	768	Agent Suit	Clothes
+1897	769	Gag Winter Outfit	Clothes
+1898	76A	Gag Winter Outfit	Clothes
+1899	76B	Gag Winter Outfit	Clothes
+1900	76C	Gag Winter Outfit	Clothes
+1901	76D	Blank	BLN
+1902	76E	Gag Winter Outfit	Clothes
+1903	76F	Gag Winter Outfit	Clothes
+1904	770	Gag Glasses	Clothes
+1905	771	Gag Summer Outfit	Clothes
+1906	772	Gag Summer Outfit	Clothes
+1907	773	Gag Summer Outfit	Clothes
+1908	774	Gag Summer Outfit	Clothes
+1909	775	Blank	BLN
+1910	776	Gag Summer Outfit	Clothes
+1911	777	Gag Summer Outfit	Clothes
+1912	778	Gag Summer Outfit	Clothes
+1913	779	Christmas Costume	Clothes
+1914	77A	Christmas Costume	Clothes
+1915	77B	Christmas Costume	Clothes
+1916	77C	Christmas Costume	Clothes
+1917	77D	Blank	BLN
+1918	77E	Christmas Costume	Clothes
+1919	77F	Christmas Costume	Clothes
+1920	780	Christmas Costume	Clothes
+1921	781	Festival Jinbei	Clothes
+1922	782	Festival Jinbei	Clothes
+1923	783	Festival Yukata	Clothes
+1924	784	Festival Yukata	Clothes
+1925	785	Blank	BLN
+1926	786	Festival Jinbei	Clothes
+1927	787	Festival Jinbei	Clothes
+1928	788	Festival Happi	Clothes
+1929	789	Halloween Costume	Clothes
+1930	78A	Halloween Costume	Clothes
+1931	78B	Halloween Costume	Clothes
+1932	78C	Halloween Costume	Clothes
+1933	78D	Blank	BLN
+1934	78E	Halloween Costume	Clothes
+1935	78F	Halloween Costume	Clothes
+1936	790	Halloween Costume	Clothes
+1937	791	Midwinter Outfit	Clothes
+1938	792	Midwinter Outfit	Clothes
+1939	793	Midwinter Outfit	Clothes
+1940	794	Midwinter Outfit	Clothes
+1941	795	Blank	BLN
+1942	796	Midwinter Outfit	Clothes
+1943	797	Midwinter Outfit	Clothes
+1944	798	Midwinter Outfit	Clothes
+1945	799	Butler Suit	Clothes
+1946	79A	Butler Suit	Clothes
+1947	79B	Maid Uniform	Clothes
+1948	79C	Maid Uniform	Clothes
+1949	79D	Blank	BLN
+1950	79E	Butler Suit	Clothes
+1951	79F	Maid Uniform	Clothes
+1952	7A0	Butler Suit	Clothes
+1953	7A1	Cheer Squad Outfit	Clothes
+1954	7A2	Cheer Squad Outfit	Clothes
+1955	7A3	Cheerleader Outfit	Clothes
+1956	7A4	Cheerleader Outfit	Clothes
+1957	7A5	Blank	BLN
+1958	7A6	Cheer Squad Outfit	Clothes
+1959	7A7	Cheerleader Outfit	Clothes
+1960	7A8	Cheer Squad Outfit	Clothes
+1961	7A9	Deep Blue Clothes	Clothes
+1962	7AA	Deep Blue Clothes	Clothes
+1963	7AB	Deep Blue Clothes	Clothes
+1964	7AC	Deep Blue Clothes	Clothes
+1965	7AD	Blank	BLN
+1966	7AE	Deep Blue Clothes	Clothes
+1967	7AF	Deep Blue Clothes	Clothes
+1968	7B0	Deep Blue Clothes	Clothes
+1969	7B1	Hardboiled Look	Clothes
+1970	7B2	Junes Coveralls	Clothes
+1971	7B3	Kung Fu Costume	Clothes
+1972	7B4	Ceremonial Kimono	Clothes
+1973	7B5	Blank	BLN
+1974	7B6	Working Clothes	Clothes
+1975	7B7	Detective Costume	Clothes
+1976	7B8	Teddie's Apron	Clothes
+1977	7B9	Midwinter Yaso	Clothes
+1978	7BA	Midwinter Yaso	Clothes
+1979	7BB	Midwinter Yaso	Clothes
+1980	7BC	Midwinter Yaso	Clothes
+1981	7BD	Blank	BLN
+1982	7BE	Midwinter Yaso	Clothes
+1983	7BF	Midwinter Yaso	Clothes
+1984	7C0	Blank	BLN
+1985	7C1	0x7C1	Clothes
+1986	7C2	0x7C2	Clothes
+1987	7C3	0x7C3	Clothes
+1988	7C4	0x7C4	Clothes
+1989	7C5	0x7C5	Clothes
+1990	7C6	0x7C6	Clothes
+1991	7C7	0x7C7	Clothes
+1992	7C8	0x7C8	Clothes
+1993	7C9	0x7C9	Clothes
+1994	7CA	0x7CA	Clothes
+1995	7CB	0x7CB	Clothes
+1996	7CC	0x7CC	Clothes
+1997	7CD	0x7CD	Clothes
+1998	7CE	0x7CE	Clothes
+1999	7CF	0x7CF	Clothes
+2000	7D0	0x7D0	Clothes
+2001	7D1	0x7D1	Clothes
+2002	7D2	0x7D2	Clothes
+2003	7D3	0x7D3	Clothes
+2004	7D4	0x7D4	Clothes
+2005	7D5	0x7D5	Clothes
+2006	7D6	0x7D6	Clothes
+2007	7D7	0x7D7	Clothes
+2008	7D8	0x7D8	Clothes
+2009	7D9	0x7D9	Clothes
+2010	7DA	0x7DA	Clothes
+2011	7DB	0x7DB	Clothes
+2012	7DC	0x7DC	Clothes
+2013	7DD	0x7DD	Clothes
+2014	7DE	0x7DE	Clothes
+2015	7DF	0x7DF	Clothes
+2016	7E0	0x7E0	Clothes
+2017	7E1	0x7E1	Clothes
+2018	7E2	0x7E2	Clothes
+2019	7E3	0x7E3	Clothes
+2020	7E4	0x7E4	Clothes
+2021	7E5	0x7E5	Clothes
+2022	7E6	0x7E6	Clothes
+2023	7E7	0x7E7	Clothes
+2024	7E8	0x7E8	Clothes
+2025	7E9	0x7E9	Clothes
+2026	7EA	0x7EA	Clothes
+2027	7EB	0x7EB	Clothes
+2028	7EC	0x7EC	Clothes
+2029	7ED	0x7ED	Clothes
+2030	7EE	0x7EE	Clothes
+2031	7EF	0x7EF	Clothes
+2032	7F0	0x7F0	Clothes
+2033	7F1	0x7F1	Clothes
+2034	7F2	0x7F2	Clothes
+2035	7F3	0x7F3	Clothes
+2036	7F4	0x7F4	Clothes
+2037	7F5	0x7F5	Clothes
+2038	7F6	0x7F6	Clothes
+2039	7F7	0x7F7	Clothes
+2040	7F8	Agent Set	Clothes
+2041	7F9	Butler Set	Clothes
+2042	7FA	Festival Set	Clothes
+2043	7FB	Cheer Squad Set	Clothes
+2044	7FC	Maid Set	Clothes
+2045	7FD	Neo Featherman Set	Clothes
+2046	7FE	0x7FE	Clothes
+2047	7FF	0x7FF	Clothes
+2048	800	Blank	BLN
+2049	801	Unfinished Scooter	Key
+2050	802	Unfinished Scooter	Key
+2051	803	Unfinished Scooter	Key
+2052	804	Unfinished Scooter	Key
+2053	805	Unfinished Scooter	Key
+2054	806	Unfinished Scooter	Key
+2055	807	0x82F	FLR
+2056	808	Jack Frost Doll	Shelf
+2057	809	Black Frost Doll	Shelf
+2058	80A	King Frost Doll	Shelf
+2059	80B	Pyro Jack Doll	Shelf
+2060	80C	Neko Shogun Doll	Shelf
+2061	80D	Silver Scooter	Shelf
+2062	80E	Orange Scooter	Shelf
+2063	80F	Light Blue Scooter	Shelf
+2064	810	Red Scooter	Shelf
+2065	811	Pink Scooter	Shelf
+2066	812	Blue Scooter	Shelf
+2067	813	0x813	Key
+2068	814	0x814	Key
+2069	815	0x815	Key
+2070	816	0x816	Key
+2071	817	0x817	Key
+2072	818	0x818	Key
+2073	819	0x819	Key
+2074	81A	0x81A	Key
+2075	81B	0x81B	Key
+2076	81C	0x81C	Key
+2077	81D	0x81D	Key
+2078	81E	0x81E	Key
+2079	81F	0x81F	Key
+2080	820	0x820	Key
+2081	821	0x821	Key
+2082	822	0x822	Key
+2083	823	0x823	Key
+2084	824	0x824	Key
+2085	825	0x825	Key
+2086	826	0x826	Key
+2087	827	0x827	Key
+2088	828	0x828	Key
+2089	829	Tomato Seedling	Veg
+2090	82A	Eggplant Seedling	Veg
+2091	82B	Daikon Seedling	Veg
+2092	82C	Barrier Corn	Veg
+2093	82D	Cabbage Seedling	Veg
+2094	82E	Wall Paprika	Veg
+2095	82F	Wheat Seedling	Veg
+2096	830	Melon Seedling	Veg
+2097	831	Tiny Soul Tomato	Veg
+2098	832	Scapegoat Eggplant	Veg
+2099	833	Return Daikon	Veg
+2100	834	Tetracorn	Veg
+2101	835	Hiranya Cabbage	Veg
+2102	836	Red Paprika	Veg
+2103	837	Crack Wheat	Veg
+2104	838	Bead Melon	Veg
+2105	839	0x839	Veg
+2106	83A	0x83A	Veg
+2107	83B	Makaracorn	Veg
+2108	83C	White Paprika	Veg
+2109	83D	Blue Paprika	Veg
+2110	83E	Green Paprika	Veg
+2111	83F	0x83F	FLR
+2112	840	0x840	FLR
+2113	841	0x841	FLR
+2114	842	0x842	FLR
+2115	843	0x843	FLR
+2116	844	0x844	FLR
+2117	845	0x845	FLR
+2118	846	0x846	FLR
+2119	847	0x847	FLR
+2120	848	0x848	FLR
+2121	849	0x849	FLR
+2122	84A	0x84A	FLR
+2123	84B	0x84B	FLR
+2124	84C	0x84C	FLR
+2125	84D	0x84D	FLR
+2126	84E	0x84E	FLR
+2127	84F	0x84F	FLR
+2128	850	Iolite	Gems
+2129	851	Blue Quartz	Gems
+2130	852	Fluorite	Gems
+2131	853	Smoky Quartz	Gems
+2132	854	Lepidolite	Gems
+2133	855	Lemon Quartz	Gems
+2134	856	Olive Stone	Gems
+2135	857	Howlite	Gems
+2136	858	Milky Quartz	Gems
+2137	859	Bloodstone	Gems
+2138	85A	Meteorite	Gems
+2139	85B	Rose Quartz	Gems
+2140	85C	Buffalo Stone	Gems
+2141	85D	Sphalerite	Gems
+2142	85E	Aurora Quartz	Gems
+2143	85F	Sunstone	Gems
+2144	860	Angelite	Gems
+2145	861	Rainbow Quartz	Gems
+2146	862	Moonstone	Gems
+2147	863	Magatsu Xandrite	Gems
+2148	864	Kingyou Stone	Gems
+2149	865	Gyosen Stone	Gems
+2150	866	Yazu Stone	Gems
+2151	867	Masuda Stone	Gems
+2152	868	Taisui Stone	Gems
+2153	869	Mondo Stone	Gems
+2154	86A	Takou Stone	Gems
+2155	86B	Meguro Stone	Gems
+2156	86C	Kaiou Stone	Gems
+2157	86D	Ryugu Stone	Gems
+2158	86E	0x86E	FLR
+2159	86F	0x86F	FLR
+2160	870	0x870	FLR
+2161	871	0x871	FLR
+2162	872	0x872	FLR
+2163	873	0x873	FLR
+2164	874	0x874	FLR
+2165	875	0x875	FLR
+2166	876	0x876	FLR
+2167	877	0x877	FLR
+2168	878	0x878	FLR
+2169	879	0x879	FLR
+2170	87A	0x87A	FLR
+2171	87B	0x87B	FLR
+2172	87C	0x87C	FLR
+2173	87D	0x87D	FLR
+2174	87E	0x87E	FLR
+2175	87F	0x87F	FLR
+2176	880	0x880	FLR
+2177	881	0x881	FLR
+2178	882	0x882	FLR
+2179	883	0x883	FLR
+2180	884	0x884	FLR
+2181	885	0x885	FLR
+2182	886	0x886	FLR
+2183	887	0x887	FLR
+2184	888	0x888	FLR
+2185	889	0x889	FLR
+2186	88A	0x88A	FLR
+2187	88B	0x88B	FLR
+2188	88C	0x88C	FLR
+2189	88D	0x88D	FLR
+2190	88E	0x88E	FLR
+2191	88F	0x88F	FLR
+2192	890	0x890	FLR
+2193	891	0x891	FLR
+2194	892	0x892	FLR
+2195	893	0x893	FLR
+2196	894	0x894	FLR
+2197	895	0x895	FLR
+2198	896	0x896	FLR
+2199	897	0x897	FLR
+2200	898	0x898	FLR
+2201	899	0x899	FLR
+2202	89A	0x89A	FLR
+2203	89B	0x89B	FLR
+2204	89C	0x89C	FLR
+2205	89D	0x89D	FLR
+2206	89E	0x89E	FLR
+2207	89F	0x89F	FLR
+2208	8A0	0x8A0	FLR
+2209	8A1	0x8A1	FLR
+2210	8A2	0x8A2	FLR
+2211	8A3	0x8A3	FLR
+2212	8A4	0x8A4	FLR
+2213	8A5	0x8A5	FLR
+2214	8A6	0x8A6	FLR
+2215	8A7	0x8A7	FLR
+2216	8A8	0x8A8	FLR
+2217	8A9	0x8A9	FLR
+2218	8AA	0x8AA	FLR
+2219	8AB	0x8AB	FLR
+2220	8AC	0x8AC	FLR
+2221	8AD	0x8AD	FLR
+2222	8AE	0x8AE	FLR
+2223	8AF	0x8AF	FLR
+2224	8B0	0x8B0	FLR
+2225	8B1	0x8B1	FLR
+2226	8B2	0x8B2	FLR
+2227	8B3	0x8B3	FLR
+2228	8B4	0x8B4	FLR
+2229	8B5	0x8B5	FLR
+2230	8B6	0x8B6	FLR
+2231	8B7	0x8B7	FLR
+2232	8B8	0x8B8	FLR
+2233	8B9	0x8B9	FLR
+2234	8BA	0x8BA	FLR
+2235	8BB	0x8BB	FLR
+2236	8BC	0x8BC	FLR
+2237	8BD	0x8BD	FLR
+2238	8BE	0x8BE	FLR
+2239	8BF	0x8BF	FLR
+2240	8C0	0x8C0	FLR
+2241	8C1	0x8C1	FLR
+2242	8C2	0x8C2	FLR
+2243	8C3	0x8C3	FLR
+2244	8C4	0x8C4	FLR
+2245	8C5	0x8C5	FLR
+2246	8C6	0x8C6	FLR
+2247	8C7	0x8C7	FLR
+2248	8C8	0x8C8	FLR
+2249	8C9	0x8C9	FLR
+2250	8CA	0x8CA	FLR
+2251	8CB	0x8CB	FLR
+2252	8CC	0x8CC	FLR
+2253	8CD	0x8CD	FLR
+2254	8CE	0x8CE	FLR
+2255	8CF	0x8CF	FLR
+2256	8D0	0x8D0	FLR
+2257	8D1	0x8D1	FLR
+2258	8D2	0x8D2	FLR
+2259	8D3	0x8D3	FLR
+2260	8D4	0x8D4	FLR
+2261	8D5	0x8D5	FLR
+2262	8D6	0x8D6	FLR
+2263	8D7	0x8D7	FLR
+2264	8D8	0x8D8	FLR
+2265	8D9	0x8D9	FLR
+2266	8DA	0x8DA	FLR
+2267	8DB	0x8DB	FLR
+2268	8DC	0x8DC	FLR
+2269	8DD	0x8DD	FLR
+2270	8DE	0x8DE	FLR
+2271	8DF	0x8DF	FLR
+2272	8E0	0x8E0	FLR
+2273	8E1	0x8E1	FLR
+2274	8E2	0x8E2	FLR
+2275	8E3	0x8E3	FLR
+2276	8E4	0x8E4	FLR
+2277	8E5	0x8E5	FLR
+2278	8E6	0x8E6	FLR
+2279	8E7	0x8E7	FLR
+2280	8E8	0x8E8	FLR
+2281	8E9	0x8E9	FLR
+2282	8EA	0x8EA	FLR
+2283	8EB	0x8EB	FLR
+2284	8EC	0x8EC	FLR
+2285	8ED	0x8ED	FLR
+2286	8EE	0x8EE	FLR
+2287	8EF	0x8EF	FLR
+2288	8F0	0x8F0	FLR
+2289	8F1	0x8F1	FLR
+2290	8F2	0x8F2	FLR
+2291	8F3	0x8F3	FLR
+2292	8F4	0x8F4	FLR
+2293	8F5	0x8F5	FLR
+2294	8F6	0x8F6	FLR
+2295	8F7	0x8F7	FLR
+2296	8F8	0x8F8	FLR
+2297	8F9	0x8F9	FLR
+2298	8FA	0x8FA	FLR
+2299	8FB	0x8FB	FLR
+2300	8FC	0x8FC	FLR
+2301	8FD	0x8FD	FLR
+2302	8FE	0x8FE	FLR
+2303	8FF	0x8FF	FLR
+2304	900	0x900	Weapon
+2305	901	Beach Parasol	Weapon
+2306	902	Cleaning Mop	Weapon
+2307	903	Light Sword	Weapon
+2308	904	Bass	Weapon
+2309	905	Skull Rod	Weapon
+2310	906	Cheering Flag	Weapon
+2311	907	Spiked Bat	Weapon
+2312	908	Bus Stop Sign	Weapon
+2313	909	Carbon Pole	Weapon
+2314	90A	Sharp Shovel	Weapon
+2315	90B	Bamboo Broom	Weapon
+2316	90C	0x90C	Weapon
+2317	90D	0x90D	Weapon
+2318	90E	0x90E	Weapon
+2319	90F	0x90F	Weapon
+2320	910	0x910	Weapon
+2321	911	0x911	Weapon
+2322	912	0x912	Weapon
+2323	913	0x913	Weapon
+2324	914	0x914	Weapon
+2325	915	0x915	Weapon
+2326	916	Grilled Corn	Weapon
+2327	917	Feather Dagger	Weapon
+2328	918	Happy Maracas	Weapon
+2329	919	Pinwheel	Weapon
+2330	91A	Bone	Weapon
+2331	91B	Megaphone	Weapon
+2332	91C	Inaba Trout	Weapon
+2333	91D	Bowling Pin	Weapon
+2334	91E	Chinese Cleaver	Weapon
+2335	91F	0x91F	Weapon
+2336	920	0x920	Weapon
+2337	921	0x921	Weapon
+2338	922	0x922	Weapon
+2339	923	0x923	Weapon
+2340	924	0x924	Weapon
+2341	925	0x925	Weapon
+2342	926	0x926	Weapon
+2343	927	0x927	Weapon
+2344	928	0x928	Weapon
+2345	929	Flying Disc	Weapon
+2346	92A	Disco Fan	Weapon
+2347	92B	Feather Boomerang	Weapon
+2348	92C	Tambourine	Weapon
+2349	92D	Santa Fan	Weapon
+2350	92E	Festival Fan	Weapon
+2351	92F	Bat Saucer	Weapon
+2352	930	Table Tennis Racket	Weapon
+2353	931	Victory Fan	Weapon
+2354	932	Silver Tray	Weapon
+2355	933	Gothic Fan	Weapon
+2356	934	0x934	Weapon
+2357	935	0x935	Weapon
+2358	936	0x936	Weapon
+2359	937	0x937	Weapon
+2360	938	0x938	Weapon
+2361	939	0x939	Weapon
+2362	93A	0x93A	Weapon
+2363	93B	0x93B	Weapon
+2364	93C	0x93C	Weapon
+2365	93D	0x93D	Weapon
+2366	93E	0x93E	Weapon
+2367	93F	Invisible Shoes	Weapon
+2368	940	Wrestling Boots	Weapon
+2369	941	Jet Boots	Weapon
+2370	942	Inline Skates	Weapon
+2371	943	Foot-Maces	Weapon
+2372	944	Metal Geta	Weapon
+2373	945	Loose Socks	Weapon
+2374	946	Animal Slippers	Weapon
+2375	947	Spring Boots	Weapon
+2376	948	0x948	Weapon
+2377	949	0x949	Weapon
+2378	94A	0x94A	Weapon
+2379	94B	0x94B	Weapon
+2380	94C	0x94C	Weapon
+2381	94D	0x94D	Weapon
+2382	94E	0x94E	Weapon
+2383	94F	0x94F	Weapon
+2384	950	0x950	Weapon
+2385	951	Bodyboard	Weapon
+2386	952	Factory Sign	Weapon
+2387	953	Feather Shield	Weapon
+2388	954	0x954	Weapon
+2389	955	Big Cymbal	Weapon
+2390	956	Christmas Wreath	Weapon
+2391	957	Casket Lid	Weapon
+2392	958	Colored Bench	Weapon
+2393	959	Flat Taiko	Weapon
+2394	95A	Guardian	Weapon
+2395	95B	Dining Table	Weapon
+2396	95C	Half-Sized Tatami	Weapon
+2397	95D	0x95D	Weapon
+2398	95E	0x95E	Weapon
+2399	95F	0x95F	Weapon
+2400	960	0x960	Weapon
+2401	961	0x961	Weapon
+2402	962	0x962	Weapon
+2403	963	0x963	Weapon
+2404	964	0x964	Weapon
+2405	965	0x965	Weapon
+2406	966	0x966	Weapon
+2407	967	Water Gun	Weapon
+2408	968	Feather Shot	Weapon
+2409	969	Bat Magnum	Weapon
+2410	96A	Flintlock	Weapon
+2411	96B	Frost Shot	Weapon
+2412	96C	Special Ray Gun	Weapon
+2413	96D	Rubber Band Gun	Weapon
+2414	96E	Machine Pistol	Weapon
+2415	96F	0x96F	Weapon
+2416	970	0x970	Weapon
+2417	971	0x971	Weapon
+2418	972	0x972	Weapon
+2419	973	0x973	Weapon
+2420	974	0x974	Weapon
+2421	975	0x975	Weapon
+2422	976	0x976	Weapon
+2423	977	0x977	Weapon
+2424	978	0x978	Weapon
+2425	979	Beach Ball	Weapon
+2426	97A	Animal Paw	Weapon
+2427	97B	Feather Claw	Weapon
+2428	97C	Reindeer Hoof	Weapon
+2429	97D	Pyro Puppet	Weapon
+2430	97E	Hyper Drill	Weapon
+2431	97F	Crab Claw	Weapon
+2432	980	Frost Puppet	Weapon
+2433	981	0x981	Weapon
+2434	982	Strange Sword	Weapon|HF
+2435	983	Strange Daggers	Weapon|HF
+2436	984	Strange Greaves	Weapon|HF
+2437	985	Strange Fan	Weapon|HF
+2438	986	Strange Shield	Weapon|HF
+2439	987	Strange Firearm	Weapon|HF
+2440	988	Strange Claw	Weapon|HF
+2441	989	0x989	Weapon
+2442	98A	0x98A	Weapon
+2443	98B	0x98B	Weapon
+2444	98C	0x98C	Weapon
+2445	98D	0x98D	Weapon
+2446	98E	0x98E	Weapon
+2447	98F	0x98F	Weapon
+2448	990	0x990	Weapon
+2449	991	0x991	Weapon
+2450	992	0x992	Weapon
+2451	993	0x993	Weapon
+2452	994	0x994	Weapon
+2453	995	0x995	Weapon
+2454	996	0x996	Weapon
+2455	997	0x997	Weapon
+2456	998	0x998	Weapon
+2457	999	0x999	Weapon
+2458	99A	0x99A	Weapon
+2459	99B	0x99B	Weapon
+2460	99C	0x99C	Weapon
+2461	99D	0x99D	Weapon
+2462	99E	0x99E	Weapon
+2463	99F	0x99F	Weapon
+2464	9A0	0x9A0	Weapon
+2465	9A1	0x9A1	Weapon
+2466	9A2	0x9A2	Weapon
+2467	9A3	0x9A3	Weapon
+2468	9A4	0x9A4	Weapon
+2469	9A5	0x9A5	Weapon
+2470	9A6	0x9A6	Weapon
+2471	9A7	0x9A7	Weapon
+2472	9A8	0x9A8	Weapon
+2473	9A9	0x9A9	Weapon
+2474	9AA	0x9AA	Weapon
+2475	9AB	0x9AB	Weapon
+2476	9AC	0x9AC	Weapon
+2477	9AD	0x9AD	Weapon
+2478	9AE	0x9AE	Weapon
+2479	9AF	0x9AF	Weapon
+2480	9B0	0x9B0	Weapon
+2481	9B1	0x9B1	Weapon
+2482	9B2	0x9B2	Weapon
+2483	9B3	0x9B3	Weapon
+2484	9B4	0x9B4	Weapon
+2485	9B5	0x9B5	Weapon
+2486	9B6	0x9B6	Weapon
+2487	9B7	0x9B7	Weapon
+2488	9B8	0x9B8	Weapon
+2489	9B9	0x9B9	Weapon
+2490	9BA	0x9BA	Weapon
+2491	9BB	0x9BB	Weapon
+2492	9BC	0x9BC	Weapon
+2493	9BD	0x9BD	Weapon
+2494	9BE	0x9BE	Weapon
+2495	9BF	0x9BF	Weapon
+2496	9C0	0x9C0	Weapon
+2497	9C1	0x9C1	Weapon
+2498	9C2	0x9C2	Weapon
+2499	9C3	0x9C3	Weapon
+2500	9C4	0x9C4	Weapon
+2501	9C5	0x9C5	Weapon
+2502	9C6	0x9C6	Weapon
+2503	9C7	0x9C7	Weapon
+2504	9C8	0x9C8	Weapon
+2505	9C9	0x9C9	Weapon
+2506	9CA	0x9CA	Weapon
+2507	9CB	0x9CB	Weapon
+2508	9CC	0x9CC	Weapon
+2509	9CD	0x9CD	Weapon
+2510	9CE	0x9CE	Weapon
+2511	9CF	0x9CF	Weapon
+2512	9D0	0x9D0	Weapon
+2513	9D1	0x9D1	Weapon
+2514	9D2	0x9D2	Weapon
+2515	9D3	0x9D3	Weapon
+2516	9D4	0x9D4	Weapon
+2517	9D5	0x9D5	Weapon
+2518	9D6	0x9D6	Weapon
+2519	9D7	0x9D7	Weapon
+2520	9D8	0x9D8	Weapon
+2521	9D9	0x9D9	Weapon
+2522	9DA	0x9DA	Weapon
+2523	9DB	0x9DB	Weapon
+2524	9DC	0x9DC	Weapon
+2525	9DD	0x9DD	Weapon
+2526	9DE	0x9DE	Weapon
+2527	9DF	0x9DF	Weapon
+2528	9E0	0x9E0	Weapon
+2529	9E1	0x9E1	Weapon
+2530	9E2	0x9E2	Weapon
+2531	9E3	0x9E3	Weapon
+2532	9E4	0x9E4	Weapon
+2533	9E5	0x9E5	Weapon
+2534	9E6	0x9E6	Weapon
+2535	9E7	0x9E7	Weapon
+2536	9E8	0x9E8	Weapon
+2537	9E9	0x9E9	Weapon
+2538	9EA	0x9EA	Weapon
+2539	9EB	0x9EB	Weapon
+2540	9EC	0x9EC	Weapon
+2541	9ED	0x9ED	Weapon
+2542	9EE	0x9EE	Weapon
+2543	9EF	0x9EF	Weapon
+2544	9F0	0x9F0	Weapon
+2545	9F1	0x9F1	Weapon
+2546	9F2	0x9F2	Weapon
+2547	9F3	0x9F3	Weapon
+2548	9F4	0x9F4	Weapon
+2549	9F5	0x9F5	Weapon
+2550	9F6	0x9F6	Weapon
+2551	9F7	0x9F7	Weapon
+2552	9F8	0x9F8	Weapon
+2553	9F9	0x9F9	Weapon
+2554	9FA	0x9FA	Weapon
+2555	9FB	0x9FB	Weapon
+2556	9FC	0x9FC	Weapon
+2557	9FD	0x9FD	Weapon
+2558	9FE	0x9FE	Weapon
+2559	9FF	0x9FF	Weapon

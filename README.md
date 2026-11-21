@@ -83,15 +83,17 @@ GitHub Actions の `build` ワークフローが fmt / clippy / test / wasm ビ�
 
 ## データ出典
 
-- fendevel/P4G-Save-Tool: セーブ構造とデータベース
-- vware/P4G-Save-Tool: 構造の解析
-- zarroboogs/p4g-ct: アイテム、ペルソナ、スキル、ソーシャルリンクのデータ
+TSVデータ (`crates/p4g-core/assets/data`) は、ゲーム内リソースから抽出した名称テーブルと、以下のプロジェクトのデータを組み合わせて生成しています。
+
+- vware/P4G-Save-Tool (MIT相当): 名称一覧の照合
+- aqiu384/megaten-fusion-tool (Unlicense): ペルソナのステータス、スキル、レベル
+
+形式の参考にしたプロジェクト:
+
 - zarroboogs/p4g-saveconv: `.binslot`の形式とMD5の計算方法
 - cfxxldev/P4GPC_Savegame_Helper: チェックサムの更新方法
 - Amicitia Wiki / tge-was-taken/Atlus-Script-Tools: 日本語名テーブルの構造と文字コード
 - gameludens.com: ペルソナとスキルの日英対応
-
-TSVデータは上記プロジェクトの内容を元にしています。データは各出典の条件に従います。
 
 ## ライセンス
 

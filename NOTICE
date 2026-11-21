@@ -12,11 +12,21 @@ assets are trademarks or copyrighted works of Atlus Co., Ltd. and SEGA
 Corporation. This project is an unofficial fan tool and is not affiliated
 with or endorsed by either company.
 
-The files under assets/data contain names and identifiers extracted from
-the game for interoperability and identification purposes. The icon in
-assets/p4g.ico originates from the game. These materials are not covered
-by the MIT or Apache-2.0 licenses that apply to the source code, and all
-rights remain with their respective owners.
+The files under crates/p4g-core/assets/data contain names and identifiers
+extracted from the game for interoperability and identification purposes.
+The icon in web/favicon.ico originates from the game. These materials are
+not covered by the MIT or Apache-2.0 licenses that apply to the source
+code, and all rights remain with their respective owners.
+
+Third-party data
+----------------
+Parts of the game-data tables in crates/p4g-core/assets/data were checked
+against data published by these projects:
+
+- vware/P4G-Save-Tool (MIT-equivalent license): item/persona/skill name
+  lists used for cross-checking.
+- aqiu384/megaten-fusion-tool (Unlicense): persona stats, skills and
+  levels used to build personas.tsv.
 
 Third-party software
 --------------------
