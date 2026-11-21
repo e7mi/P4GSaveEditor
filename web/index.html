@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>P4G Save Editor</title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="title">P4G Save Editor</div>
+  <div class="slot-nav">
+    <button id="btn-prev" data-act="prev-slot" title="前のスロット">&#xFF1C;</button>
+    <div class="slot-label">
+      <span id="slot-desc">-</span>
+      <span id="slot-num" class="muted"></span>
+    </div>
+    <button id="btn-next" data-act="next-slot" title="次のスロット">&#xFF1E;</button>
+  </div>
+  <div class="spacer"></div>
+  <button id="btn-open-dir" data-act="open-dir">フォルダを開く</button>
+  <button id="btn-open-file" data-act="open-file">ファイルを開く</button>
+  <button id="btn-detail" data-act="toggle-detail">詳細: OFF</button>
+  <button id="btn-save" class="primary" data-act="save">保存</button>
+</header>
+<div class="main">
+  <nav id="nav">
+    <button data-page="basic">基本</button>
+    <button data-page="date">日付</button>
+    <button data-page="party">仲間</button>
+    <button data-page="persona">ペルソナ</button>
+    <button data-page="comp">全書</button>
+    <button data-page="social">コミュ</button>
+    <button data-page="items">アイテム</button>
+    <button data-page="tools">ツール</button>
+  </nav>
+  <div id="content">
+    <div class="empty-state">読み込み中...</div>
+  </div>
+</div>
+<footer class="statusbar">
+  <span id="status-msg">読み込み中...</span>
+  <span class="spacer"></span>
+  <span id="modified-flag" class="muted"></span>
+  <span class="ver">v0.3.0</span>
+</footer>
+<div id="modal-root"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
