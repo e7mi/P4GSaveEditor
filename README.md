@@ -85,8 +85,10 @@ GitHub Actions の `build` ワークフローが fmt / clippy / test / wasm ビ�
 
 TSVデータ (`crates/p4g-core/assets/data`) は、ゲーム内リソースから抽出した名称テーブルと、以下のプロジェクトのデータを組み合わせて生成しています。
 
-- vware/P4G-Save-Tool (MIT相当): 名称一覧の照合
+- vware/P4G-Save-Tool (MIT): 名称一覧の照合
 - aqiu384/megaten-fusion-tool (Unlicense): ペルソナのステータス、スキル、レベル
+
+両プロジェクトのライセンス文は `licenses/` に同梱しています。
 
 形式の参考にしたプロジェクト:
 

@@ -20,13 +20,14 @@ code, and all rights remain with their respective owners.
 
 Third-party data
 ----------------
-Parts of the game-data tables in crates/p4g-core/assets/data were checked
-against data published by these projects:
+Parts of the game-data tables in crates/p4g-core/assets/data incorporate
+or were checked against data published by these projects:
 
-- vware/P4G-Save-Tool (MIT-equivalent license): item/persona/skill name
-  lists used for cross-checking.
+- vware/P4G-Save-Tool (MIT license): item/persona/skill name lists used
+  for cross-checking. License text: licenses/P4G-Save-Tool-LICENSE.txt
 - aqiu384/megaten-fusion-tool (Unlicense): persona stats, skills and
   levels used to build personas.tsv.
+  License text: licenses/megaten-fusion-tool-LICENSE.md
 
 Third-party software
 --------------------
