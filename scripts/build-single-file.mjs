@@ -33,21 +33,32 @@ app = app
     'initSync({ module: __P4G_WASM_BYTES });'
   );
 
+// pure.js is a classic script shared with node tests; inline it before app.js
+// when it exists (audit-fix branch layout). Missing is not an error.
+let pure = '';
+try {
+  pure = readFileSync(join(web, 'pure.js'), 'utf8');
+} catch { /* older layout without pure.js */ }
+
 if (app.includes('await init(') || app.includes('import init'))
   throw new Error('wasm init call in app.js was not rewritten');
 if (glue.includes('export '))
   throw new Error('unstripped export left in glue');
 
 const esc = (s) => s.replace(/<\/script/gi, '<\\/script');
+const scripts =
+  `<script>var __P4G_WASM_BYTES = Uint8Array.fromBase64("${wasm.toString('base64')}");</script>\n` +
+  `<script>\n${esc(glue)}\n` +
+  (pure ? `// ---- pure.js ----\n${esc(pure)}\n` : '') +
+  `// ---- app.js ----\n${esc(app)}</script>`;
 
 html = html
   .replace('<link rel="icon" href="favicon.ico">',
     `<link rel="icon" href="data:image/x-icon;base64,${favicon.toString('base64')}">`)
   .replace('<link rel="stylesheet" href="style.css">',
     `<style>\n${css}</style>`)
-  .replace('<script type="module" src="app.js"></script>',
-    `<script>var __P4G_WASM_BYTES = Uint8Array.fromBase64("${wasm.toString('base64')}");</script>\n` +
-    `<script>\n${esc(glue)}\n// ---- app.js ----\n${esc(app)}</script>`);
+  .replace(/<script src="pure\.js"><\/script>\s*/, '')
+  .replace('<script type="module" src="app.js"></script>', scripts);
 
 mkdirSync(join(root, 'dist'), { recursive: true });
 const out = join(root, 'dist', 'P4GSaveEditor.html');
