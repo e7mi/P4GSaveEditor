@@ -52,7 +52,7 @@ pub const OFF_NAME_PC_LAST_ALT: usize = 0x19CEC;
 pub const OFF_NAME_PC_FIRST_ALT: usize = 0x19CFE;
 pub const OFF_NAME_PC_FLAG: usize = 0x19CE8;
 
-pub const INVENTORY_SIZE: usize = 2559;
+pub const INVENTORY_SIZE: usize = 2560;
 pub const MAX_MONEY: u32 = 9_999_999;
 pub const MC_PERSONA_COUNT: usize = 12;
 pub const PARTY_UNIT_COUNT: usize = 8;
@@ -252,7 +252,14 @@ impl SlotMeta {
     }
 
     pub fn set_detail(&mut self, date_text: &str, phase_text: &str, location: &str) {
-        let text = format!("{date_text}:{phase_text}:{location}");
+        // info() splits on ':' with splitn(3), so keep ':' out of the fields.
+        let clean = |s: &str| s.replace(':', " ");
+        let text = format!(
+            "{}:{}:{}",
+            clean(date_text),
+            clean(phase_text),
+            clean(location)
+        );
         write_fixed_utf8(&mut self.raw, 0x44, &text, 0x80);
     }
 
@@ -356,7 +363,12 @@ impl SlotMeta {
             block.extend_from_slice(line);
         }
         if block.len() > SLOT_COMMENT_SIZE {
-            block.truncate(SLOT_COMMENT_SIZE);
+            // Cut at a UTF-8 boundary so a multibyte value is not split.
+            let mut end = SLOT_COMMENT_SIZE;
+            while end > 0 && std::str::from_utf8(&block[..end]).is_err() {
+                end -= 1;
+            }
+            block.truncate(end);
         }
         self.raw[0xC4..0xC4 + SLOT_COMMENT_SIZE].fill(0);
         self.raw[0xC4..0xC4 + block.len()].copy_from_slice(&block);
@@ -727,8 +739,10 @@ impl P4GSave {
     }
 
     fn sync_pc_names(&mut self) {
-        let last = utf8_prefix(&self.lname(), 16).to_vec();
-        let first = utf8_prefix(&self.fname(), 16).to_vec();
+        // PC name fields are 0x12 wide like the CP932 ones (offsets step by 0x12).
+        const PC_NAME_SIZE: usize = 0x12;
+        let last = utf8_prefix(&self.lname(), PC_NAME_SIZE).to_vec();
+        let first = utf8_prefix(&self.fname(), PC_NAME_SIZE).to_vec();
         for (offset, value) in [
             (OFF_NAME_PC_HEADER_LAST, &last),
             (OFF_NAME_PC_HEADER_FIRST, &first),
@@ -737,7 +751,7 @@ impl P4GSave {
             (OFF_NAME_PC_LAST_ALT, &last),
             (OFF_NAME_PC_FIRST_ALT, &first),
         ] {
-            self.data[offset..offset + 16].fill(0);
+            self.data[offset..offset + PC_NAME_SIZE].fill(0);
             self.data[offset..offset + value.len()].copy_from_slice(value);
         }
         self.data[OFF_NAME_PC_FLAG] = 1;
@@ -815,7 +829,10 @@ impl P4GSave {
     }
 
     pub fn set_playtime(&mut self, hours: u32, minutes: u32, seconds: u32) {
-        let total = hours.saturating_mul(3600) + minutes * 60 + seconds;
+        let total = hours
+            .saturating_mul(3600)
+            .saturating_add(minutes.saturating_mul(60))
+            .saturating_add(seconds);
         self.set_playtime_frames(total.saturating_mul(30));
     }
 
@@ -986,10 +1003,16 @@ impl P4GSave {
     }
 
     pub fn heal_party(&mut self) {
+        // Unit 0's hp/sp alias OFF_MC_HP/SP, which apply() rewrites from
+        // self.data after copying units — so it must go through the mc setters.
+        self.set_mc_hp(9999);
+        self.set_mc_sp(9999);
         for unit in &mut self.units {
+            unit.clear_status();
+        }
+        for unit in self.units.iter_mut().skip(1) {
             unit.set_hp(9999);
             unit.set_sp(9999);
-            unit.clear_status();
         }
     }
 
@@ -1134,18 +1157,6 @@ impl P4GSave {
         }
     }
 
-    pub fn verify(&mut self) -> LoadedChecks {
-        let (data, slot) = self.apply(false);
-        let header = (data[..54].iter().map(|&b| b as u32).sum::<u32>() & 0xFF) as u8;
-        let mut slot_payload = slot[SLOT_DATA_OFFSET..].to_vec();
-        slot_payload.extend_from_slice(SLOT_SUFFIX);
-        LoadedChecks {
-            header: header == data[OFF_HEADER_CHECKSUM],
-            save_md5: md5::compute(&data).0 == slot[0x18..0x28],
-            slot_md5: md5::compute(&slot_payload).0 == slot[0x08..0x18],
-        }
-    }
-
     pub fn save(&mut self, backup: bool) -> Result<Option<PathBuf>> {
         let (data, slot) = self.apply(true);
         let backup_path = if backup {
@@ -1266,6 +1277,8 @@ impl P4GSave {
         self.create_backup("before_restore")?;
         fs::copy(&bin_file, &self.bin_path)?;
         fs::copy(&slot_file, &self.slot_path)?;
+        // Reload so callers do not keep editing stale in-memory bytes.
+        *self = Self::load_pair(self.bin_path.clone(), self.slot_path.clone())?;
         Ok(())
     }
 

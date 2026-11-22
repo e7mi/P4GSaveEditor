@@ -81,8 +81,11 @@ impl P4gSave {
         .map_err(js_err)
     }
 
+    // Re-check the originally loaded pair. apply() would rewrite the slot's
+    // checksums before comparing, which always passes — so this reuses
+    // check_loaded instead of verifying the recomputed bytes.
     pub fn verify_json(&mut self) -> Result<String, JsError> {
-        let checks = self.save.verify();
+        let checks = self.save.check_loaded();
         serde_json::to_string(&json!({
             "header": checks.header,
             "save_md5": checks.save_md5,
@@ -102,7 +105,15 @@ impl P4gSave {
 
     // Keep the dataXXXX name so slot_number() and slot labels match the file.
     pub fn set_file_name(&mut self, name: &str) {
-        let stem = name.trim_end_matches(".bin").trim_end_matches(".binslot");
+        // .binslot before .bin; compare case-insensitively like app.js stem().
+        let lower = name.to_ascii_lowercase();
+        let stem = if lower.ends_with(".binslot") {
+            &name[..name.len() - 8]
+        } else if lower.ends_with(".bin") {
+            &name[..name.len() - 4]
+        } else {
+            name
+        };
         self.save.bin_path = PathBuf::from(format!("{stem}.bin"));
         self.save.slot_path = PathBuf::from(format!("{stem}.binslot"));
     }
