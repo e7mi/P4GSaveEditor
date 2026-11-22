@@ -30,9 +30,6 @@ const CATEGORY_OPTIONS = [
   ["Bugged", "不具合"], ["BLN", "未使用"], ["FLR", "空き"],
 ];
 
-const EPOCH_UTC = Date.UTC(2011, 3, 1); // serial 0 = 2011/04/01
-const DAY_MS = 86400000;
-const MAX_SERIAL = 354;
 const ROW_H = 30; // fixed pixel height of virtualized rows
 const OVERSCAN = 8;
 
@@ -65,14 +62,6 @@ function esc(value) {
   return String(value)
     .replaceAll("&", "&amp;").replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;").replaceAll('"', "&quot;");
-}
-
-function pad(value, width) {
-  return String(value).padStart(width, "0");
-}
-
-function stem(name) {
-  return name.replace(/\.binslot$/, "").replace(/\.bin$/, "");
 }
 
 function setStatus(msg, isError = false) {
@@ -128,27 +117,6 @@ function categoryLabel(key) {
   return found ? found[1] : key;
 }
 
-// serial <-> date helpers; UTC everywhere so timezone never shifts a day
-function serialToDate(serial) {
-  const d = new Date(EPOCH_UTC + serial * DAY_MS);
-  const y = d.getUTCFullYear();
-  const m = pad(d.getUTCMonth() + 1, 2);
-  const day = pad(d.getUTCDate(), 2);
-  return { text: `${y}/${m}/${day}`, iso: `${y}-${m}-${day}` };
-}
-
-function dateToSerial(text) {
-  const m = String(text).trim().match(/^(\d{4})[-/](\d{1,2})[-/](\d{1,2})$/);
-  if (!m) return -1;
-  const serial = Math.round(
-    (Date.UTC(+m[1], +m[2] - 1, +m[3]) - EPOCH_UTC) / DAY_MS
-  );
-  if (serial < 0 || serial > MAX_SERIAL) return -1;
-  const check = serialToDate(serial);
-  if (check.iso !== `${m[1]}-${pad(m[2], 2)}-${pad(m[3], 2)}`) return -1;
-  return serial;
-}
-
 // ---------- wasm call helpers ----------
 function refreshState() {
   if (!app.save) {
@@ -161,6 +129,7 @@ function refreshState() {
 // Run one wasm mutation; on success mark the slot dirty and re-render.
 // Throws propagate: callers that wrap them must setStatus themselves.
 function mutate(fn, statusMsg) {
+  saveScroll();
   fn(app.save);
   const slot = app.slots[app.selSlot];
   if (slot) slot.modified = true;
@@ -688,14 +657,11 @@ function renderTools() {
 }
 
 // Re-render while keeping focus on an input identified by id.
-function rerenderKeepFocus(focusId, value) {
+function rerenderKeepFocus(focusId) {
   saveScroll();
   render();
   const el = document.getElementById(focusId);
-  if (el) {
-    el.focus();
-    if (value != null) el.setSelectionRange(value.length, value.length);
-  }
+  if (el) el.focus();
 }
 
 // ---------- modal ----------
@@ -723,6 +689,15 @@ function showModal({ message, buttons }) {
 // Warn about unsaved changes before a slot/file switch.
 // Returns true when the caller may proceed.
 async function ensureClean() {
+  // Jump to the first dirty slot; other slots may hold unsaved edits too.
+  const dirtyIndex = app.slots.findIndex((s) => s.modified);
+  if (dirtyIndex < 0) return true;
+  if (dirtyIndex !== app.selSlot) {
+    app.selSlot = dirtyIndex;
+    app.save = app.slots[dirtyIndex].save;
+    refreshState();
+    render();
+  }
   const slot = app.slots[app.selSlot];
   if (!slot || !slot.modified) return true;
   const choice = await showModal({
@@ -739,6 +714,17 @@ async function ensureClean() {
     if (slot.modified) return false; // save failed
   }
   return true;
+}
+
+async function confirmDestructive(message) {
+  const choice = await showModal({
+    message,
+    buttons: [
+      { label: "実行", value: "run", primary: true },
+      { label: "キャンセル", value: "cancel" },
+    ],
+  });
+  return choice === "run";
 }
 
 // ---------- file loading ----------
@@ -787,25 +773,6 @@ async function adoptSlots(entries, sourceLabel) {
   render();
   const names = entries.map((e) => e.name).join(", ");
   setStatus(`読み込みました: ${names}${sourceLabel || ""}`);
-}
-
-const BIN_RE = /^data\d{4}\.bin$/i;
-
-// Collect [bin, binslot] pairs from a flat name->entry map (File or handle).
-function pairRecs(map) {
-  const recs = [];
-  for (const [name, entry] of map) {
-    if (BIN_RE.test(name)) {
-      const key = stem(name);
-      recs.push({
-        name,
-        file: entry,
-        slotFile: map.get(`${key}.binslot`) || null,
-      });
-    }
-  }
-  recs.sort((a, b) => a.name.localeCompare(b.name));
-  return recs;
 }
 
 async function openFolder() {
@@ -924,6 +891,10 @@ async function saveCurrent() {
         const fh = await app.dirHandle.getFileHandle(`${stem(slot.name)}.binslot`, { create: true });
         await writeHandle(fh, slotBytes);
         slot.slotHandle = fh;
+      } else {
+        // .bin opened alone: writing only it would leave a stale .binslot
+        // whose md5 no longer matches, so hand the pair to the user.
+        download(`${stem(slot.name)}.binslot`, slotBytes);
       }
     } else {
       download(slot.name, bin);
@@ -946,11 +917,9 @@ async function saveCurrent() {
 }
 
 // ---------- picker ----------
-const picker = { open: false, type: null, items: [], cat: "", lockCat: false };
+const picker = { items: [], cat: "", lockCat: false };
 
 function openPicker(type, title, entries, opts = {}) {
-  picker.open = true;
-  picker.type = type;
   picker.items = entries;
   picker.cat = opts.lockCat || "";
   picker.lockCat = !!opts.lockCat;
@@ -1022,7 +991,6 @@ function openPicker(type, title, entries, opts = {}) {
 }
 
 function closePicker() {
-  picker.open = false;
   $("#modal-root").innerHTML = "";
 }
 
@@ -1316,8 +1284,7 @@ async function dispatch(act, el) {
       break;
     case "persona-clear":
       try {
-        mutate((s) => s.persona_clear(
-          app.page === "party" ? "party" : "mc", idx()));
+        mutate((s) => s.persona_clear(el.dataset.target || "mc", idx()));
       } catch (e) { setStatus(`エラー: ${e.message || e}`, true); }
       break;
     case "persona-max-all": mutate((s) => s.persona_max_all()); break;
@@ -1331,9 +1298,18 @@ async function dispatch(act, el) {
       break;
 
     // 全書
-    case "comp-fill": mutate((s) => s.compendium_fill()); break;
-    case "comp-reset": mutate((s) => s.compendium_reset()); break;
-    case "comp-clear": mutate((s) => s.compendium_clear()); break;
+    case "comp-fill":
+      if (await confirmDestructive("全書をすべて登録します。実行しますか？"))
+        mutate((s) => s.compendium_fill());
+      break;
+    case "comp-reset":
+      if (await confirmDestructive("全書を未登録に戻します。実行しますか？"))
+        mutate((s) => s.compendium_reset());
+      break;
+    case "comp-clear":
+      if (await confirmDestructive("全書の登録をすべて解除します。実行しますか？"))
+        mutate((s) => s.compendium_clear());
+      break;
     case "comp-toggle":
       try { mutate((s) => s.compendium_toggle(idx())); }
       catch (e) { setStatus(`エラー: ${e.message || e}`, true); }
@@ -1374,8 +1350,14 @@ async function dispatch(act, el) {
         }
       });
       break;
-    case "items-all-99": mutate((s) => s.add_all_items(99)); break;
-    case "items-clear": mutate((s) => s.clear_inventory()); break;
+    case "items-all-99":
+      if (await confirmDestructive("全アイテムを 99 個所持にします。実行しますか？"))
+        mutate((s) => s.add_all_items(99));
+      break;
+    case "items-clear":
+      if (await confirmDestructive("所持アイテムをすべて削除します。実行しますか？"))
+        mutate((s) => s.clear_inventory());
+      break;
 
     // ツール
     case "verify": {
@@ -1451,6 +1433,16 @@ async function dispatch(act, el) {
           download(binName, new Uint8Array(out[0]));
           download(slotName, new Uint8Array(out[1]));
         }
+        // If the target slot is loaded, swap in the cloned bytes so a later
+        // save cannot overwrite the clone with stale in-memory data.
+        const existing = app.slots.find((s) => stem(s.name) === stem(binName));
+        if (existing && existing !== slot) {
+          existing.save = new P4gSave(new Uint8Array(out[0]), new Uint8Array(out[1]));
+          existing.save.set_file_name(binName);
+          existing.lastBytes = { bin: new Uint8Array(out[0]), slot: new Uint8Array(out[1]) };
+          existing.modified = false;
+          existing.checks = JSON.parse(existing.save.checks_json());
+        }
         refreshState();
         render();
         setStatus(wrote ? `書き込みました: ${binName}` : `複製しました: ${binName}`);
@@ -1474,9 +1466,12 @@ async function dispatch(act, el) {
 }
 
 // ---------- drag & drop ----------
+// Returns { map, dir }: dir is set only when a directory was dropped, so a
+// failed drop does not clear app.dirHandle and silently switch saves to
+// download mode.
 async function entriesFromDataTransfer(dt) {
-  app.dirHandle = null; // re-set below only when a directory was dropped
   const map = new Map();
+  let dir = null;
   const items = dt.items ? [...dt.items] : [];
   const handles = [];
   for (const item of items) {
@@ -1494,13 +1489,13 @@ async function entriesFromDataTransfer(dt) {
     if (h.kind === "file") {
       map.set(h.name, h);
     } else if (h.kind === "directory") {
-      app.dirHandle = h;
+      dir = h;
       for await (const entry of h.values()) {
         if (entry.kind === "file") map.set(entry.name, entry);
       }
     }
   }
-  return map;
+  return { map, dir };
 }
 
 // ---------- boot ----------
@@ -1585,9 +1580,10 @@ async function boot() {
     e.preventDefault();
     if (!(await ensureClean())) return;
     try {
-      const map = await entriesFromDataTransfer(e.dataTransfer);
+      const { map, dir } = await entriesFromDataTransfer(e.dataTransfer);
       const recs = pairRecs(map);
       if (!recs.length) { setStatus("dataXXXX.bin が見つかりません", true); return; }
+      app.dirHandle = dir;
       const { entries, errors } = await loadSlotRecs(recs);
       await adoptSlots(entries);
       if (errors.length) setStatus(`エラー: ${errors.join("; ")}`, true);

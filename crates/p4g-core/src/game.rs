@@ -78,6 +78,12 @@ impl GameData {
     pub fn load() -> Self {
         let items = parse_items();
         let personas = parse_personas();
+        // compendium indexes personas by `id - 1`; ids outside 1..=249 panic there.
+        debug_assert!(
+            personas
+                .iter()
+                .all(|p| p.id >= 1 && p.id as usize <= crate::save::COMPENDIUM_COUNT)
+        );
         let skills = parse_skills();
         let social = parse_social();
         let chars = parse_chars();
