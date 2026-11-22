@@ -278,6 +278,7 @@ function virtRender(el, rows, rowHtml) {
 // ---------- page: 基本 ----------
 function renderBasic() {
   const b = app.state.base;
+  const compTotal = gameData().personas.length;
   const socialInputs = SOCIAL_STAT_NAMES.map((name, i) =>
     fieldHtml(name, numInput("socialStat", i, b.social_stats[i]))
   ).join("");
@@ -285,7 +286,7 @@ function renderBasic() {
     `<button data-act="party-cycle" data-idx="${i}">${esc(charName(id))}</button>`
   ).join("");
   contentEl.innerHTML = `
-    <p class="hint">コミュ MAX ${b.links_maxed} / 23 ・ 全書 ${b.compendium_count} / 235</p>
+    <p class="hint">コミュ MAX ${b.links_maxed} / 23 ・ 全書 ${b.compendium_count} / ${compTotal}</p>
     <section>
       <h3>プロフィール</h3>
       <div class="field-grid">
