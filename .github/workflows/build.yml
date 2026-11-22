@@ -38,8 +38,10 @@ jobs:
       - uses: actions/setup-node@v6
       - name: Smoke test
         run: node tests/wasm-smoke.mjs
+      - name: Build single-file HTML
+        run: node scripts/build-single-file.mjs
       - uses: actions/upload-artifact@v7
         with:
           name: P4GSaveEditor-web
-          path: web/*
+          path: dist/P4GSaveEditor.html
           if-no-files-found: error

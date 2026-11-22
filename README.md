@@ -4,7 +4,7 @@ Persona 4 Golden (Steam) のセーブデータを編集する Web アプリで�
 
 ## 使い方
 
-デプロイされたページを開くか、ローカルで `web/` フォルダを静的ホストしてブラウザで開きます (例: `python -m http.server`)。
+デプロイされたページを開くか、GitHub Actions のビルド成果物 `P4GSaveEditor-web` にある `P4GSaveEditor.html` をダウンロードしてブラウザで開きます。単一 HTML は wasm も埋め込んであるため、ダブルクリックでそのまま動きます。ローカルでは `web/` フォルダを静的ホストしても動きます (例: `python -m http.server`)。
 
 1. ゲームを終了します。
 2. `フォルダを開く` で Steam のセーブフォルダを選ぶか、`ファイルを開く` で `dataXXXX.bin` を選びます (ドラッグ&ドロップも可)。
@@ -64,7 +64,13 @@ cargo build -p p4g-wasm --release --target wasm32-unknown-unknown
 wasm-bindgen --target web --out-dir web/pkg target/wasm32-unknown-unknown/release/p4g_wasm.wasm
 ```
 
-`web/pkg` は生成物なのでコミットしません。`web/` 全体を静的ホストすれば動きます。
+`web/pkg` は生成物なのでコミットしません。`web/` 全体を静的ホストすれば動きます。配布用の単一 HTML は次で生成します。
+
+```powershell
+node scripts/build-single-file.mjs   # dist/P4GSaveEditor.html
+```
+
+file:// では ES module の読み込みと wasm の fetch が使えないため、JS をインライン化して wasm を base64 で埋め込んでいます。
 
 テスト (実セーブがある環境では実ファイルで検証します):
 
@@ -79,7 +85,7 @@ node tests/wasm-smoke.mjs
 - `crates/p4g-wasm`: wasm-bindgen ラッパー
 - `web`: フロントエンド (素の HTML/CSS/JS、ビルド不要)
 
-GitHub Actions の `build` ワークフローが fmt / clippy / test / wasm ビルドを実行し、`deploy` ワークフローが `web/` を GitHub Pages にデプロイします (リポジトリ設定で Pages のソースを GitHub Actions にしてください)。
+GitHub Actions の `build` ワークフローが fmt / clippy / test / wasm ビルドと単一 HTML のアーティファクト化を実行し、`deploy` ワークフローが `web/` を GitHub Pages にデプロイします。`index.html` は `noindex` 指定済みで、URL を知らないと検索エンジンからは辿り着きにくい構成です。
 
 ## データ出典
 
